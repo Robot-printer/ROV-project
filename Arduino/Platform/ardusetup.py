@@ -1,3 +1,4 @@
+# This file is a python mock-up of the function that will be used as a testbench
 potVal=0
 outVal=0
 oldBool=0
