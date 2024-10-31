@@ -14,7 +14,7 @@ int oldPot;
 void setup() {
   // put your setup code here, to run once:
   ESC.attach(A2, 1000, 2000);
-  servo.attach(7);
+  servo.attach(8);
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
   Serial.begin(600);
