@@ -1,0 +1,4 @@
+00:Debug
+01:Sensor Data
+10:Unassigned
+11:Unassigned
