@@ -1,0 +1,16 @@
+[StartTime]
+Clear_Acrylic_Dome-50ft Depth.MFC=5s
+[SolverState]
+Clear_Acrylic_Dome-50ft Depth.MFC=2
+[MainFrame]
+Clear_Acrylic_Dome-50ft Depth.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAADLBAAAAAEHEAAAAAGICAAAAA
+[ShowMin]
+Clear_Acrylic_Dome-50ft Depth.MFC=No
+[SolverType]
+Clear_Acrylic_Dome-50ft Depth.MFC=Linear Analysis
+[StudyType]
+Clear_Acrylic_Dome-50ft Depth.MFC=0
+[StudyName]
+Clear_Acrylic_Dome-50ft Depth.MFC=50ft Depth
+[Solver]
+Clear_Acrylic_Dome-50ft Depth.MFC=Iterative
