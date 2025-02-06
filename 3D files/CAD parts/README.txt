@@ -1,0 +1,1 @@
+Please follow the guidelines laid out in the CAD Guidelines and CAD Part ID Format files located in the Documents/Cad Documentation folder
