@@ -5,6 +5,11 @@ title: |
   Unmanned Underwater Vehicle Software Documentation
 ---
 
+> ***[NOTE:]{.underline}** This is a "**[living
+> document]{.underline}**", and as such will be updated on a
+> semi-regular basis. Please ensure you have the **[latest
+> version]{.underline}** of this document at all times.*
+
 Table of Contents
 
 [Overview 3](#overview)
@@ -19,15 +24,19 @@ Table of Contents
 
 [Overview 5](#overview-2)
 
+[List of Tasks 5](#list-of-tasks-1)
+
 # Overview
 
 This document serves as a comprehensive reference for all software
 programs necessary for the operation of Olympic College Engineering
-Club's (OCEC) Unmanned Underwater Vehicle (UUV). This document consists
-only of a list and explanation for the software of the project, and does
-not contain any source code or compiled binary code. Please see the
-appropriate section on the project's GitHub repository for the source
-code.
+Club's (OCEC) Unmanned Underwater Vehicle (UUV). This is a "living
+document", and as such will be updated on a sem-regular basis. Please
+ensure you have the most recent version of this document at all times.
+This document consists only of a list and explanation for the software
+of the project, and does not contain any source code or compiled binary
+code. Please see the appropriate section on the project's GitHub
+repository for the source code.
 
 Software tasks on board the UUV are handled by two main components: A
 miniature computer called a Raspberry Pi (RasPi), and a microcontroller
@@ -73,9 +82,9 @@ compile time using the "include" keyword in C++.
 
 ## List of Tasks
 
-The following is a list of all the tasks that the Arduino program needs
-to be able to complete. Each item on this list can be partitioned into
-its own sub-program.
+The following is a list (in no particular order) of all the tasks that
+the Arduino program needs to be able to complete. Each item on this list
+can be partitioned into its own sub-program.
 
 -   Send and receive serial data to and from the Raspberry Pi.
 
@@ -115,3 +124,35 @@ feed from the camera is sent to the operator computer to give the
 operator a first-person view of the vehicle. When running autonomously,
 the RasPi will also be responsible for running the computer vision
 program that recognizes objects in the field of view of the camera.
+
+## List of Tasks
+
+The following is a list (in no particular order) of all tasks the
+Raspberry Pi needs to be able to complete. Each item on this list can be
+its own separate Python program, but it needs to be included in the
+"main" program's "import" list at the start in order to be used.
+
+-   Receive commands from surface operator's laptop computer.
+
+-   Interpret and process commands from operator computer and send
+    appropriate instructions to Arduino.
+
+-   Send commands to Arduino over serial connection.
+
+-   Receive sensor data from Arduino over serial connection.
+
+-   Process sensor data, and use it to inform the desired system state
+    of the vehicle when calculating motor speed values, etc.
+
+-   Read camera feed from onboard camera and stream the feed to operator
+    computer.
+
+-   Send sensor data to operator computer.
+
+-   (When in Autonomous Mode) Analyze environment data from sensors &
+    camera to create virtual map of surroundings.
+
+-   (When in Autonomous Mode) Use virtual map for object avoidance &
+    mission objective completion.
+
+Each of these tasks is elaborated on below.
