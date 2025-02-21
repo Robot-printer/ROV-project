@@ -20,6 +20,8 @@ Table of Contents
 
 [List of Tasks 4](#list-of-tasks)
 
+[Main 4](#main)
+
 [Raspberry Pi 5](#raspberry-pi)
 
 [Overview 5](#overview-2)
@@ -102,6 +104,42 @@ can be partitioned into its own sub-program.
     according to the datasheet and pinout of the sensor.
 
 Each of these tasks is elaborated on below.
+
+## Main
+
+The main program of the Arduino is the program that will be used when
+compiling and uploading to the Arduino. In order to use functions from
+the sub-programs, each sub-program should be included in the main
+program using the "include" keyword at the beginning of the file. This
+will also require the sub-program's file to be located in a directory in
+the "include path" of the compiler (or the include path of the compiler
+is updated to add the directory where the sub-programs are already
+located). The main program is also where global variables are declared &
+defined, so that they can be passed to any functions that need them.
+
+Arduino programs are made up of two primary functions: the "setup"
+function, and the "loop" function. The setup function runs once whenever
+the program starts, which happens when the program is uploaded to the
+board, when the board is powered up if the program is already uploaded,
+and also if the "reset" button on the board is pressed while the board
+is running. The "setup" function in the main program should be used for
+tasks like setting the serial baud rate (the rate that signals are sent
+over the serial connection), initializing any objects that will be used
+in the program (eg. "Servo" objects for servos and ESCs), etc. The loop
+function runs after the setup function completes, and it also runs every
+time it finishes, which results in it running indefinitely as long as
+the Arduino is powered. This is where the majority of calls to the
+functions from sub-programs will be located, as many of them need to be
+constantly operating for as long as the vehicle is powered on. Examples
+of tasks that need to be completed every loop cycle are: reading the
+information from the serial connection to the Raspberry Pi, reading the
+values of all connected sensors, updating speeds and angles for ESCs and
+servos, sending telemetry to the Raspberry Pi over the serial
+connection, etc. Keeping the loop function readable is very important,
+which is part of why the tasks of the Arduino are partitioned off into
+sub-programs. Descriptive function names that only take one line of code
+are easier to read than long sections of loops and conditional
+statements that achieve that same thing.
 
 # Raspberry Pi
 
