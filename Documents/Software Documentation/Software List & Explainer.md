@@ -22,11 +22,15 @@ Table of Contents
 
 [Main 4](#main)
 
-[Raspberry Pi 5](#raspberry-pi)
+[Raspberry Pi 6](#raspberry-pi)
 
-[Overview 5](#overview-2)
+[Overview 6](#overview-2)
 
-[List of Tasks 5](#list-of-tasks-1)
+[List of Tasks 6](#list-of-tasks-1)
+
+[Operator Computer 7](#operator-computer)
+
+[Overview 7](#overview-3)
 
 # Overview
 
@@ -49,19 +53,31 @@ beginner-friendly programming language. The Arduino is responsible for
 controlling servos and motors by sending the control signals that those
 components expect, as well as receive data from sensors and reporting it
 to the Raspberry Pi. Programs for the Arduino are written in C++, which
-is a somewhat more advanced language that may be challenging for
+is a somewhat more involved language that may be challenging for
 beginners to learn. Arduinos do not have and operating system to handle
 multiple programs running at once, so only a single program can be
 uploaded to and run by the Arduino at any one time. To make the software
 easier to write, maintain, and understand, the Arduino program will be
 broken down into smaller parts that the "main" program will compile into
-a single binary, which will be uploaded to the Arduino.
+a single binary file, which gets uploaded to the Arduino.
 
-The RasPi and Arduino communicate over a serial connection between the
-two. Arduino has built-in functionality to send and receive data over
-serial, and the Raspberry Pi software will use the Python serial library
-to read and send data. Messages between the two will be in a
-standardized form to make communication predictable and modular.
+In addition to the UUV's onboard computers, a laptop computer is used by
+the operator to control the vehicle and view telemetry coming from it.
+The program for interfacing with the UUV from this "operator computer"
+will be written in Python, and the operator computer will communicate
+with the UUV's Raspberry Pi over an Ethernet connection. The operator
+computer will also be connected to a gamepad controller, which is the
+primary means of controlling the vehicle. Controller input data are read
+by the operator computer, and sent to the vehicle's onboard RasPi for
+processing. Video data from the vehicle's camera and sensor data from
+the various sensors will be displayed on the operator computer screen as
+part of the operator program.
+
+The RasPi and Arduino communicate over a serial connection between them.
+Arduino has built-in functionality to send and receive data over serial,
+and the Raspberry Pi software will use the Python serial library to read
+and send data. Messages between the two will be in a standardized form
+to make communication predictable and modular.
 
 # Arduino
 
@@ -194,3 +210,22 @@ its own separate Python program, but it needs to be included in the
     mission objective completion.
 
 Each of these tasks is elaborated on below.
+
+# Operator Computer
+
+## Overview
+
+The operator computer is the human interface with the UUV. It can be any
+personal computer with an Ethernet port and a USB port, but is assumed
+to be a laptop computer. The UUV and the operator computer communicate
+over an Ethernet cable (which is part of the vehicle's tether system)
+using statically configured IPv4 addresses. Connected to the operator
+computer via USB is the gamepad controller which serves as the primary
+method for controlling the vehicle. The program which runs on the
+operator computer reads input data from the gamepad and sends the data
+over the Ethernet cable to the UUV's Raspberry Pi. Data from the RasPi,
+such as video feed from the camera and sensor readings, are received by
+the operator computer, and the operator program displays them for the
+operator to see. The operator program may also be used to send commands
+to the vehicle, either for testing & debugging purposes, or to allow
+specific control over any of the vehicle's functions.
