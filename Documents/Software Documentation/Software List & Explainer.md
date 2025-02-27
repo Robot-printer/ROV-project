@@ -28,9 +28,11 @@ Table of Contents
 
 [List of Tasks 6](#list-of-tasks-1)
 
-[Operator Computer 7](#operator-computer)
+[Main 6](#main-1)
 
-[Overview 7](#overview-3)
+[Operator Computer 8](#operator-computer)
+
+[Overview 8](#overview-3)
 
 # Overview
 
@@ -210,6 +212,22 @@ its own separate Python program, but it needs to be included in the
     mission objective completion.
 
 Each of these tasks is elaborated on below.
+
+## Main
+
+The main program running on the Raspberry Pi is where calls to all the
+other functions will be, along with global variables and the "import"
+keywords for all the other python scripts that the RasPi will need
+access to. In order for the "import" keyword to find the script, it
+needs to be located in a directory listed in the "import path" of the
+Python environment. Unlike Arduino, the Python language does not have
+built-in "setup" and "loop" functions. Any tasks that need to be run
+once, on startup, can be either at the beginning of the script, or in a
+custom function which is called near the start of the script. Tasks that
+need to repeat indefinitely while the program is running should be
+placed in a loop that runs forever, or in a function which itself is in
+a loop that runs forever. This will achieve the same effect as the
+"setup" and "loop" functions found in Arduino programs.
 
 # Operator Computer
 
