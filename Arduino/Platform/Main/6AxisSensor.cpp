@@ -11,7 +11,7 @@
 #define LSM_MOSI 11
 
 Adafruit_LSM6DSO32 dso32;
-void setup(void) {
+void test(void) {
   Serial.begin(115200);
   while (!Serial)
     delay(10); // will pause Zero, Leonardo, etc until serial console opens
@@ -145,7 +145,7 @@ void setup(void) {
   }
 }
 
-void loop() {
+void doop() {
 
   //  /* Get a new normalized sensor event */
   sensors_event_t accel;
@@ -177,3 +177,4 @@ void loop() {
   Serial.println();
 
   delay(100);
+}

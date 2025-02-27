@@ -2,10 +2,10 @@
 
 //List of programs to include in this program when it's compiled
 //Note that each #include line is replaced with the ENTIRE content of the specified file before the program is compiled
-//For now, files will be included using relative pathing, so the directory structure matters. DON'T MESS WITH THE DIRECTORY STRUCTURE OR THINGS WON'T WORK!!!
-//#include "../Motors/MotorControl/MotorControl.ino"
-//#include "../Sensors/6AxisSensor/6AxisSensor.ino"
-#include "test.cpp"
+//For now, files will be located in the same directory as the main program
+#include "MotorControl.h"
+#include "6AxisSensor.h"
+
 
 //This function runs exactly once, when the Arduino is first powered up. This is where initialization, configuration, etc. should be added.
 void setup()
