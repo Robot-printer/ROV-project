@@ -1,10 +1,8 @@
 //This script controls the motors on the UUV
-#include <Servo.h>
 
-//void setup(){ //Runs one time at startup
+#include "MotorControl.h"
 
-//}
-
-//void loop(){ //Runs over and over indefinitely after startup finishes
-
-//}
+void attach_servo(Servo servo, int pin_number)
+{
+    servo.attach(pin_number);
+}
