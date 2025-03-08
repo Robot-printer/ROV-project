@@ -5,7 +5,7 @@ import serial #The PySerial library
 import time
 
 comport = '/dev/ttyACM0'
-baudrate = 115200
+baudrate = 57600
 
 ser = serial.Serial()
 
@@ -28,14 +28,19 @@ def write_serial(message):
 if __name__ == '__main__': #Temp function to initialize the program for testing & debug
     open_serial(comport, baudrate)
     message = bytearray.fromhex('00 00 AA AA AA AA AA AA')
-    while True:
-        time.sleep(64/baudrate)
+    count = 0
+    start = time.time()
+    dur = 10
+    while time.time() < (start + dur):
+        #time.sleep(64/baudrate)
         write_serial(message)
-        while ser.in_waiting <= 0:
-            time.sleep(64/baudrate)
+        #while ser.in_waiting <= 0:
+            #time.sleep(64/baudrate)
         data = read_serial()
-        if data == message:
-            print(data.hex(' ', 1))
-        else:
-            print(data)
+        count += 1
+        #if data == message:
+            #print(data.hex(' ', 1))
+        #else:
+            #print(data)
+    print(count/dur)
 
