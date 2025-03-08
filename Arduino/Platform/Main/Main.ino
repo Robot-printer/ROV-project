@@ -15,7 +15,7 @@
 void setup()
 {
   //Start the serial connection with a baud rate of 115200
-  start_serial(115200);
+  start_serial(57600);
 }
 
 //This function is called repeatedly for as long as the Arduino has power.
