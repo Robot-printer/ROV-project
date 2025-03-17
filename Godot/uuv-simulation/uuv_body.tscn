@@ -1,0 +1,76 @@
+[gd_scene load_steps=6 format=3 uid="uid://dqo0tc3uuqquc"]
+
+[ext_resource type="Script" uid="uid://b3tio77x5066h" path="res://uuv.gd" id="1_pxy4g"]
+[ext_resource type="PackedScene" uid="uid://djl462jcem462" path="res://motor.tscn" id="2_rn1y0"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_oqehs"]
+height = 0.7
+radius = 0.15
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bb0si"]
+transparency = 1
+albedo_color = Color(0, 0.843137, 0.772549, 0.352941)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_7esp5"]
+material = SubResource("StandardMaterial3D_bb0si")
+top_radius = 0.15
+bottom_radius = 0.15
+height = 0.7
+radial_segments = 16
+rings = 0
+
+[node name="UUVBody" type="RigidBody3D"]
+mass = 30.0
+linear_damp = 0.1
+angular_damp = 5.0
+script = ExtResource("1_pxy4g")
+
+[node name="TubeCollider" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+shape = SubResource("CylinderShape3D_oqehs")
+
+[node name="TubeMesh" type="CSGMesh3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("CylinderMesh_7esp5")
+
+[node name="Motors" type="Node3D" parent="."]
+
+[node name="Motor" parent="Motors" instance=ExtResource("2_rn1y0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2, 0, 0.353)
+control_group_exclusions = {
+&"lateral": false,
+&"longitudinal": false,
+&"pitch": false,
+&"roll": false,
+&"vertical": false,
+&"yaw": true
+}
+
+[node name="Motor2" parent="Motors" instance=ExtResource("2_rn1y0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2, 0, 0.353)
+control_group_exclusions = {
+&"lateral": false,
+&"longitudinal": false,
+&"pitch": false,
+&"roll": false,
+&"vertical": false,
+&"yaw": true
+}
+
+[node name="Motor3" parent="Motors" instance=ExtResource("2_rn1y0")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0.3, 0.132, 0.2)
+
+[node name="Motor4" parent="Motors" instance=ExtResource("2_rn1y0")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -0.3, 0.132, 0.2)
+
+[node name="Motor5" parent="Motors" instance=ExtResource("2_rn1y0")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -0.3, 0.132, -0.2)
+
+[node name="Motor6" parent="Motors" instance=ExtResource("2_rn1y0")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0.3, 0.132, -0.2)
+
+[node name="Motor7" parent="Motors" instance=ExtResource("2_rn1y0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4, 0, 0)
+
+[node name="Motor8" parent="Motors" instance=ExtResource("2_rn1y0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0, 0)

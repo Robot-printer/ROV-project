@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctrumt3ud3vjr"]
+
+[ext_resource type="PackedScene" uid="uid://dqo0tc3uuqquc" path="res://uuv_body.tscn" id="1_pkv4i"]
+
+[node name="Main" type="Node3D"]
+
+[node name="UUVBody" parent="." instance=ExtResource("1_pkv4i")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.848991, -0.26981, 0.454332, 0, 0.859813, 0.510609, -0.528408, -0.433502, 0.729973, 0.456113, 0.512612, 0.732836)
+current = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.413071, 0.67034, -0.616455, 0, 0.676904, 0.736072, 0.910699, -0.30405, 0.279609, -2.46582, 2.94429, 1.11844)
