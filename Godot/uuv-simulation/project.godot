@@ -15,6 +15,10 @@ run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[display]
+
+window/stretch/aspect="expand"
+
 [input]
 
 input_pitch_positive={
@@ -83,3 +87,8 @@ input_vertical_negative={
 3d/physics_engine="Jolt Physics"
 3d/default_gravity=9.81
 3d/default_linear_damp=0.0
+
+[rendering]
+
+anti_aliasing/quality/msaa_3d=3
+anti_aliasing/quality/screen_space_aa=1

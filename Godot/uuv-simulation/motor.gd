@@ -27,7 +27,7 @@ var throttle:float = 0.0:
 	set(value):
 		throttle = clampf(value, -1.0, 1.0)
 
-func _physics_process(_delta: float) -> void:
+func _process(_delta: float) -> void:
 	thruster_mesh_node.visible = bool(throttle)
 	thruster_mesh_node.scale.y = throttle
 	thruster_mesh_node.position.z = thruster_mesh_node.mesh.height / 2 * throttle * 1.01

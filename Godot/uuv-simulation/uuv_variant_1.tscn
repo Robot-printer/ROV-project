@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3abrby8vyntu"]
+
+[ext_resource type="PackedScene" uid="uid://dqo0tc3uuqquc" path="res://uuv.tscn" id="1_ycqv5"]
+
+[node name="UUVVariant1" instance=ExtResource("1_ycqv5")]
+
+[node name="Motor" parent="Motors" index="0"]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0.3, 0, 0.35)
+control_group_exclusions = {
+&"lateral": false,
+&"longitudinal": false,
+&"pitch": false,
+&"roll": false,
+&"vertical": false,
+&"yaw": false
+}
+
+[node name="Motor2" parent="Motors" index="1"]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -0.3, 0, 0.35)
+control_group_exclusions = {
+&"lateral": false,
+&"longitudinal": false,
+&"pitch": false,
+&"roll": false,
+&"vertical": false,
+&"yaw": false
+}
+
+[node name="Motor7" parent="Motors" index="6"]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0.3, 0, -0.35)
+
+[node name="Motor8" parent="Motors" index="7"]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, -0.3, 0, -0.35)

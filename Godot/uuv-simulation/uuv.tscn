@@ -19,7 +19,7 @@ height = 0.7
 radial_segments = 16
 rings = 0
 
-[node name="UUVBody" type="RigidBody3D"]
+[node name="UUV" type="RigidBody3D"]
 mass = 30.0
 linear_damp = 0.1
 angular_damp = 5.0

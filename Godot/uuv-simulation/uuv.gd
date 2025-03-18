@@ -6,9 +6,9 @@ func _ready() -> void:
 	
 	for motor:Motor in motors:
 		
-		var leftdot = round(motor.basis.tdotz(Vector3.LEFT))
-		var downdot = round(motor.basis.tdotz(Vector3.DOWN))
-		var backdot = round(motor.basis.tdotz(Vector3.BACK))
+		var leftdot = roundf(motor.basis.tdotz(Vector3.LEFT))
+		var downdot = roundf(motor.basis.tdotz(Vector3.DOWN))
+		var backdot = roundf(motor.basis.tdotz(Vector3.BACK))
 		
 		#region motor_actuation_component_assignment
 		
