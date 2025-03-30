@@ -4,8 +4,6 @@
 //Need to manually include HardwareSerial.h since this is not a .ino file
 #include <HardwareSerial.h>
 
-void send_log();
-
 //Wrapper to start the serial connection
 void start_serial(long baud_rate);
 

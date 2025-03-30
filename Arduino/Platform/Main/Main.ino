@@ -9,8 +9,6 @@
 #include "6AxisSensor.h"
 #include "Comms.h"
 
-bool sent_log = false;
-
 //This function runs once, when the Arduino is first powered up.
 //This is where initialization, configuration, etc. should be added.
 void setup()
@@ -27,10 +25,5 @@ void loop()
   if (result < 0)
   {
     Serial.print("ErrEchoM");
-  }
-  if (millis() > 1000 * 25 && !sent_log)
-  {
-    send_log();
-    sent_log = true;
   }
 }

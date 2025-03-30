@@ -2,15 +2,6 @@
 
 #include "Comms.h"
 
-int message_in_count = 0;
-int message_out_count = 0;
-
-void send_log()
-{
-  Serial.println(message_in_count);
-  Serial.println(message_out_count);
-}
-
 //Wrapper to start the serial connection
 void start_serial(long baud_rate)
 {
@@ -21,6 +12,9 @@ void start_serial(long baud_rate)
   while(!Serial){}
   //Clear anything that might be in the serial buffers
   Serial.flush();
+  //Send a "serial ready" message to the Raspberry Pi
+  uint8_t message[8] = {0x10, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+  write_serial(message);
 }
 
 //Wrapper to read an 8-byte message and return the size of it (which should also be 8)
@@ -33,7 +27,6 @@ size_t read_serial(uint8_t message[8])
   {
     //Read 8 bytes and store it in message, and store the length of the read operation
     size = Serial.readBytesUntil('\n', message, 8);
-    message_in_count += 1;
   }
   //Return the size of the message that was read
   return size;
@@ -49,7 +42,6 @@ size_t write_serial(uint8_t message[8])
   {
     //Write the message and store its size
     size = Serial.write(message, 8);
-    message_out_count += 1;
   }
   //Return the size of the message that was sent
   return size;
