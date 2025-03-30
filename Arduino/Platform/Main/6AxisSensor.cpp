@@ -5,26 +5,27 @@
 
 #include "6AxisSensor.h"
 
+//Object representing the sensor
 Adafruit_LSM6DSO32 dso32;
-void test_setup(void) {
 
-  Serial.println("Adafruit LSM6DSO32 test!");
+bool initialize_dso32(void) {
+
+  Serial.println("Initializing accelerometer & gyroscope...");
 
   if (!dso32.begin_I2C()) {
     Serial.println("Failed to find LSM6DSO32 chip");
-    while (1) {
-      delay(10);
-    }
+    return false;
   }
 
   Serial.println("LSM6DSO32 Found!");
 
   dso32.setAccelRange(LSM6DSO32_ACCEL_RANGE_8_G);
 
-  // dso32.setGyroRange(LSM6DS_GYRO_RANGE_250_DPS );
+  // dso32.setGyroRange(LSM6DS_GYRO_RANGE_250_DPS);
   // dso32.setAccelDataRate(LSM6DS_RATE_12_5_HZ);
   // dso32.setGyroDataRate(LSM6DS_RATE_12_5_HZ);
 
+  return true;
 }
 
 void test_loop() {
@@ -34,10 +35,6 @@ void test_loop() {
   sensors_event_t gyro;
   sensors_event_t temp;
   dso32.getEvent(&accel, &gyro, &temp);
-
-  Serial.print("\t\tTemperature ");
-  Serial.print(temp.temperature);
-  Serial.println(" deg C");
 
   /* Display the results (acceleration is measured in m/s^2) */
   Serial.print("\t\tAccel X: ");
