@@ -9,13 +9,14 @@
 #include "6AxisSensor.h"
 #include "Comms.h"
 
+bool sent_log = false;
 
 //This function runs once, when the Arduino is first powered up.
 //This is where initialization, configuration, etc. should be added.
 void setup()
 {
   //Start the serial connection with a baud rate of 115200
-  start_serial(57600);
+  start_serial(115200);
 }
 
 //This function is called repeatedly for as long as the Arduino has power.
@@ -26,5 +27,10 @@ void loop()
   if (result < 0)
   {
     Serial.print("ErrEchoM");
+  }
+  if (millis() > 1000 * 25 && !sent_log)
+  {
+    send_log();
+    sent_log = true;
   }
 }
