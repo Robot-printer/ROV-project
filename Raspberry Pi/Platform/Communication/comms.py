@@ -15,7 +15,6 @@ ser = serial.Serial()
 def open_serial(comport, baudrate):
     global ser #Access global ser variable
     ser = serial.Serial(comport, baudrate, timeout=1.0) #Create a Serial object called ser
-    time.sleep(3) #Wait a little while for the Arduino to be ready
     ser.reset_input_buffer() #Clear anything that's currently in the input buffer
 
 #Function to read the serial data coming in over USB port
@@ -31,6 +30,11 @@ def read_serial():
 def write_serial(message):
     global ser #Access global ser variable
     ser.write(message) #Write the message to the serial output buffer
+
+#Wrapper function to close the serial connection
+def close_serial():
+    global ser #Access global ser variable
+    ser.close() #Close the connection
 
 if __name__ == '__main__': #Temp function to initialize the program for testing & debug
     open_serial(comport, baudrate)
