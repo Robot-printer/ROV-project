@@ -21,9 +21,22 @@ void setup()
 //Anything that needs to happen constantly/continuously should be here.
 void loop()
 {
+  uint8_t message[8];
+  size_t message_size = read_serial(message);
+  if (message_size != 0)
+  {
+    if (((message[0] & 0xF0) == 0x10) && ((message[0] & 0x0F) == 0x00) && (message[1] == 0x01))
+    {
+      uint8_t query_response[8] = {0x10, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+      size_t response_size = write_serial(query_response);
+    }
+  }
+  
+  /*
   int result = echo_serial();
   if (result < 0)
   {
     Serial.print("ErrEchoM");
   }
+  */
 }
