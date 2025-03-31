@@ -47,6 +47,28 @@ size_t write_serial(uint8_t message[8])
   return size;
 }
 
+//Tell the Raspberry Pi that a message was not recognized
+size_t report_unknown_message(uint8_t message[8])
+{
+  uint8_t report[8];
+  //First byte indicates "unknown message"
+  report[0] = 0x0F;
+  //Last two bytes report the first two bytes from the unknown message
+  report[6] = message[0];
+  report[7] = message[1];
+
+  return write_serial(report);
+}
+
+//Send a message to verify that this is the Arduino
+size_t verify_id()
+{
+  uint8_t response[8];
+  response[0] = 0x10;
+  response[1] = 0x02;
+  return write_serial(response);
+}
+
 //Debug program to repeat all received messages back to the sender
 int echo_serial()
 {
