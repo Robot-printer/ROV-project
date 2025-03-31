@@ -24,13 +24,13 @@ void setup()
 //Anything that needs to happen constantly/continuously should be here.
 void loop()
 {
-  uint8_t message[8];
-  size_t message_size = read_serial(message);
+  uint8_t message[8]; //Initialize variable to hold the 8-byte message
+  size_t message_size = read_serial(message); //Read a message and return its size (8 if successful, or 0 if no message)
+  
+  //If there was a message received
   if (message_size != 0)
   {
-    
-    parse_message(message);
-
+    parse_message(message); //Logic to determine what to do with the message is in here
   }
   
   /*
@@ -45,8 +45,8 @@ void loop()
 //Parse message to figure out which function should be called
 void parse_message(uint8_t message[8])
 {
-  uint8_t message_prefix = message[0];
-  uint8_t message_address = message[1];
+  uint8_t message_prefix = message[0]; //First byte of the message
+  uint8_t message_address = message[1]; //Second byte of the message
 
   //Take the first byte of the message and see what they match up with
   switch (message_prefix)
@@ -86,12 +86,29 @@ void parse_message(uint8_t message[8])
       break;
     
     //--Thruster control category--
-    case 0x20:
+    //Thruster timeout
+    case THRUSTER_TIMEOUT:
+
+      break;
+    
+    //Thruster throttle
+    case THRUSTER_THROTTLE:
 
       break;
     
     //--Sensor category--
-    case 0x30:
+    //Sensor update interval
+    case SENSOR_UPDATE_INTERVAL:
+
+      break;
+    
+    //Sensor start
+    case SENSOR_START:
+
+      break;
+    
+    //Sensor stop
+    case SENSOR_STOP:
 
       break;
     
