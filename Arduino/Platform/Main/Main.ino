@@ -5,6 +5,9 @@
 //Note that each #include line is replaced with the ENTIRE content of the specified file
 //before the program is compiled
 //For now, files will be located in the same directory as the main program
+#include "Main.h"
+
+//These include statements are redundant, as they are present in Main.h, but for now they'll stay here too
 #include "MotorControl.h"
 #include "6AxisSensor.h"
 #include "Comms.h"
@@ -25,11 +28,14 @@ void loop()
   size_t message_size = read_serial(message);
   if (message_size != 0)
   {
-    if (((message[0] & 0xF0) == 0x10) && ((message[0] & 0x0F) == 0x00) && (message[1] == 0x01))
+    
+    parse_message(message);
+    
+    /*if (((message[0] & 0xF0) == 0x10) && ((message[0] & 0x0F) == 0x00) && (message[1] == 0x01))
     {
       uint8_t query_response[8] = {0x10, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
       size_t response_size = write_serial(query_response);
-    }
+    }*/
   }
   
   /*
@@ -39,4 +45,57 @@ void loop()
     Serial.print("ErrEchoM");
   }
   */
+}
+
+//Parse message to figure out which function should be called
+void parse_message(uint8_t message[8])
+{
+  //Take the first byte of the message and see what they match up with
+  switch (message[0])
+  {
+    //--Debug category--
+    //Echo Control
+    case 0x00:
+      
+      break;
+    //Echo simple
+    case 0x01:
+          
+      break;
+        
+    //Echo modify
+    case 0x02:
+          
+      break;
+        
+    //Echo logs
+    case 0x03:
+          
+      break;
+        
+    //--Initialization category--
+    //ID Query
+    case 0x10:
+      if (message[1] == 0x01)
+        {
+          //Send response message to verify that this is the Arduino
+          verify_id();
+        }
+      break;
+    
+    //--Thruster control category--
+    case 0x20:
+
+      break;
+    
+    //--Sensor category--
+    case 0x30:
+
+      break;
+    
+    //--No match--
+    default:
+      report_unknown_message(message);
+      break;
+  }
 }
