@@ -30,12 +30,7 @@ void loop()
   {
     
     parse_message(message);
-    
-    /*if (((message[0] & 0xF0) == 0x10) && ((message[0] & 0x0F) == 0x00) && (message[1] == 0x01))
-    {
-      uint8_t query_response[8] = {0x10, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
-      size_t response_size = write_serial(query_response);
-    }*/
+
   }
   
   /*
@@ -50,36 +45,43 @@ void loop()
 //Parse message to figure out which function should be called
 void parse_message(uint8_t message[8])
 {
+  uint8_t message_prefix = message[0];
+  uint8_t message_address = message[1];
+
   //Take the first byte of the message and see what they match up with
-  switch (message[0])
+  switch (message_prefix)
   {
     //--Debug category--
     //Echo Control
-    case 0x00:
+    case ECHO_CONTROL:
       
       break;
     //Echo simple
-    case 0x01:
+    case ECHO_SIMPLE:
           
       break;
         
     //Echo modify
-    case 0x02:
+    case ECHO_MODIFY:
           
       break;
         
     //Echo logs
-    case 0x03:
+    case ECHO_LOGS:
           
       break;
         
     //--Initialization category--
     //ID Query
-    case 0x10:
-      if (message[1] == 0x01)
+    case ID_QUERY:
+      if (message_address == 0x01)
         {
           //Send response message to verify that this is the Arduino
           verify_id();
+        }
+        else
+        {
+          report_unknown_message(message);
         }
       break;
     
