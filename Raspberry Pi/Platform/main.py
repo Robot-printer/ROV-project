@@ -5,12 +5,28 @@
 import os #Use python's OS functions
 import sys #Use python's system functions
 import time #Use python's time functions
-from glob import glob #Access python's glob function
+from glob import glob #Access python's glob function (so we can use the wildcard * character when searching directories)
 for subdir in next(os.walk('.'))[1]: sys.path.append('./%s' %subdir) #Add all subdirectories to the import path, to make importing easier
 
 import comms #Serial communication module for talking to Arduino
 
-if __name__ == '__main__':
+program_active = True
+
+#Main function of the program
+def main():
+    
+    setup()
+    
+    while program_active:
+        loop()
+    
+    cleanup()
+    
+    exit()
+
+#One-time setup code that needs to happen when the program starts should be here
+def setup():
+    
     port_open = False
     for port in glob('/dev/ttyACM*'):
         try:
@@ -39,6 +55,15 @@ if __name__ == '__main__':
         if message == bytearray.fromhex("10 02 00 00 00 00 00 00"):
             verified = True
     print("ID verified!")
-    
+
+#Code that needs to happen continuously/repeatedly should be here
+def loop():
+    global program_active
+    program_active = False
+
+#Anything that needs to happen at the end of the program should be here
+def cleanup():
     comms.close_serial()
-    
+
+if __name__ == '__main__':
+    main()
