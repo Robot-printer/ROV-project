@@ -9,6 +9,7 @@ from glob import glob #Access python's glob function (so we can use the wildcard
 for subdir in next(os.walk('.'))[1]: sys.path.append('./%s' %subdir) #Add all subdirectories to the import path, to make importing easier
 
 import comms #Serial communication module for talking to Arduino
+import message_prefixes as prefix #Constants for message prefixes to make code more human-readable. Put into separate module to avoid "name capture pattern" issue, as described here: https://stackoverflow.com/questions/67525257/capture-makes-remaining-patterns-unreachable
 
 #Flag to indicate if the program should keep running (used as condition for program's main loop). Set to false for normal program exit.
 program_active = True
@@ -36,7 +37,8 @@ def setup():
 
 #Code that needs to happen continuously/repeatedly should be here
 def loop():
-    
+    test = bytearray.fromhex('00 00 00 00 00 00 00 00')
+    parse_message(test)
     #TEMP CODE to close the program so it doesn't run forever
     global program_active
     program_active = False
@@ -45,7 +47,7 @@ def loop():
 def cleanup():
     close_serial()
 
-#Wrapper to open serial connection with error checking and console output
+#Wrapper to open serial connection with error checking and console logging
 def open_serial():
     port_open = False
     for port in glob('/dev/ttyACM*'):
@@ -67,7 +69,7 @@ def await_serial_ready():
     print("\nWaiting for Arduino to report serial connection is ready...")
     while not serial_ready:
         message = comms.read_serial()
-        if message == bytearray.fromhex("10 00 00 00 00 00 00 00"):
+        if message == bytearray.fromhex("1F 00 00 00 00 00 00 00"):
             serial_ready = True
     print("Serial ready!")
 
@@ -86,6 +88,67 @@ def await_verification():
 def close_serial():
     comms.close_serial()
     print("\nClosing serial connection.")
+
+#Take an incoming message and decide what to do with it
+def parse_message(message:bytearray):
+    
+    if not len(message) == 8:
+        print("Incorrect message length!")
+        return False
+    
+    message_prefix = message[0]
+    message_address = message[1]
+    
+    match message_prefix:
+        #--Debug category--
+        case prefix.ECHO_CONTROL:
+            pass
+        
+        case prefix.ECHO_SIMPLE:
+            pass
+        
+        case prefix.ECHO_MODIFY:
+            pass
+        
+        case prefix.ECHO_LOGS:
+            pass
+        
+        case prefix.UNKNOWN_MESSAGE:
+            print("Arduino reported unknown message type: Prefix", hex(message_prefix), "Address", hex(message_address))
+        
+        #--Initialization category--
+        case prefix.ID_QUERY:
+            pass
+        
+        case prefix.DEVICE_QUERY:
+            pass
+        
+        case prefix.ACTUATOR_ID:
+            pass
+        
+        case prefix.SENSOR_ID:
+            pass
+        
+        #--Thruster category--
+        case prefix.THRUSTER_TIMEOUT:
+            pass
+        
+        case prefix.THRUSTER_THROTTLE:
+            pass
+        
+        #--Sensor category--
+        case prefix.SENSOR_UPDATE_INTERVAL:
+            pass
+        
+        case prefix.SENSOR_START:
+            pass
+        
+        case prefix.SENSOR_DATA:
+            pass
+        
+        case prefix.SENSOR_STOP:
+            pass
+        
 
 #Check to see if this file was run as a program, then execute main function
 if __name__ == '__main__':
