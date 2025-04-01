@@ -4,6 +4,8 @@
 //Need to manually include HardwareSerial.h since this is not a .ino file
 #include <HardwareSerial.h>
 
+#include "MessagePrefixes.h"
+
 //Wrapper to start the serial connection
 void start_serial(long baud_rate);
 
