@@ -119,7 +119,9 @@ def parse_message(message:bytearray):
             pass
         
         case prefix.UNKNOWN_MESSAGE:
-            print("Arduino reported unknown message type: Prefix", hex(message_prefix), "Address", hex(message_address))
+            reported_prefix = message[6]
+            reported_address = message[7]
+            print("Arduino reported unknown message type: Prefix", hex(reported_prefix), "Address", hex(reported_address))
         
         #--Initialization category--
         case prefix.ID_QUERY:
@@ -137,7 +139,7 @@ def parse_message(message:bytearray):
             pass
         
         case prefix.SERIAL_READY:
-            if message_address == 0x00:
+            if message_address == 0x01:
                 global serial_ready
                 serial_ready = True
         
@@ -160,7 +162,8 @@ def parse_message(message:bytearray):
         
         case prefix.SENSOR_STOP:
             pass
-        
+    
+    return True
 
 #Check to see if this file was run as a program, then execute main function
 if __name__ == '__main__':
