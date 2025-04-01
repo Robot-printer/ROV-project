@@ -34,7 +34,8 @@ def write_serial(message):
 #Wrapper function to close the serial connection
 def close_serial():
     global ser #Access global ser variable
-    ser.close() #Close the connection
+    if ser.is_open:
+        ser.close() #Close the connection
 
 if __name__ == '__main__': #Temp function to initialize the program for testing & debug
     open_serial(comport, baudrate)
