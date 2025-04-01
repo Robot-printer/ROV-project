@@ -13,7 +13,7 @@ void start_serial(long baud_rate)
   //Clear anything that might be in the serial buffers
   Serial.flush();
   //Send a "serial ready" message to the Raspberry Pi
-  uint8_t message[8] = {0x10, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+  uint8_t message[8] = {0x1F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
   write_serial(message);
 }
 
