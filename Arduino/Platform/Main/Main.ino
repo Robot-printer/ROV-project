@@ -74,7 +74,7 @@ void parse_message(uint8_t message[8])
     //--Initialization category--
     //ID Query
     case ID_QUERY:
-      if (message_address == 0x01)
+      if (message_address == 0x00)
         {
           //Send response message to verify that this is the Arduino
           verify_id();

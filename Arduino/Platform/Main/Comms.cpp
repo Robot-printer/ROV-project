@@ -65,7 +65,7 @@ size_t verify_id()
 {
   uint8_t response[8];
   response[0] = 0x10;
-  response[1] = 0x02;
+  response[1] = 0x01;
   return write_serial(response);
 }
 
