@@ -13,6 +13,10 @@ import message_prefixes as prefix #Constants for message prefixes to make code m
 
 #Flag to indicate if the program should keep running (used as condition for program's main loop). Set to false for normal program exit.
 program_active = True
+#Flag to indicate if the Arduino is ready to begin serial communication
+serial_ready = False
+#Flag to indicate that the connected device has been verified as the Arduino
+verified = False
 
 #Main function of the program
 def main():
@@ -33,12 +37,11 @@ def setup():
     
     await_serial_ready()
     
-    await_verification()
+    verify()
 
 #Code that needs to happen continuously/repeatedly should be here
 def loop():
-    test = bytearray.fromhex('00 00 00 00 00 00 00 00')
-    parse_message(test)
+    
     #TEMP CODE to close the program so it doesn't run forever
     global program_active
     program_active = False
@@ -65,23 +68,21 @@ def open_serial():
 
 #Function to wait for the Arduino to send a "serial ready" message before continuing
 def await_serial_ready():
-    serial_ready = False
     print("\nWaiting for Arduino to report serial connection is ready...")
     while not serial_ready:
         message = comms.read_serial()
-        if message == bytearray.fromhex("1F 00 00 00 00 00 00 00"):
-            serial_ready = True
+        if not message == 0:
+            parse_message(message)
     print("Serial ready!")
 
 #Function to send a verification request to the Arduino and wait for a valid response before continuing
-def await_verification():
-    verified = False
+def verify():
     print("\nVerifying that this is the Arduino...")
-    comms.write_serial(bytearray.fromhex("10 01 00 00 00 00 00 00"))
+    comms.write_serial(bytearray.fromhex("10 00 00 00 00 00 00 00"))
     while not verified:
         message = comms.read_serial()
-        if message == bytearray.fromhex("10 02 00 00 00 00 00 00"):
-            verified = True
+        if not message == 0:
+            parse_message(message)
     print("ID verified!")
 
 #Wrapper to close the serial connection
@@ -92,8 +93,12 @@ def close_serial():
 #Take an incoming message and decide what to do with it
 def parse_message(message:bytearray):
     
-    if not len(message) == 8:
-        print("Incorrect message length!")
+    try:
+        if not len(message) == 8:
+            print("Incorrect message length!")
+            return False
+    except:
+        print("Message is not the correct type!")
         return False
     
     message_prefix = message[0]
@@ -118,7 +123,9 @@ def parse_message(message:bytearray):
         
         #--Initialization category--
         case prefix.ID_QUERY:
-            pass
+            if message_address == 0x01:
+                global verified
+                verified = True
         
         case prefix.DEVICE_QUERY:
             pass
@@ -128,6 +135,11 @@ def parse_message(message:bytearray):
         
         case prefix.SENSOR_ID:
             pass
+        
+        case prefix.SERIAL_READY:
+            if message_address == 0x00:
+                global serial_ready
+                serial_ready = True
         
         #--Thruster category--
         case prefix.THRUSTER_TIMEOUT:
