@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://ctrumt3ud3vjr"]
+[gd_scene load_steps=2 format=3 uid="uid://ctrumt3ud3vjr"]
 
 [ext_resource type="PackedScene" uid="uid://d3abrby8vyntu" path="res://uuv_variant_1.tscn" id="1_0xm2m"]
-[ext_resource type="PackedScene" uid="uid://dqo0tc3uuqquc" path="res://uuv.tscn" id="1_pkv4i"]
 
 [node name="Main" type="Node3D"]
 
@@ -13,6 +12,3 @@ current = true
 transform = Transform3D(0.413071, 0.67034, -0.616455, 0, 0.676904, 0.736072, 0.910699, -0.30405, 0.279609, -2.46582, 2.94429, 1.11844)
 
 [node name="UUVVariant1" parent="." instance=ExtResource("1_0xm2m")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.961358, 0, 0)
-
-[node name="UUV" parent="." instance=ExtResource("1_pkv4i")]
