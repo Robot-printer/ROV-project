@@ -12,6 +12,9 @@ void start_serial(long baud_rate)
   while(!Serial){}
   //Clear anything that might be in the serial buffers
   Serial.flush();
+  //Send a "serial ready" message to the Raspberry Pi
+  uint8_t message[8] = {SERIAL_READY, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+  write_serial(message);
 }
 
 //Wrapper to read an 8-byte message and return the size of it (which should also be 8)
@@ -42,6 +45,28 @@ size_t write_serial(uint8_t message[8])
   }
   //Return the size of the message that was sent
   return size;
+}
+
+//Tell the Raspberry Pi that a message was not recognized
+size_t report_unknown_message(uint8_t message[8])
+{
+  uint8_t report[8];
+  //First byte indicates "unknown message"
+  report[0] = UNKNOWN_MESSAGE;
+  //Last two bytes report the first two bytes from the unknown message
+  report[6] = message[0];
+  report[7] = message[1];
+
+  return write_serial(report);
+}
+
+//Send a message to verify that this is the Arduino
+size_t verify_id()
+{
+  uint8_t response[8];
+  response[0] = ID_QUERY;
+  response[1] = 0x01;
+  return write_serial(response);
 }
 
 //Debug program to repeat all received messages back to the sender
