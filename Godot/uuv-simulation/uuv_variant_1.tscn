@@ -5,8 +5,8 @@
 
 [sub_resource type="SphereMesh" id="SphereMesh_cw3tf"]
 material = ExtResource("2_pmly8")
-radius = 0.15
-height = 0.15
+radius = 0.085
+height = 0.085
 radial_segments = 16
 rings = 8
 is_hemisphere = true
@@ -14,7 +14,7 @@ is_hemisphere = true
 [node name="UUVVariant1" instance=ExtResource("1_ycqv5")]
 
 [node name="DomeMesh" type="CSGMesh3D" parent="." index="2"]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, -0.35)
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, -0.21029)
 mesh = SubResource("SphereMesh_cw3tf")
 
 [node name="Motor" parent="Motors" index="0"]
