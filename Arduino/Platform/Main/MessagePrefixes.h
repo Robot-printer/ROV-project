@@ -7,6 +7,7 @@
 #define ECHO_SIMPLE 0x01
 #define ECHO_MODIFY 0x02
 #define ECHO_LOGS 0x03
+#define DEBUG_PRINT 0x0E
 #define UNKNOWN_MESSAGE 0x0F
 //Initialization category
 #define ID_QUERY 0x10
