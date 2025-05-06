@@ -23,7 +23,7 @@ void loop() {
     int target_value = map(input_control, 0, 1023, ESC_MIN, ESC_MAX);
     
     test_ESC.write(target_value);
-    Serial.write(digitalRead(50));
+    Serial.println(analogRead(A15));
 }
 
 //Wrapper for servo.attach() to avoid overwriting existing attachment
