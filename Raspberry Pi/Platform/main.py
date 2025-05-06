@@ -95,10 +95,10 @@ def parse_message(message:bytearray):
     
     try:
         if not len(message) == 8:
-            print("Incorrect message length!")
+            print("\nIncorrect message length!")
             return False
     except:
-        print("Message is not the correct type!")
+        print("\nMessage is not the correct type!")
         return False
     
     message_prefix = message[0]
@@ -118,10 +118,13 @@ def parse_message(message:bytearray):
         case prefix.ECHO_LOGS:
             pass
         
+        case prefix.DEBUG_PRINT:
+            print(message.hex(' ', 1))
+        
         case prefix.UNKNOWN_MESSAGE:
             reported_prefix = message[6]
             reported_address = message[7]
-            print("Arduino reported unknown message type: Prefix", hex(reported_prefix), "Address", hex(reported_address))
+            print("\nArduino reported unknown message type: Prefix", hex(reported_prefix), "Address", hex(reported_address))
         
         #--Initialization category--
         case prefix.ID_QUERY:
