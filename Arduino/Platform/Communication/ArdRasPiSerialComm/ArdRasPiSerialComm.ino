@@ -14,7 +14,7 @@ void setup(){
   myMsg.type = 0x5;
   myMsg.destination = 0x35;
   myMsg.content = 0x52;
-  Serial.begin(9600);
+  Serial.begin(115200);
   sendMessage(myMsg);
 }
 
