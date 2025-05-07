@@ -102,3 +102,29 @@ int echo_serial()
   //Return that there was no suitable message to echo
   return 0;
 }
+
+//Turn a(n) (un)signed integer into a format that can be sent as the "data" portion of a message.
+//NOTE: This function only considers the LOWER 6 BYTES of a value, so very large numbers will not be accurately represented. Variables of type int or long int are unaffected by this conversion.
+size_t package_int(long long value, uint8_t package[6])
+{
+  for (int i = 0; i < 6; i++)
+  {
+    package[5-i] = value >> i * 8;
+  }
+  return 6;
+}
+
+//Turn a floating-point number into a format that can be sent as the "data" portion of a message.
+size_t package_float(double value, uint8_t package[6])
+{
+  size_t value_size = sizeof value;
+
+  long long value_bits;
+  memcpy(&value_bits, &value, value_size);
+
+  for (int i = 0; i < 6; i++)
+  {
+    package[i] = value_bits >> (value_size - 1 - i) * 8;
+  }
+  return 6;
+}

@@ -24,4 +24,10 @@ size_t verify_id();
 //Debug function to repeat all received messages back to the sender
 int echo_serial();
 
+//Turn a(n) (un)signed integer into a format that can be sent as the "data" portion of a message
+size_t package_int(long long value, uint8_t package[6]);
+
+//Turn a floating-point number into a format that can be sent as the "data" portion of a message.
+size_t package_float(double value, uint8_t package[6]);
+
 #endif
