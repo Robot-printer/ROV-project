@@ -1,0 +1,6 @@
+HOW TO INITIALIZE ESCS
+1. Set throttle to 0 (middle position when in bi-directional mode)
+2. Power on ESCs
+3. Move throttle to full negative
+4. Move throttle to full positive
+5. Motor should be active. Turn throttle back to 0 so they don't spin all over the place.

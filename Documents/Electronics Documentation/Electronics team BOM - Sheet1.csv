@@ -1,257 +1,257 @@
- ,Part name,Unit Price,Total Price,Source,Team,Location (on vehicle),Specs,Purpose,Part Qauntitiy,Purchase Quantity,Link
-,,$712.44,"$1,768.63",,,,,,,,
-,Raspberry Pi 5,$80.00,$80.00,Digikey,Electronics,Electronics tray,8gb ram [Need exact part],Main processor,1,1,https://www.digikey.com/en/products/detail/raspberry-pi/SC1112/21658257?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-21658257_sig-Cj0KCQiAz6q-BhCfARIsAOezPxk1l_DpxZ0xQ9DTF-ZTXn-_ZvkwHKLZ8xuj2lX-IfwoK0c2unv4zawaAq9PEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxk1l_DpxZ0xQ9DTF-ZTXn-_ZvkwHKLZ8xuj2lX-IfwoK0c2unv4zawaAq9PEALw_wcB&gclsrc=aw.ds
-,Pi Heatsink (ED-PI5PCOOLER),$4.08,$4.08,Digikey,Electronics,Pi,N/A,Cool the Pi,1,1,https://www.digikey.com/en/products/detail/edatec/ED-PI5PCOOLER/25660654?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-25660654_sig-Cj0KCQiAz6q-BhCfARIsAOezPxl5n9JkyD_CQJSSqfAIO34ndGObTZ6cpt60Ov0RLJGJR7Y8gKNsVmMaAqFPEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxl5n9JkyD_CQJSSqfAIO34ndGObTZ6cpt60Ov0RLJGJR7Y8gKNsVmMaAqFPEALw_wcB&gclsrc=aw.ds
-,Micro SD card,$12.80,$12.80,Amazon,Electronics,Pi,128 gb,Store Pi Programs and OS,1,1,https://www.amazon.com/SanDisk-128GB-Ultra-microSDXC-Memory/dp/B0BDYVC5TD/ref=asc_df_B0BDYVC5TD?hvadid=730312820598&hvdev=c&hvdvcmdl=undefined&hvexpln=73&hvlocint=undefined&hvlocphy=1027519&hvnetw=g&hvocijid=15974821110646394794-B0BDYVC5TD-&hvpone=undefined&hvpos=undefined&hvptwo=undefined&hvqmt=undefined&hvrand=15974821110646394794&hvtargid=pla-2281435180018&linkCode=df0&mcid=af829fc2b2f93958b4f4b93f120d5712&tag=hyprod-20&th=1
-,Raspberry Pi M.2 HAT+,$12.00,$12.00,Digikey,Electronics,Pi,N/A,add PCIE expansion to Pi,1,1,https://www.digikey.com/en/products/detail/raspberry-pi/SC1166/23350779?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-23350779_sig-Cj0KCQiAz6q-BhCfARIsAOezPxkVst4UpXFTfqlo828JySZ0aA7vee5AJ_7vKTdNFwI945aCA4hdJVkaAt2EEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxkVst4UpXFTfqlo828JySZ0aA7vee5AJ_7vKTdNFwI945aCA4hdJVkaAt2EEALw_wcB&gclsrc=aw.ds
-,Arduino Mega,$22.99,$22.99,Amazon,Electronics,Electronics tray,N/A,Main Microcontroller,1,1,https://www.amazon.com/ELEGOO-Compatible-Arduino-Projects-Compliant/dp/B01H4ZDYCE/ref=asc_df_B01H4ZLZLQ?mcid=f62db2f8027434a69e354b8a4d75d704&hvocijid=12297080554951024851-B01H4ZLZLQ-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=12297080554951024851&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027519&hvtargid=pla-2281435180538&th=1
-,Adafruit ItsyBitsy M0 Express,$11.95,$35.85,Adafruit,Electronics,Electronics tray,N/A,Auxilliary microcontroller,3,3,https://www.adafruit.com/product/3727
-,DF Robot FIT0701,$9.90,$9.90,Digikey,Electronics,Camera arm,Any USB webcam module,Main Camera,1,1,https://www.digikey.com/en/products/detail/dfrobot/FIT0701/13166487?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-13166487_sig-Cj0KCQiAz6q-BhCfARIsAOezPxlHGcLrVn4xPuPnoEX3mxEBClOCEvuffDvxkg-ElMY3xR0Q1BHB3m8aAiKhEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxlHGcLrVn4xPuPnoEX3mxEBClOCEvuffDvxkg-ElMY3xR0Q1BHB3m8aAiKhEALw_wcB&gclsrc=aw.ds
-,Mg996R,$12.98,$12.98,Amazon,Electronics,Dome plate,55g ,Camera Arm Servo,1,1,https://www.amazon.com/MG996R-Digital-Waterproof-Airplane-Helicopter/dp/B0DCK462XZ/ref=asc_df_B0DCK462XZ?mcid=3877c4e428f73a81af9364ca43aea870&hvocijid=2670373959704823761-B0DCK462XZ-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=2670373959704823761&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027519&hvtargid=pla-2281435178058&psc=1
-,COM-18732 12v buck regulator,$14.98,$119.84,Digikey,Electronics,Electronics tray,"5A minimum, 13v or less minimum voltage input",Regulate voltage to motors,8,8,https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-18732/15927228
-,DFRobot DFR0884 5v converter,$8.50,$17.00,Digikey,Electronics,Electronics tray,"3A minimum, 13v or less minimum voltage input",regulate voltage to 5v sys,2,2,https://www.digikey.com/en/products/detail/dfrobot/DFR0884/14824983?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-14824983_sig-Cj0KCQiAz6q-BhCfARIsAOezPxl1JQub80x8v-IscPytGR5VdwneuvxJNf2i7xpG06J7YSa4T02TrH0aApyjEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxl1JQub80x8v-IscPytGR5VdwneuvxJNf2i7xpG06J7YSa4T02TrH0aApyjEALw_wcB&gclsrc=aw.ds
-,LM3671 3.3V Buck Converter,$4.95,$14.85,Adafruit,Electronics,Electronics tray,"0.5A minimum, 13v or less minimum voltage input",regulate voltage to 3.3v sys,3,3,https://www.adafruit.com/product/2745
-,4s 5.2 AH LiPO,$98.99,$197.98,Amazon,Electronics,Battery bank,See Part Name,Main Power,4,2,https://www.amazon.com/Zeee-Battery-5200mAh-Crawler-Monster/dp/B0B1DHNSKZ/ref=sr_1_1?crid=3FWMEX2TPPSVO&dib=eyJ2IjoiMSJ9.gjDrsGecPfbBr82gwBYgR5pT228UDzVLzI-UxEeg91zwzsHKN0RWTrD_zte39Yyc-0lPgZjxEiO9YQdyDVFH_XXzXTXFLy4riu6lemfq7yvm-vAz3Q9W17T-nE7mey63qJoZyxtOrmpPqw97xPncI-OlvloNEO8WYHVyolJgumPZwLrFwqTytyF59AM-PZSVGUaZdnLPMxovv3Xe-nUQOzehWZ_SNALhOISRJ9ZS8Zbc1-XOl-3X4iJjbD-mbcuX9aGMfgY2mB4xtqZZadfsZmUIx90g1FcAG_sqo_YOZJNam4MXgCF5i1zScyZ3TLFYd3wwtadeUr20Ro3qiFqYTJcjiRBYvG6fD2GBwP4Ea0Y.r9PWuz7u0AI5o23SAMbR1BCvpaSzAn-lU_FQuKr_ung&dib_tag=se&keywords=Zeee+4S+Lipo+Battery+5200mAh&qid=1741380900&s=toys-and-games&sprefix=zeee+4s+lipo+battery+5200mah%2Ctoys-and-games%2C109&sr=1-1
-,Samsung 25R 18650 2500mAh 20A,$3.99,$23.94,18650BatteryStore,Electronics,Electronics tray,See Part Name,Auxilliary power,6,6,https://www.18650batterystore.com/products/samsung-25r-18650?utm_campaign=859501437&utm_source=g_c&utm_medium=cpc&utm_content=201043132925&utm_term=_&adgroupid=43081474946&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI1OPru8xxunet1i7eIXy6IrCgZqUazCfTSGVym5daeAFaYBlzsIMeQaAlauEALw_wcB
-,AA Batteries,$9.99,$9.99,Amazon,Electronics,Battery Packs,N/A,IC power,6,1,https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-20-Pack/dp/B00NTCH52W/ref=sr_1_1_ffob_sspa?crid=2L3B6NI48TMRJ&dib=eyJ2IjoiMSJ9.jt9Z96uuvYjXCPr3cbzKXSNW6PrDeaZjyS2G9XGrcjmAxbmaSVTQRJ_c-Ad1OHIZBkc-qisMaCMPk26YV87n3NQ2Nd2b1UeOnUMmh8jnToUefr9Lkg9eToM4Ca8Q13CazXrajVnkmdkb7D4EaAu8fgayWZT91RTAGoRpUfhUgHs2XOPC3kBy7RgySCFVUiW3bXNDBgBlS0mPtF24iUP38aatlMbv9r7BWlyMbftkFpFxdGazkOBjLAcXE1KiJG_GieWVgsEcbkub13R4lUHPgLnikDF6vP8YExWkzHOqtA0.A5MfBK0S943wD43phA8fmbkw3dWo08AxZF3YdLZpk5Y&dib_tag=se&keywords=aa+batteries&qid=1741421740&rdc=1&sprefix=aa+batterioe%2Caps%2C170&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
-,AA battery packs,$1.30,$3.90,Digikey,Electronics,Electronics tray,2 pack,Hold AAs,3,3,https://www.digikey.com/en/products/detail/keystone-electronics/2463/303812?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-303812_sig-Cj0KCQiA8q--BhDiARIsAP9tKI2O6kPsYvPzVuhxWvnk4D7WoF4VdMxRYM8DlMb7_uTWuJVoBFnQRdkaAv0hEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI2O6kPsYvPzVuhxWvnk4D7WoF4VdMxRYM8DlMb7_uTWuJVoBFnQRdkaAv0hEALw_wcB
-,6 AWG cable,$0.92,$9.20,WireandCableYourWay,Electronics,Bus Bar to Electronics tray,Stranded,Internal High-current pwr,10 ft,10,https://www.wireandcableyourway.com/6-awg-thhn-building-wire
-,12 AWG cable,$0.27,$3.24,WireandCableYourWay,Electronics,Bus Bar to Electronics tray,Stranded,Internal Mid-Current pwr,12 ft,12,https://www.wireandcableyourway.com/12-awg-xhhw-building-wire
-,Bus bars,$0.00,$0.00,Pre-Owned,Electronics,Battery bank,,Distribute power,2,2,
-,Lugs,$0.00,$0.00,Pre-Owned,Electronics,Bus Bars,,connect cables to parts,,,
-,SK2S120-100 Diodes,$18.24,$36.48,Digikey,Electronics,Electronics tray,50A minimum,prevent backflow on batteries,2,2,https://www.digikey.com/en/products/detail/smc-diode-solutions/SK2S120-100/9566330
-,95SQ015 Diode,$0.99,$14.85,Digikey,Electronics,Electronics tray,5A minimum,prevent backflow on circuits,15,15,https://www.digikey.com/en/products/detail/smc-diode-solutions/95SQ015/8021508
-,Waterproof brushless motor 100W 2418,$25.00,$200.00,UnderWaterThrusters,Electronics,Thrusters,[Need exact part],Thruster motors,8,8,https://www.underwaterthruster.com/products/waterproof-brushless-motor-100w-2418-corrosion-and-oxidation-resistant-for-use-in-underwater-robots-rovs-unmanned-boats-etc?srsltid=AfmBOoqQ8WCIvB8XG7zLQBoiVaBr846oHXyVgvl0t5BSGgBM6YJtEUfy
-,30A multi-directional Defiant ESC,$18.99,$151.92,Amazon,Electronics,Electronics tray,[Need exact part],Control Thrusters,8,8,https://www.amazon.com/30A-Defiant-ESC-Controller-Multi-Directional/dp/B0C5RYKSV2?dib=eyJ2IjoiMSJ9.tHkdzChxkiyClznUe1erTd1COm85eK6OG3l0kKk-RtruwslhCtnRpcPCaDG-dVkhhWlKGkUK9srS1JipyCRN3mqBtA2JhER2ShioCGQgVg6EoD9UHw83WSrUW8RtLclrtLdLgw_-tOQPeG7ayk9oEu0Aso-4_6eE1iOsnyC_OMsvOO3HzyC-qOl_RpnwlYzgP4O1UeSbSnSkxDDrdl-SvJ7UdFkZWvyY7vsl9chngD0kZdx9tFkkDXkF-DFYOTM1lMCtnKTnKbBA2yDXsDjET7GPQ4W-K3v3jG_piFLfBSw.zVzbZex-87RNzawbA0HTu4EwEQyCAiccOfjh-toihfM&dib_tag=se&keywords=30a%2Besc%2Bdefiant&qid=1711997353&sr=8-2&th=1&linkCode=sl1&tag=rcelectricpar-20&linkId=ac7047694be104426008c40b3e8385bc&language=en_US&ref_=as_li_ss_tl
-,Flashlight,$8.49,$8.49,Amazon,Electronics,Exterior hull,Any,Control circuit and Reflector for led,2,1,https://www.amazon.com/Military-Lumens-Tactical-Waterproof-Flashlight/dp/B073VZZKK5/ref=sr_1_3_sspa?crid=2M3QKHWVXB8W4&dib=eyJ2IjoiMSJ9.lXgbvoVZD44wU7zO2F8-y16vQwzctg-k_sQIS7tDIRxmCJR-Ak71hJfxCvoiw-7Qa6n935hj7fNCZIw2PufKr34FY94KTtrN8E9J515D5N9eukmlIF0mHCcWVuTkMReUAwraoYZVq56r-9CTfl9xKgmHyjirjZjtOCUsmdX7TnIg-aiyk46OpGfhh6aqKVPeu4uYgJWW9asGd1sN1qkSH9ckGFxVD2k-ZotCAREws5d5bI_EAZUTMpQkvtm4vZIOEoczuxRgY40Jz_lCLD6GjRLGQ85SdfJrmTqjrY7C4Z0.4HmhRhwXV3N4Yf9OJsceXXwlE-Pxx2GpXACwpNcpK2w&dib_tag=se&keywords=flashlight&qid=1741422732&sprefix=flashligh%2Caps%2C204&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
-,Seeed Studio XIAO ESP32C3,$4.99,$9.98,Digikey,Electronics,Flashlights,[Need exact part],Control Flashlight logic,2,2,https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991054/16652880?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-16652880_sig-Cj0KCQiA8q--BhDiARIsAP9tKI1dtMzLnNqyYabjQPV5INZwOZ9zNJopy4ov2H6VovIXFSTS_blOxWcaAhF5EALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI1dtMzLnNqyYabjQPV5INZwOZ9zNJopy4ov2H6VovIXFSTS_blOxWcaAhF5EALw_wcB
-,2s Lipo Battery 2200mAh,$27.89,$27.89,Amazon,Electronics,Flashlights,See Part Name,Powers Flashlights,2,1,https://www.amazon.com/Zeee-Connector-Helicopter-Airplane-Quadcopter/dp/B0BYNKBKGT/ref=sr_1_2_sspa?crid=3E1OSGCNY477D&dib=eyJ2IjoiMSJ9.pLGWNxu6EX24rb6Wpa28tphNrZHPch40FQRebNyDsnLQz5wFQKHvrcq6KVO6dq-dHxntpokWfakBuEOyyPd-t1MQqiEgKNrq5KsdPHaflWC40RdjiphWVGL2BHwrbocFXRReiM-N0NHXeAEgO0njQlF5oF6DSV2_VO4T1UHaXE2vT-V2hIyti69SFgjKWO8UUWpgQOtZ5N7MfGjsVJVgzuhlrhMFgMdadiXyemZcEIcQBgEK66FiyzA6BisHtZr9U6oMhbCmNUkuLfIlRzM5V6OmDd1pKFGAccNi0blBPmI.1J93D8tG5VRsAq3tIu4v3q2chKzwIOtj4k5KIOd4OBs&dib_tag=se&keywords=2s%2BLipo%2BBattery%2B2200mAh&qid=1741423358&sprefix=2s%2Blipo%2Bbattery%2B2200mah%2Caps%2C188&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
-,5v buck converter,$6.95,$13.90,Adafruit,Electronics,Flashlights,1A minimum,Regulates flashlight power,2,2,https://www.adafruit.com/product/4739
-,2 inch pvc,$8.48,$8.48,Lowes,Electronics,Flashlights,N/A,Flashlight body,2ft,1,https://www.lowes.com/pd/Charlotte-Pipe-2-in-x-2-ft-PVC-Pipe/5005518961
-,2 inch Threaded pvc cap,$7.95,$15.90,Amazon,Electronics,Flashlights,N/A,Openable end of flashlights,2,2,https://www.amazon.com/Threaded-Cap-Schedule-40-PVC/dp/B000VYN23W/ref=asc_df_B000VYN23W?mcid=a34623da747b374fb0f44df343a1dd15&hvocijid=4495615818098178723-B000VYN23W-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=4495615818098178723&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033458&hvtargid=pla-2281435177858&th=1
-,2 inch Threaded pvc adapter,$2.59,$5.18,Home Depot,Electronics,Flashlights,N/A,adapter for threaded cap,2,2,https://www.homedepot.com/pep/Charlotte-Pipe-2-in-PVC-Schedule-40-MPT-x-S-Male-Adapter-PVC-02109-1600HD/203825431?source=shoppingads&locale=en-US&pla&mtc=SHOPPING-BF-CDP-GGL-D26P-026_001_PIPE_FITTING-NA-NA-NA-PLALIA-NA-NA-NA-NA-NBR-NA-NA-NEW-_PLATEST&cm_mmc=SHOPPING-BF-CDP-GGL-D26P-026_001_PIPE_FITTING-NA-NA-NA-PLALIA-NA-NA-NA-NA-NBR-NA-NA-NEW-_PLATEST-22111492781-173962209835-331272778036&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI1sCq-odJ_A_DiMKeAxeCbiu_xDnyNmoPr8CKOeCyFGxLWVsc08AeIaAsv7EALw_wcB
-,1 1/2 inch pvc,$5.85,$5.85,Home Depot,Electronics,Flashlights,N/A,pvc for clear cap,6 inches,1,https://www.homedepot.com/p/Charlotte-Pipe-1-1-2-in-x-2-ft-PVC-DWV-Schedule-40-Pipe-PVC071120200HA/100581718
-,2 inch to 1 1/2 inch pvc reducer,$3.32,$6.64,Lowes,Electronics,Flashlights,N/A,pvc adapter,2,2,https://www.lowes.com/pd/Charlotte-Pipe-2-IN-X-1-1-2-IN-SCH40-REDUCER-BUSHING/5012474889
-,1 1/2 inch clear pvc cap,$3.90,$7.80,US Plastic,Electronics,Flashlights,N/A,clear cap,2,2,https://www.usplastic.com/catalog/item.aspx?itemid=154673&clickid=search
-,Pvc cement,$5.22,$5.22,Home Depot,Electronics,Flashlights,N/A,holds PVC parts together,1,1,https://www.homedepot.com/pep/Oatey-8-oz-Regular-Clear-PVC-Cement-California-Compliant-310133V/322402448?g_store=&source=shoppingads&locale=en-US&pla&mtc=SHOPPING-BF-CDP-GGL-D26P-026_001_PIPE_FITTING-NA-NA-NA-PLALIA-NA-NA-NA-NA-NBR-NA-NA-NEW-_PLATEST&cm_mmc=SHOPPING-BF-CDP-GGL-D26P-026_001_PIPE_FITTING-NA-NA-NA-PLALIA-NA-NA-NA-NA-NBR-NA-NA-NEW-_PLATEST-22111492781-173962209835-331272777516&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI1dx65K0hiOxNN2FyJzXX6uXpPvuM0F4sR484-34pkYK32VZuAedFUaAmlNEALw_wcB
-,USB A hub,$6.99,$13.98,Amazon,Electronics,Electronics tray,3 ports or more,adds more USB ports to the Pi,2,2,https://www.amazon.com/UGREEN-Splitter-Ultra-Slim-Expander-Compatible/dp/B0CD1BHXPZ/ref=sr_1_6?crid=99EHNABYR9ZY&dib=eyJ2IjoiMSJ9.lX3Oa0Sl6oY0sH5jggB4hjahxMnskYh4U9I25wXJk67wsD2RxibZS0HeifD-OOncSXHAhLUzH2CXKQGfMVJ0gGRMSOcda8xHCCriYuUiHD1od0o8EDm2gpvyxmXXRk3GXZ8yNHHDytBvzxkmvbVfRCgMf-7HOiy0u1NoBpaUpF_FYYDioAwLh65VTftTgJXkMfZZPOlqgyJoZiCurEPQgyYTQBOnM_5It0E5MBTR7u4.lJxGS4Ugt3CnLV_drdSTo9nZmBQ8tXxWYNXLpZAWEY4&dib_tag=se&keywords=usb%2BA%2Bhub&qid=1741424082&sprefix=usb%2Ba%2Bhu%2Caps%2C182&sr=8-6&th=1
-,Dupont cables,$6.98,$13.96,Amazon,Electronics,Electronics tray,N/A,Connects microcontrollers to circuits,2,2,https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=sr_1_3_pp?crid=2KT77L6XNGEMX&dib=eyJ2IjoiMSJ9.QGbaFF62mgZ1Tf0J7CajkBnivKMOTOpZJUS1O07RvMQU3CAJkJItodgHMXr-DiiJ-FDFiWcsNQ_QE6lirbsx2Mb_L6VHmvl9hVIxqoNa9aVfbZqLGnqIEXrl7UH-EBU11tEVYbXtivaDyGXfp98prCGewThVxp4-yOJKrJeBL7pBjnUB9d2itO3FHVKH3bSJHUTVtUo3MhosWlAyl53Dgx7X7qASUGAWjVBbHD5vuEs.uv8jUzmf36kxkS1kLaT0zW0kUCi3cGh7kixOTUBd6_s&dib_tag=se&keywords=dupont+cables&qid=1741424152&sprefix=dupont+cable%2Caps%2C167&sr=8-3
-,Noctua 80mm fan,$16.11,$48.33,Amazon,Electronics,Interior Cooling ducts,N/A,Provides air circulation,3,3,https://www.amazon.com/Noctua-Bearing-Premium-NF-A8-PWM/dp/B00VG9PJBO/ref=asc_df_B00VG9PJBO?mcid=9df0e357253335b19d65e9c5ce952d09&hvocijid=9631906556185081387-B00VG9PJBO-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=9631906556185081387&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027751&hvtargid=pla-2281435179578&th=1
-,4468 fans,$2.95,$14.75,Digikey,Electronics,Interior Cooling ducts,N/A,directs air onto components,5,5,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4468/11587354
-,Copper Sheet,$0.00,$0.00,Pre-Owned,Electronics,Interior face of Hull,,Provides thermal mass for dissipation,1,1,
-,Thermal paste,$13.99,$13.99,Amazon,Electronics,(various locations),N/A,Provides a thermal bridge,100g,1,https://www.amazon.com/HY-510-1pcs-25g-Thermal-Paste-Conductivity/dp/B07PHT3LWC/ref=sr_1_2_sspa?crid=12TXH6RJYA23M&dib=eyJ2IjoiMSJ9.Sy9AJsgkyUyZmVshdu-WnGjb7JqdoNcxJXkw8rOLcS9oEAjP24kydukqgQuTIFWH0mdW9SlKQHf7ntq_gP04LR5zwHlAOZD6V-0wvcopdlBl_MpLUDTutAdDVPWUsy5dTAkA8VTP5cJOQrA6SopbRmt1yM3ZVHsnNLyP16wZOkVG6ZnBis06MRyKTPKJ4R4oSD2XkUPpjbSOsgdhuPjXml9a-zUrwCa4j7ihlgMfFWc.9DTn8F05jluz_wlIoN0hwvqnETn_nKYvfDNpyGY4Bh4&dib_tag=se&keywords=thermal%2Bpaste&qid=1741425561&sprefix=thermal%2Bpaste%2Caps%2C181&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
-,Ptm7950 phase change thermal pads,$25.99,$25.99,Newegg,Electronics,(various locations),N/A,"Provides a more effective, thinner thermal bridge",80mmx80mm,1,https://www.newegg.com/p/2MB-001F-00072?Item=9SIA4REK368786&cm_sp=product-_-from-price-options
-,Heatsinks,$0.00,$0.00,Pre-Owned,Electronics,Interior face of Hull,,Dissipates heat,,,
-,8 connector terminal blocks,$3.83,$30.64,Digikey,Electronics,Back plate near glands,[Need exact part],Takes cable inputs from glands,8,8,https://www.digikey.com/en/products/detail/phoenix-contact/1715789/260634?gclsrc=aw.ds&&utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Supplier_Phoenix%20Contact_0277_Co-op&utm_term=&utm_content=General&utm_id=go_cmp-20504612307_adg-_ad-__dev-c_ext-_prd-260634_sig-Cj0KCQiA8q--BhDiARIsAP9tKI110WCRjKVtJdzv0LxQNrAAWoApXKyRCm6QHHgKhROyrJSA_HXswE8aAqEtEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI110WCRjKVtJdzv0LxQNrAAWoApXKyRCm6QHHgKhROyrJSA_HXswE8aAqEtEALw_wcB
-,16 gauge x6 cables,$1.48,$23.68,WireandCableYourWay,Electronics,Gland outputs,[Need exact part],cable for glands,16,16,https://www.wireandcableyourway.com/16-6-soow-portable-cord-600v-ul-csa
-,18 gauge x3 cables,$0.53,$21.20,WireandCableYourWay,Electronics,Gland outputs,[Need exact part],cable for glands,40,40,https://www.wireandcableyourway.com/18-3-soow-portable-cord-600v-ul-csa
-,SPST switch,$0.71,$7.10,Digikey,Electronics,Electronics tray,"5V, 5A",Control circuits for power off and debugging,10,10,https://www.digikey.com/en/products/detail/e-switch/RA1113112R/3778055?gclsrc=aw.ds&&utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Supplier_E-Switch_0141_Co-op&utm_term=&utm_content=General&utm_id=go_cmp-20504611644_adg-_ad-__dev-c_ext-_prd-3778055_sig-Cj0KCQiA8q--BhDiARIsAP9tKI3bgqc4rqdHSJ7_qrQkf4AOrmP-LusoS-BV493J4OiuM2sL11GzD0QaAlO7EALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI3bgqc4rqdHSJ7_qrQkf4AOrmP-LusoS-BV493J4OiuM2sL11GzD0QaAlO7EALw_wcB
-,Cutoff switch,$14.99,$14.99,Amazon,Electronics,Electronics tray,"12V, 200A",Hard cut for main power,1,1,https://www.amazon.com/Battery-Disconnect-Current-Isolator-Outboards/dp/B0B17BGHPS/ref=sr_1_1_sspa?crid=DD1L9X9OU1ZU&dib=eyJ2IjoiMSJ9.WN-EfbA82wSd8EdjeP9eQ4KbP-ad-i0MWoyj2I3-lwGK-tJY-xtagNLM1bvQUoJrvqsRAW3qI9-CIweCivnGpOq8xMz5QITWz6wKoI2uIE01FVD-kUr5Zd6imCiWfeCwUh8Xjwy3uq-oe-OgfrMb4n2J0xOQXiUaooD9azLfRhXlcBqLU25SqqbwEyNiwi-0mydrjJ73qTmJoduxNfpFeK77CuvtPYYy2qXDxC8S6-o.R0Bh_m8YW8eXXH1HVyOIz7frOBy78aDGhY8nCmH4jwc&dib_tag=se&keywords=200A+switch&qid=1741509535&sprefix=200a+switch%2Caps%2C187&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
-,OLED graphic display,$19.95,$39.90,Adafruit,Electronics,Electronics tray,"Monochrome 1.3"" 128x64",provides a display for system info,2,2,https://www.adafruit.com/product/938?gQT=1
-,Waterproof switch cover,$3.08,$3.08,Digikey,Electronics,Back plate,[Need exact part],Waterproofs a button,1,1,https://www.digikey.com/en/products/detail/apm-hexseal/N3030-2/340286?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-340286_sig-Cj0KCQiA8q--BhDiARIsAP9tKI2nmv-bcKKGng553P4fOKOVNX73V_X-_LC1nfKtupzqTVRA_vPkK8QaAvK7EALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI2nmv-bcKKGng553P4fOKOVNX73V_X-_LC1nfKtupzqTVRA_vPkK8QaAvK7EALw_wcB
-,Exterior cutoff switch,$2.61,$2.61,Digikey,Electronics,Back plate,N/A,Button for emergency cutoff,1,1,https://www.digikey.com/en/products/detail/c-k/F2UEE/417517
-,HiLetgo RFID Kit,$5.69,$5.69,Amazon,Electronics,Interior face of Hull,[Need exact part],Reads RFID cards for external controls,1,1,https://www.amazon.com/HiLetgo-RFID-Kit-Arduino-Raspberry/dp/B01CSTW0IA/ref=asc_df_B01CSTW0IA?mcid=896d590d183434548498ee0eaa5bc8a9&hvocijid=3803634920787568789-B01CSTW0IA-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=3803634920787568789&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033458&hvtargid=pla-2281435177898&psc=1
-,T5577 Thick Smart Cards,$6.98,$6.98,Amazon,Electronics,N/A,Any Programmable RFID cards or tags,Extra RFID cards for other functions,5,1,https://www.amazon.com/Contactless-Rewritable-Proximity-Clamshell-Compatible/dp/B0DHVXYNZL/ref=asc_df_B0DHVXYNZL?mcid=57f536805084363aac17d973db9567c6&hvocijid=2557123198389000666-B0DHVXYNZL-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=2557123198389000666&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027751&hvtargid=pla-2281435177818&th=1
-,Underwater Ultrasonic Obstacle Avoidance Sensor,$32.00,$256.00,DFR Robot,Electronics,Exterior mounts,[Need exact part],"Ultrasonic distance sensor, for 3d mapping",8,8,https://www.dfrobot.com/product-2760.html?srsltid=AfmBOoqPc1YJtI6VFpQhX6PPeJH48JtYGnyYebao-qyBZJvDQugwt06e
-,6 axis accelerometer and 3 axis gyroscope,$19.95,$39.90,Adafruit,Electronics,Electronics tray,[Need exact part],detects the orientation of the vehicle,2,2,https://www.adafruit.com/product/4517
-,Adafruit AM2320 Sensor ,$3.95,$3.95,Digikey,Electronics,Electronics tray,[Need exact part],Detects humidity,1,1,https://www.digikey.com/en/products/detail/adafruit-industries-llc/3721/8558266?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-8558266_sig-Cj0KCQiA8q--BhDiARIsAP9tKI2Kms5GB3CJ1JOyI2FybzSZUoRupl69NsvdqVQQQjq5s8awtnzhioAaAn8aEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI2Kms5GB3CJ1JOyI2FybzSZUoRupl69NsvdqVQQQjq5s8awtnzhioAaAn8aEALw_wcB&gclsrc=aw.ds
-,10k thermistor,$0.95,$9.50,Digikey,Electronics,(various locations),[Need exact part],Detects heat at a point to prevent overheating,10,10,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4890/13982731?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-13982731_sig-Cj0KCQiA8q--BhDiARIsAP9tKI3Yx7fzMhg2jWFa5g3DBjTna4DHJ5FOdpN29FxehW3_vbuZWtMND4caAi6bEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI3Yx7fzMhg2jWFa5g3DBjTna4DHJ5FOdpN29FxehW3_vbuZWtMND4caAi6bEALw_wcB&gclsrc=aw.ds
-,DF Robot SEN0257 ,$17.50,$17.50,Digikey,Electronics,Exterior mounts,[Need exact part],Detects pressure under the water (to tell depth),1,1,https://www.digikey.com/en/products/detail/dfrobot/SEN0257/8341836?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-8341836_sig-Cj0KCQiA8q--BhDiARIsAP9tKI3dXmYnKjigYHR5jSG1fce1zcgZn5eL91qZ3eiujxiAe_ETn0kwhQIaAlrPEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI3dXmYnKjigYHR5jSG1fce1zcgZn5eL91qZ3eiujxiAe_ETn0kwhQIaAlrPEALw_wcB&gclsrc=aw.ds
-,Adafruit MPRLS Ported Pressure Sensor,$29.95,$29.95,Adafruit,Electronics,Electronics tray,[Need exact part],Detects interior pressure to monitor for issues,1,1,https://www.adafruit.com/product/3965
-,Waterproof DS18B20 Digital temperature sensor,$6.90,$6.90,Digikey,Electronics,Exterior mounts,[Need exact part],detects water temperature,1,1,https://www.digikey.com/en/products/detail/dfrobot/DFR0198/7597054?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-7597054_sig-Cj0KCQiAlbW-BhCMARIsADnwasq8qwaE3prtiDhAP_g58RUROLYU-I0KW59koIf80kDk4i3UIIig1aoaAjKAEALw_wcB&gad_source=1&gclid=Cj0KCQiAlbW-BhCMARIsADnwasq8qwaE3prtiDhAP_g58RUROLYU-I0KW59koIf80kDk4i3UIIig1aoaAjKAEALw_wcB&gclsrc=aw.ds
-,10k photoresistor,$0.95,$0.95,Digikey,Electronics,Dome plate,[Need exact part],detects light to only turn on flashlights when needded,1,1,https://www.digikey.com/en/products/detail/adafruit-industries-llc/161/7244927?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-7244927_sig-Cj0KCQiAlbW-BhCMARIsADnwasrWjg6oGe1ypQ1QP7T8duFWu_qEqi2iyKCKSV2Fp1qDqhex8MFGjEsaAgFWEALw_wcB&gad_source=1&gclid=Cj0KCQiAlbW-BhCMARIsADnwasrWjg6oGe1ypQ1QP7T8duFWu_qEqi2iyKCKSV2Fp1qDqhex8MFGjEsaAgFWEALw_wcB&gclsrc=aw.ds
-,HMC5883L compass,$7.99,$7.99,Amazon,Electronics,Electronics tray,N/A,Provides reference orientation for the Vehicle,1,1,https://www.amazon.com/Comimark-QMC5883L-Compass-Magnetometer-Arduino/dp/B0855TZV1J/ref=asc_df_B0855TZV1J?mcid=211be108a2f435d08c71a032428202ca&hvocijid=5399623219145986394-B0855TZV1J-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=5399623219145986394&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027751&hvtargid=pla-2281435178058&psc=1
-,USB A breakout boards,$0.00,$0.00,Pre-Owned,Electronics,Electronics tray,N/A,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
-,,$0.00,$0.00,,,,,,,,
+ ,,Part name,Unit Price,Total Price,Source,Team,Location (on vehicle),Specs,Purpose,Part Qauntitiy,Purchase Quantity,Link
+,,,$712.44,"$1,768.63",,,,,,,,
+,1,Raspberry Pi 5,$80.00,$80.00,Digikey,Electronics,Electronics tray,8gb ram [Need exact part],Main processor,1,1,https://www.digikey.com/en/products/detail/raspberry-pi/SC1112/21658257?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-21658257_sig-Cj0KCQiAz6q-BhCfARIsAOezPxk1l_DpxZ0xQ9DTF-ZTXn-_ZvkwHKLZ8xuj2lX-IfwoK0c2unv4zawaAq9PEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxk1l_DpxZ0xQ9DTF-ZTXn-_ZvkwHKLZ8xuj2lX-IfwoK0c2unv4zawaAq9PEALw_wcB&gclsrc=aw.ds
+,1,Pi Heatsink (ED-PI5PCOOLER),$4.08,$4.08,Digikey,Electronics,Pi,N/A,Cool the Pi,1,1,https://www.digikey.com/en/products/detail/edatec/ED-PI5PCOOLER/25660654?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Medium%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-25660654_sig-Cj0KCQiAz6q-BhCfARIsAOezPxl5n9JkyD_CQJSSqfAIO34ndGObTZ6cpt60Ov0RLJGJR7Y8gKNsVmMaAqFPEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxl5n9JkyD_CQJSSqfAIO34ndGObTZ6cpt60Ov0RLJGJR7Y8gKNsVmMaAqFPEALw_wcB&gclsrc=aw.ds
+,,Micro SD card,$12.80,$12.80,Amazon,Electronics,Pi,128 gb,Store Pi Programs and OS,1,1,https://www.amazon.com/SanDisk-128GB-Ultra-microSDXC-Memory/dp/B0BDYVC5TD/ref=asc_df_B0BDYVC5TD?hvadid=730312820598&hvdev=c&hvdvcmdl=undefined&hvexpln=73&hvlocint=undefined&hvlocphy=1027519&hvnetw=g&hvocijid=15974821110646394794-B0BDYVC5TD-&hvpone=undefined&hvpos=undefined&hvptwo=undefined&hvqmt=undefined&hvrand=15974821110646394794&hvtargid=pla-2281435180018&linkCode=df0&mcid=af829fc2b2f93958b4f4b93f120d5712&tag=hyprod-20&th=1
+,1,Raspberry Pi M.2 HAT+,$12.00,$12.00,Digikey,Electronics,Pi,N/A,add PCIE expansion to Pi,1,1,https://www.digikey.com/en/products/detail/raspberry-pi/SC1166/23350779?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-23350779_sig-Cj0KCQiAz6q-BhCfARIsAOezPxkVst4UpXFTfqlo828JySZ0aA7vee5AJ_7vKTdNFwI945aCA4hdJVkaAt2EEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxkVst4UpXFTfqlo828JySZ0aA7vee5AJ_7vKTdNFwI945aCA4hdJVkaAt2EEALw_wcB&gclsrc=aw.ds
+,1,Arduino Mega,$22.99,$22.99,Amazon,Electronics,Electronics tray,N/A,Main Microcontroller,1,1,https://www.amazon.com/ELEGOO-Compatible-Arduino-Projects-Compliant/dp/B01H4ZDYCE/ref=asc_df_B01H4ZLZLQ?mcid=f62db2f8027434a69e354b8a4d75d704&hvocijid=12297080554951024851-B01H4ZLZLQ-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=12297080554951024851&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027519&hvtargid=pla-2281435180538&th=1
+,1,Adafruit ItsyBitsy M0 Express,$11.95,$35.85,Adafruit,Electronics,Electronics tray,N/A,Auxilliary microcontroller,3,3,https://www.adafruit.com/product/3727
+,1,DF Robot FIT0701,$9.90,$9.90,Digikey,Electronics,Camera arm,Any USB webcam module,Main Camera,1,1,https://www.digikey.com/en/products/detail/dfrobot/FIT0701/13166487?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-13166487_sig-Cj0KCQiAz6q-BhCfARIsAOezPxlHGcLrVn4xPuPnoEX3mxEBClOCEvuffDvxkg-ElMY3xR0Q1BHB3m8aAiKhEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxlHGcLrVn4xPuPnoEX3mxEBClOCEvuffDvxkg-ElMY3xR0Q1BHB3m8aAiKhEALw_wcB&gclsrc=aw.ds
+,4,Mg996R,$12.98,$12.98,Amazon,Electronics,Dome plate,55g ,Camera Arm Servo,1,1,https://www.amazon.com/MG996R-Digital-Waterproof-Airplane-Helicopter/dp/B0DCK462XZ/ref=asc_df_B0DCK462XZ?mcid=3877c4e428f73a81af9364ca43aea870&hvocijid=2670373959704823761-B0DCK462XZ-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=2670373959704823761&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027519&hvtargid=pla-2281435178058&psc=1
+,,COM-18732 12v buck regulator,$14.98,$119.84,Digikey,Electronics,Electronics tray,"5A minimum, 13v or less minimum voltage input",Regulate voltage to motors,8,8,https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-18732/15927228
+,1,DFRobot DFR0884 5v converter,$8.50,$17.00,Digikey,Electronics,Electronics tray,"3A minimum, 13v or less minimum voltage input",regulate voltage to 5v sys,2,2,https://www.digikey.com/en/products/detail/dfrobot/DFR0884/14824983?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-14824983_sig-Cj0KCQiAz6q-BhCfARIsAOezPxl1JQub80x8v-IscPytGR5VdwneuvxJNf2i7xpG06J7YSa4T02TrH0aApyjEALw_wcB&gad_source=1&gclid=Cj0KCQiAz6q-BhCfARIsAOezPxl1JQub80x8v-IscPytGR5VdwneuvxJNf2i7xpG06J7YSa4T02TrH0aApyjEALw_wcB&gclsrc=aw.ds
+,1,LM3671 3.3V Buck Converter,$4.95,$14.85,Adafruit,Electronics,Electronics tray,"0.5A minimum, 13v or less minimum voltage input",regulate voltage to 3.3v sys,3,3,https://www.adafruit.com/product/2745
+,2,4s 5.2 AH LiPO,$98.99,$197.98,Amazon,Electronics,Battery bank,See Part Name,Main Power,4,2,https://www.amazon.com/Zeee-Battery-5200mAh-Crawler-Monster/dp/B0B1DHNSKZ/ref=sr_1_1?crid=3FWMEX2TPPSVO&dib=eyJ2IjoiMSJ9.gjDrsGecPfbBr82gwBYgR5pT228UDzVLzI-UxEeg91zwzsHKN0RWTrD_zte39Yyc-0lPgZjxEiO9YQdyDVFH_XXzXTXFLy4riu6lemfq7yvm-vAz3Q9W17T-nE7mey63qJoZyxtOrmpPqw97xPncI-OlvloNEO8WYHVyolJgumPZwLrFwqTytyF59AM-PZSVGUaZdnLPMxovv3Xe-nUQOzehWZ_SNALhOISRJ9ZS8Zbc1-XOl-3X4iJjbD-mbcuX9aGMfgY2mB4xtqZZadfsZmUIx90g1FcAG_sqo_YOZJNam4MXgCF5i1zScyZ3TLFYd3wwtadeUr20Ro3qiFqYTJcjiRBYvG6fD2GBwP4Ea0Y.r9PWuz7u0AI5o23SAMbR1BCvpaSzAn-lU_FQuKr_ung&dib_tag=se&keywords=Zeee+4S+Lipo+Battery+5200mAh&qid=1741380900&s=toys-and-games&sprefix=zeee+4s+lipo+battery+5200mah%2Ctoys-and-games%2C109&sr=1-1
+,,Samsung 25R 18650 2500mAh 20A,$3.99,$23.94,18650BatteryStore,Electronics,Electronics tray,See Part Name,Auxilliary power,6,6,https://www.18650batterystore.com/products/samsung-25r-18650?utm_campaign=859501437&utm_source=g_c&utm_medium=cpc&utm_content=201043132925&utm_term=_&adgroupid=43081474946&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI1OPru8xxunet1i7eIXy6IrCgZqUazCfTSGVym5daeAFaYBlzsIMeQaAlauEALw_wcB
+,,AA Batteries,$9.99,$9.99,Amazon,Electronics,Battery Packs,N/A,IC power,6,1,https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-20-Pack/dp/B00NTCH52W/ref=sr_1_1_ffob_sspa?crid=2L3B6NI48TMRJ&dib=eyJ2IjoiMSJ9.jt9Z96uuvYjXCPr3cbzKXSNW6PrDeaZjyS2G9XGrcjmAxbmaSVTQRJ_c-Ad1OHIZBkc-qisMaCMPk26YV87n3NQ2Nd2b1UeOnUMmh8jnToUefr9Lkg9eToM4Ca8Q13CazXrajVnkmdkb7D4EaAu8fgayWZT91RTAGoRpUfhUgHs2XOPC3kBy7RgySCFVUiW3bXNDBgBlS0mPtF24iUP38aatlMbv9r7BWlyMbftkFpFxdGazkOBjLAcXE1KiJG_GieWVgsEcbkub13R4lUHPgLnikDF6vP8YExWkzHOqtA0.A5MfBK0S943wD43phA8fmbkw3dWo08AxZF3YdLZpk5Y&dib_tag=se&keywords=aa+batteries&qid=1741421740&rdc=1&sprefix=aa+batterioe%2Caps%2C170&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
+,3,AA battery packs,$1.30,$3.90,Digikey,Electronics,Electronics tray,2 pack,Hold AAs,3,3,https://www.digikey.com/en/products/detail/keystone-electronics/2463/303812?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-303812_sig-Cj0KCQiA8q--BhDiARIsAP9tKI2O6kPsYvPzVuhxWvnk4D7WoF4VdMxRYM8DlMb7_uTWuJVoBFnQRdkaAv0hEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI2O6kPsYvPzVuhxWvnk4D7WoF4VdMxRYM8DlMb7_uTWuJVoBFnQRdkaAv0hEALw_wcB
+,,6 AWG cable,$0.92,$9.20,WireandCableYourWay,Electronics,Bus Bar to Electronics tray,Stranded,Internal High-current pwr,10 ft,10,https://www.wireandcableyourway.com/6-awg-thhn-building-wire
+,,12 AWG cable,$0.27,$3.24,WireandCableYourWay,Electronics,Bus Bar to Electronics tray,Stranded,Internal Mid-Current pwr,12 ft,12,https://www.wireandcableyourway.com/12-awg-xhhw-building-wire
+,,Bus bars,$0.00,$0.00,Pre-Owned,Electronics,Battery bank,,Distribute power,2,2,
+,,Lugs,$0.00,$0.00,Pre-Owned,Electronics,Bus Bars,,connect cables to parts,,,
+,2,SK2S120-100 Diodes,$18.24,$36.48,Digikey,Electronics,Electronics tray,50A minimum,prevent backflow on batteries,2,2,https://www.digikey.com/en/products/detail/smc-diode-solutions/SK2S120-100/9566330
+,15,95SQ015 Diode,$0.99,$14.85,Digikey,Electronics,Electronics tray,5A minimum,prevent backflow on circuits,15,15,https://www.digikey.com/en/products/detail/smc-diode-solutions/95SQ015/8021508
+,8,Waterproof brushless motor 100W 2418,$25.00,$200.00,UnderWaterThrusters,Electronics,Thrusters,[Need exact part],Thruster motors,8,8,https://www.underwaterthruster.com/products/waterproof-brushless-motor-100w-2418-corrosion-and-oxidation-resistant-for-use-in-underwater-robots-rovs-unmanned-boats-etc?srsltid=AfmBOoqQ8WCIvB8XG7zLQBoiVaBr846oHXyVgvl0t5BSGgBM6YJtEUfy
+,8,30A multi-directional Defiant ESC,$18.99,$151.92,Amazon,Electronics,Electronics tray,[Need exact part],Control Thrusters,8,8,https://www.amazon.com/30A-Defiant-ESC-Controller-Multi-Directional/dp/B0C5RYKSV2?dib=eyJ2IjoiMSJ9.tHkdzChxkiyClznUe1erTd1COm85eK6OG3l0kKk-RtruwslhCtnRpcPCaDG-dVkhhWlKGkUK9srS1JipyCRN3mqBtA2JhER2ShioCGQgVg6EoD9UHw83WSrUW8RtLclrtLdLgw_-tOQPeG7ayk9oEu0Aso-4_6eE1iOsnyC_OMsvOO3HzyC-qOl_RpnwlYzgP4O1UeSbSnSkxDDrdl-SvJ7UdFkZWvyY7vsl9chngD0kZdx9tFkkDXkF-DFYOTM1lMCtnKTnKbBA2yDXsDjET7GPQ4W-K3v3jG_piFLfBSw.zVzbZex-87RNzawbA0HTu4EwEQyCAiccOfjh-toihfM&dib_tag=se&keywords=30a%2Besc%2Bdefiant&qid=1711997353&sr=8-2&th=1&linkCode=sl1&tag=rcelectricpar-20&linkId=ac7047694be104426008c40b3e8385bc&language=en_US&ref_=as_li_ss_tl
+,1,Flashlight,$8.49,$8.49,Amazon,Electronics,Exterior hull,Any,Control circuit and Reflector for led,2,1,https://www.amazon.com/Military-Lumens-Tactical-Waterproof-Flashlight/dp/B073VZZKK5/ref=sr_1_3_sspa?crid=2M3QKHWVXB8W4&dib=eyJ2IjoiMSJ9.lXgbvoVZD44wU7zO2F8-y16vQwzctg-k_sQIS7tDIRxmCJR-Ak71hJfxCvoiw-7Qa6n935hj7fNCZIw2PufKr34FY94KTtrN8E9J515D5N9eukmlIF0mHCcWVuTkMReUAwraoYZVq56r-9CTfl9xKgmHyjirjZjtOCUsmdX7TnIg-aiyk46OpGfhh6aqKVPeu4uYgJWW9asGd1sN1qkSH9ckGFxVD2k-ZotCAREws5d5bI_EAZUTMpQkvtm4vZIOEoczuxRgY40Jz_lCLD6GjRLGQ85SdfJrmTqjrY7C4Z0.4HmhRhwXV3N4Yf9OJsceXXwlE-Pxx2GpXACwpNcpK2w&dib_tag=se&keywords=flashlight&qid=1741422732&sprefix=flashligh%2Caps%2C204&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
+,2,Seeed Studio XIAO ESP32C3,$4.99,$9.98,Digikey,Electronics,Flashlights,[Need exact part],Control Flashlight logic,2,2,https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991054/16652880?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-16652880_sig-Cj0KCQiA8q--BhDiARIsAP9tKI1dtMzLnNqyYabjQPV5INZwOZ9zNJopy4ov2H6VovIXFSTS_blOxWcaAhF5EALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI1dtMzLnNqyYabjQPV5INZwOZ9zNJopy4ov2H6VovIXFSTS_blOxWcaAhF5EALw_wcB
+,1,2s Lipo Battery 2200mAh,$27.89,$27.89,Amazon,Electronics,Flashlights,See Part Name,Powers Flashlights,2,1,https://www.amazon.com/Zeee-Connector-Helicopter-Airplane-Quadcopter/dp/B0BYNKBKGT/ref=sr_1_2_sspa?crid=3E1OSGCNY477D&dib=eyJ2IjoiMSJ9.pLGWNxu6EX24rb6Wpa28tphNrZHPch40FQRebNyDsnLQz5wFQKHvrcq6KVO6dq-dHxntpokWfakBuEOyyPd-t1MQqiEgKNrq5KsdPHaflWC40RdjiphWVGL2BHwrbocFXRReiM-N0NHXeAEgO0njQlF5oF6DSV2_VO4T1UHaXE2vT-V2hIyti69SFgjKWO8UUWpgQOtZ5N7MfGjsVJVgzuhlrhMFgMdadiXyemZcEIcQBgEK66FiyzA6BisHtZr9U6oMhbCmNUkuLfIlRzM5V6OmDd1pKFGAccNi0blBPmI.1J93D8tG5VRsAq3tIu4v3q2chKzwIOtj4k5KIOd4OBs&dib_tag=se&keywords=2s%2BLipo%2BBattery%2B2200mAh&qid=1741423358&sprefix=2s%2Blipo%2Bbattery%2B2200mah%2Caps%2C188&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
+,2,5v buck converter,$6.95,$13.90,Adafruit,Electronics,Flashlights,1A minimum,Regulates flashlight power,2,2,https://www.adafruit.com/product/4739
+,,2 inch pvc,$8.48,$8.48,Lowes,Electronics,Flashlights,N/A,Flashlight body,2ft,1,https://www.lowes.com/pd/Charlotte-Pipe-2-in-x-2-ft-PVC-Pipe/5005518961
+,1,2 inch Threaded pvc cap,$7.95,$15.90,Amazon,Electronics,Flashlights,N/A,Openable end of flashlights,2,2,https://www.amazon.com/Threaded-Cap-Schedule-40-PVC/dp/B000VYN23W/ref=asc_df_B000VYN23W?mcid=a34623da747b374fb0f44df343a1dd15&hvocijid=4495615818098178723-B000VYN23W-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=4495615818098178723&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033458&hvtargid=pla-2281435177858&th=1
+,,2 inch Threaded pvc adapter,$2.59,$5.18,Home Depot,Electronics,Flashlights,N/A,adapter for threaded cap,2,2,https://www.homedepot.com/pep/Charlotte-Pipe-2-in-PVC-Schedule-40-MPT-x-S-Male-Adapter-PVC-02109-1600HD/203825431?source=shoppingads&locale=en-US&pla&mtc=SHOPPING-BF-CDP-GGL-D26P-026_001_PIPE_FITTING-NA-NA-NA-PLALIA-NA-NA-NA-NA-NBR-NA-NA-NEW-_PLATEST&cm_mmc=SHOPPING-BF-CDP-GGL-D26P-026_001_PIPE_FITTING-NA-NA-NA-PLALIA-NA-NA-NA-NA-NBR-NA-NA-NEW-_PLATEST-22111492781-173962209835-331272778036&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI1sCq-odJ_A_DiMKeAxeCbiu_xDnyNmoPr8CKOeCyFGxLWVsc08AeIaAsv7EALw_wcB
+,,1 1/2 inch pvc,$5.85,$5.85,Home Depot,Electronics,Flashlights,N/A,pvc for clear cap,6 inches,1,https://www.homedepot.com/p/Charlotte-Pipe-1-1-2-in-x-2-ft-PVC-DWV-Schedule-40-Pipe-PVC071120200HA/100581718
+,,2 inch to 1 1/2 inch pvc reducer,$3.32,$6.64,Lowes,Electronics,Flashlights,N/A,pvc adapter,2,2,https://www.lowes.com/pd/Charlotte-Pipe-2-IN-X-1-1-2-IN-SCH40-REDUCER-BUSHING/5012474889
+,,1 1/2 inch clear pvc cap,$3.90,$7.80,US Plastic,Electronics,Flashlights,N/A,clear cap,2,2,https://www.usplastic.com/catalog/item.aspx?itemid=154673&clickid=search
+,,Pvc cement,$5.22,$5.22,Home Depot,Electronics,Flashlights,N/A,holds PVC parts together,1,1,https://www.homedepot.com/pep/Oatey-8-oz-Regular-Clear-PVC-Cement-California-Compliant-310133V/322402448?g_store=&source=shoppingads&locale=en-US&pla&mtc=SHOPPING-BF-CDP-GGL-D26P-026_001_PIPE_FITTING-NA-NA-NA-PLALIA-NA-NA-NA-NA-NBR-NA-NA-NEW-_PLATEST&cm_mmc=SHOPPING-BF-CDP-GGL-D26P-026_001_PIPE_FITTING-NA-NA-NA-PLALIA-NA-NA-NA-NA-NBR-NA-NA-NEW-_PLATEST-22111492781-173962209835-331272777516&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI1dx65K0hiOxNN2FyJzXX6uXpPvuM0F4sR484-34pkYK32VZuAedFUaAmlNEALw_wcB
+,1,USB A hub,$6.99,$13.98,Amazon,Electronics,Electronics tray,3 ports or more,adds more USB ports to the Pi,2,2,https://www.amazon.com/UGREEN-Splitter-Ultra-Slim-Expander-Compatible/dp/B0CD1BHXPZ/ref=sr_1_6?crid=99EHNABYR9ZY&dib=eyJ2IjoiMSJ9.lX3Oa0Sl6oY0sH5jggB4hjahxMnskYh4U9I25wXJk67wsD2RxibZS0HeifD-OOncSXHAhLUzH2CXKQGfMVJ0gGRMSOcda8xHCCriYuUiHD1od0o8EDm2gpvyxmXXRk3GXZ8yNHHDytBvzxkmvbVfRCgMf-7HOiy0u1NoBpaUpF_FYYDioAwLh65VTftTgJXkMfZZPOlqgyJoZiCurEPQgyYTQBOnM_5It0E5MBTR7u4.lJxGS4Ugt3CnLV_drdSTo9nZmBQ8tXxWYNXLpZAWEY4&dib_tag=se&keywords=usb%2BA%2Bhub&qid=1741424082&sprefix=usb%2Ba%2Bhu%2Caps%2C182&sr=8-6&th=1
+,1,Dupont cables,$6.98,$13.96,Amazon,Electronics,Electronics tray,N/A,Connects microcontrollers to circuits,2,2,https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=sr_1_3_pp?crid=2KT77L6XNGEMX&dib=eyJ2IjoiMSJ9.QGbaFF62mgZ1Tf0J7CajkBnivKMOTOpZJUS1O07RvMQU3CAJkJItodgHMXr-DiiJ-FDFiWcsNQ_QE6lirbsx2Mb_L6VHmvl9hVIxqoNa9aVfbZqLGnqIEXrl7UH-EBU11tEVYbXtivaDyGXfp98prCGewThVxp4-yOJKrJeBL7pBjnUB9d2itO3FHVKH3bSJHUTVtUo3MhosWlAyl53Dgx7X7qASUGAWjVBbHD5vuEs.uv8jUzmf36kxkS1kLaT0zW0kUCi3cGh7kixOTUBd6_s&dib_tag=se&keywords=dupont+cables&qid=1741424152&sprefix=dupont+cable%2Caps%2C167&sr=8-3
+,1,Noctua 80mm fan,$16.11,$48.33,Amazon,Electronics,Interior Cooling ducts,N/A,Provides air circulation,3,3,https://www.amazon.com/Noctua-Bearing-Premium-NF-A8-PWM/dp/B00VG9PJBO/ref=asc_df_B00VG9PJBO?mcid=9df0e357253335b19d65e9c5ce952d09&hvocijid=9631906556185081387-B00VG9PJBO-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=9631906556185081387&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027751&hvtargid=pla-2281435179578&th=1
+,5,4468 fans,$2.95,$14.75,Digikey,Electronics,Interior Cooling ducts,N/A,directs air onto components,5,5,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4468/11587354
+,,Copper Sheet,$0.00,$0.00,Pre-Owned,Electronics,Interior face of Hull,,Provides thermal mass for dissipation,1,1,
+,,Thermal paste,$13.99,$13.99,Amazon,Electronics,(various locations),N/A,Provides a thermal bridge,100g,1,https://www.amazon.com/HY-510-1pcs-25g-Thermal-Paste-Conductivity/dp/B07PHT3LWC/ref=sr_1_2_sspa?crid=12TXH6RJYA23M&dib=eyJ2IjoiMSJ9.Sy9AJsgkyUyZmVshdu-WnGjb7JqdoNcxJXkw8rOLcS9oEAjP24kydukqgQuTIFWH0mdW9SlKQHf7ntq_gP04LR5zwHlAOZD6V-0wvcopdlBl_MpLUDTutAdDVPWUsy5dTAkA8VTP5cJOQrA6SopbRmt1yM3ZVHsnNLyP16wZOkVG6ZnBis06MRyKTPKJ4R4oSD2XkUPpjbSOsgdhuPjXml9a-zUrwCa4j7ihlgMfFWc.9DTn8F05jluz_wlIoN0hwvqnETn_nKYvfDNpyGY4Bh4&dib_tag=se&keywords=thermal%2Bpaste&qid=1741425561&sprefix=thermal%2Bpaste%2Caps%2C181&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
+,,Ptm7950 phase change thermal pads,$25.99,$25.99,Newegg,Electronics,(various locations),N/A,"Provides a more effective, thinner thermal bridge",80mmx80mm,1,https://www.newegg.com/p/2MB-001F-00072?Item=9SIA4REK368786&cm_sp=product-_-from-price-options
+,,Heatsinks,$0.00,$0.00,Pre-Owned,Electronics,Interior face of Hull,,Dissipates heat,,,
+,10,8 connector terminal blocks,$3.83,$30.64,Digikey,Electronics,Back plate near glands,[Need exact part],Takes cable inputs from glands,8,8,https://www.digikey.com/en/products/detail/phoenix-contact/1715789/260634?gclsrc=aw.ds&&utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Supplier_Phoenix%20Contact_0277_Co-op&utm_term=&utm_content=General&utm_id=go_cmp-20504612307_adg-_ad-__dev-c_ext-_prd-260634_sig-Cj0KCQiA8q--BhDiARIsAP9tKI110WCRjKVtJdzv0LxQNrAAWoApXKyRCm6QHHgKhROyrJSA_HXswE8aAqEtEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI110WCRjKVtJdzv0LxQNrAAWoApXKyRCm6QHHgKhROyrJSA_HXswE8aAqEtEALw_wcB
+,,16 gauge x6 cables,$1.48,$23.68,WireandCableYourWay,Electronics,Gland outputs,[Need exact part],cable for glands,16,16,https://www.wireandcableyourway.com/16-6-soow-portable-cord-600v-ul-csa
+,,18 gauge x3 cables,$0.53,$21.20,WireandCableYourWay,Electronics,Gland outputs,[Need exact part],cable for glands,40,40,https://www.wireandcableyourway.com/18-3-soow-portable-cord-600v-ul-csa
+,10,SPST switch,$0.71,$7.10,Digikey,Electronics,Electronics tray,"5V, 5A",Control circuits for power off and debugging,10,10,https://www.digikey.com/en/products/detail/e-switch/RA1113112R/3778055?gclsrc=aw.ds&&utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Supplier_E-Switch_0141_Co-op&utm_term=&utm_content=General&utm_id=go_cmp-20504611644_adg-_ad-__dev-c_ext-_prd-3778055_sig-Cj0KCQiA8q--BhDiARIsAP9tKI3bgqc4rqdHSJ7_qrQkf4AOrmP-LusoS-BV493J4OiuM2sL11GzD0QaAlO7EALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI3bgqc4rqdHSJ7_qrQkf4AOrmP-LusoS-BV493J4OiuM2sL11GzD0QaAlO7EALw_wcB
+,1,Cutoff switch,$14.99,$14.99,Amazon,Electronics,Electronics tray,"12V, 200A",Hard cut for main power,1,1,https://www.amazon.com/Battery-Disconnect-Current-Isolator-Outboards/dp/B0B17BGHPS/ref=sr_1_1_sspa?crid=DD1L9X9OU1ZU&dib=eyJ2IjoiMSJ9.WN-EfbA82wSd8EdjeP9eQ4KbP-ad-i0MWoyj2I3-lwGK-tJY-xtagNLM1bvQUoJrvqsRAW3qI9-CIweCivnGpOq8xMz5QITWz6wKoI2uIE01FVD-kUr5Zd6imCiWfeCwUh8Xjwy3uq-oe-OgfrMb4n2J0xOQXiUaooD9azLfRhXlcBqLU25SqqbwEyNiwi-0mydrjJ73qTmJoduxNfpFeK77CuvtPYYy2qXDxC8S6-o.R0Bh_m8YW8eXXH1HVyOIz7frOBy78aDGhY8nCmH4jwc&dib_tag=se&keywords=200A+switch&qid=1741509535&sprefix=200a+switch%2Caps%2C187&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
+,1,OLED graphic display,$19.95,$39.90,Adafruit,Electronics,Electronics tray,"Monochrome 1.3"" 128x64",provides a display for system info,2,2,https://www.adafruit.com/product/938?gQT=1
+,1,Waterproof switch cover,$3.08,$3.08,Digikey,Electronics,Back plate,[Need exact part],Waterproofs a button,1,1,https://www.digikey.com/en/products/detail/apm-hexseal/N3030-2/340286?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-340286_sig-Cj0KCQiA8q--BhDiARIsAP9tKI2nmv-bcKKGng553P4fOKOVNX73V_X-_LC1nfKtupzqTVRA_vPkK8QaAvK7EALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI2nmv-bcKKGng553P4fOKOVNX73V_X-_LC1nfKtupzqTVRA_vPkK8QaAvK7EALw_wcB
+,,Exterior cutoff switch,$2.61,$2.61,Digikey,Electronics,Back plate,N/A,Button for emergency cutoff,1,1,https://www.digikey.com/en/products/detail/c-k/F2UEE/417517
+,1,HiLetgo RFID Kit,$5.69,$5.69,Amazon,Electronics,Interior face of Hull,[Need exact part],Reads RFID cards for external controls,1,1,https://www.amazon.com/HiLetgo-RFID-Kit-Arduino-Raspberry/dp/B01CSTW0IA/ref=asc_df_B01CSTW0IA?mcid=896d590d183434548498ee0eaa5bc8a9&hvocijid=3803634920787568789-B01CSTW0IA-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=3803634920787568789&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033458&hvtargid=pla-2281435177898&psc=1
+,1,T5577 Thick Smart Cards,$6.98,$6.98,Amazon,Electronics,N/A,Any Programmable RFID cards or tags,Extra RFID cards for other functions,5,1,https://www.amazon.com/Contactless-Rewritable-Proximity-Clamshell-Compatible/dp/B0DHVXYNZL/ref=asc_df_B0DHVXYNZL?mcid=57f536805084363aac17d973db9567c6&hvocijid=2557123198389000666-B0DHVXYNZL-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=2557123198389000666&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027751&hvtargid=pla-2281435177818&th=1
+,,Underwater Ultrasonic Obstacle Avoidance Sensor,$32.00,$256.00,DFR Robot,Electronics,Exterior mounts,[Need exact part],"Ultrasonic distance sensor, for 3d mapping",8,8,https://www.dfrobot.com/product-2760.html?srsltid=AfmBOoqPc1YJtI6VFpQhX6PPeJH48JtYGnyYebao-qyBZJvDQugwt06e
+,1,6 axis accelerometer and 3 axis gyroscope,$19.95,$39.90,Adafruit,Electronics,Electronics tray,[Need exact part],detects the orientation of the vehicle,2,2,https://www.adafruit.com/product/4517
+,1,Adafruit AM2320 Sensor ,$3.95,$3.95,Digikey,Electronics,Electronics tray,[Need exact part],Detects humidity,1,1,https://www.digikey.com/en/products/detail/adafruit-industries-llc/3721/8558266?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-8558266_sig-Cj0KCQiA8q--BhDiARIsAP9tKI2Kms5GB3CJ1JOyI2FybzSZUoRupl69NsvdqVQQQjq5s8awtnzhioAaAn8aEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI2Kms5GB3CJ1JOyI2FybzSZUoRupl69NsvdqVQQQjq5s8awtnzhioAaAn8aEALw_wcB&gclsrc=aw.ds
+,10,10k thermistor,$0.95,$9.50,Digikey,Electronics,(various locations),[Need exact part],Detects heat at a point to prevent overheating,10,10,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4890/13982731?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-13982731_sig-Cj0KCQiA8q--BhDiARIsAP9tKI3Yx7fzMhg2jWFa5g3DBjTna4DHJ5FOdpN29FxehW3_vbuZWtMND4caAi6bEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI3Yx7fzMhg2jWFa5g3DBjTna4DHJ5FOdpN29FxehW3_vbuZWtMND4caAi6bEALw_wcB&gclsrc=aw.ds
+,1,DF Robot SEN0257 ,$17.50,$17.50,Digikey,Electronics,Exterior mounts,[Need exact part],Detects pressure under the water (to tell depth),1,1,https://www.digikey.com/en/products/detail/dfrobot/SEN0257/8341836?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-8341836_sig-Cj0KCQiA8q--BhDiARIsAP9tKI3dXmYnKjigYHR5jSG1fce1zcgZn5eL91qZ3eiujxiAe_ETn0kwhQIaAlrPEALw_wcB&gad_source=1&gclid=Cj0KCQiA8q--BhDiARIsAP9tKI3dXmYnKjigYHR5jSG1fce1zcgZn5eL91qZ3eiujxiAe_ETn0kwhQIaAlrPEALw_wcB&gclsrc=aw.ds
+,,Adafruit MPRLS Ported Pressure Sensor,$29.95,$29.95,Adafruit,Electronics,Electronics tray,[Need exact part],Detects interior pressure to monitor for issues,1,1,https://www.adafruit.com/product/3965
+,,Waterproof DS18B20 Digital temperature sensor,$6.90,$6.90,Digikey,Electronics,Exterior mounts,[Need exact part],detects water temperature,1,1,https://www.digikey.com/en/products/detail/dfrobot/DFR0198/7597054?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-7597054_sig-Cj0KCQiAlbW-BhCMARIsADnwasq8qwaE3prtiDhAP_g58RUROLYU-I0KW59koIf80kDk4i3UIIig1aoaAjKAEALw_wcB&gad_source=1&gclid=Cj0KCQiAlbW-BhCMARIsADnwasq8qwaE3prtiDhAP_g58RUROLYU-I0KW59koIf80kDk4i3UIIig1aoaAjKAEALw_wcB&gclsrc=aw.ds
+,1,10k photoresistor,$0.95,$0.95,Digikey,Electronics,Dome plate,[Need exact part],detects light to only turn on flashlights when needded,1,1,https://www.digikey.com/en/products/detail/adafruit-industries-llc/161/7244927?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-7244927_sig-Cj0KCQiAlbW-BhCMARIsADnwasrWjg6oGe1ypQ1QP7T8duFWu_qEqi2iyKCKSV2Fp1qDqhex8MFGjEsaAgFWEALw_wcB&gad_source=1&gclid=Cj0KCQiAlbW-BhCMARIsADnwasrWjg6oGe1ypQ1QP7T8duFWu_qEqi2iyKCKSV2Fp1qDqhex8MFGjEsaAgFWEALw_wcB&gclsrc=aw.ds
+,,HMC5883L compass,$7.99,$7.99,Amazon,Electronics,Electronics tray,N/A,Provides reference orientation for the Vehicle,1,1,https://www.amazon.com/Comimark-QMC5883L-Compass-Magnetometer-Arduino/dp/B0855TZV1J/ref=asc_df_B0855TZV1J?mcid=211be108a2f435d08c71a032428202ca&hvocijid=5399623219145986394-B0855TZV1J-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=730312820598&hvpos=&hvnetw=g&hvrand=5399623219145986394&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027751&hvtargid=pla-2281435178058&psc=1
+,,USB A breakout boards,$0.00,$0.00,Pre-Owned,Electronics,Electronics tray,N/A,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
+,,,$0.00,$0.00,,,,,,,,
