@@ -19,6 +19,7 @@ int input_control_4;
 //Run once on board startup
 void setup() {
     initialize_dso32();
+    pinMode(2, INPUT);
     pinMode(A14, INPUT);
     pinMode(A15, INPUT);
     pinMode(50, INPUT);
@@ -32,9 +33,9 @@ void setup() {
 
 //Run continuously after setup completion
 void loop() {
-    sensor_test_loop();
+    //sensor_test_loop();
     //Serial.println(analogRead(A11));
-    analogWrite(A8, analogRead(A11));
+    //analogWrite(A8, analogRead(A11));
     input_control = analogRead(A15);
     input_control_2 = analogRead(A14);
     input_control_3 = analogRead(A13);
@@ -49,7 +50,11 @@ void loop() {
     test_ESC_2.write(target_value_2);
     test_ESC_3.write(target_value_3);
     test_ESC_4.write(target_value_4);
-    //Serial.println(analogRead(A15));
+    Serial.print(target_value);
+    Serial.print("   ");
+    Serial.println(analogRead(A15));
+    //Serial.print("   ");
+    //Serial.println(analogRead(2));
 }
 
 //Wrapper for servo.attach() to avoid overwriting existing attachment
