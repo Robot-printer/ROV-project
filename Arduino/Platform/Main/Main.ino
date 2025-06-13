@@ -7,18 +7,13 @@
 //For now, files will be located in the same directory as the main program
 #include "Main.h"
 
-//These include statements are redundant, as they are present in Main.h, but for now they'll stay here too
-#include "MotorControl.h"
-#include "6AxisSensor.h"
-#include "Comms.h"
 
-bool message_written = false;
 
 //This function runs once, when the Arduino is first powered up.
 //This is where initialization, configuration, etc. should be added.
 void setup()
 {
-  //Start the serial connection with a baud rate of 115200
+  //Start the primary serial connection with a baud rate of 115200
   start_serial(115200);
 }
 
@@ -34,21 +29,6 @@ void loop()
   {
     parse_message(message); //Logic to determine what to do with the message is in here
   }
-  else
-  {
-    if (!message_written){
-      //long long value = 0x1234;
-      double value = 333.333;
-      uint8_t package[6];
-      package_float(value, package);
-      uint8_t test_message[8] = {DEBUG_PRINT, 0x00, package[0], package[1], package[2], package[3], package[4], package[5]};
-
-      write_serial(test_message);
-      message_written = true;
-    }
-  }
-  
-  
 
   /*
   int result = echo_serial();
