@@ -7,14 +7,14 @@
 //For now, files will be located in the same directory as the main program
 #include "Main.h"
 
-
-
 //This function runs once, when the Arduino is first powered up.
 //This is where initialization, configuration, etc. should be added.
 void setup()
 {
   //Start the primary serial connection with a baud rate of 115200
   start_serial(115200);
+  
+  init_IMUs();
 }
 
 //This function is called repeatedly for as long as the Arduino has power.
@@ -30,13 +30,6 @@ void loop()
     parse_message(message); //Logic to determine what to do with the message is in here
   }
 
-  /*
-  int result = echo_serial();
-  if (result < 0)
-  {
-    Serial.print("ErrEchoM");
-  }
-  */
 }
 
 //Parse message to figure out which function should be called
