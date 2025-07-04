@@ -3,13 +3,16 @@
 #include "Comms.h"
 
 //Wrapper to start the serial connection
-void start_serial(long baud_rate)
+void start_serial(unsigned long baud_rate)
 {
   //Start the Serial connection so that the Arduino and Raspberry Pi
   //can communicate with each other
   Serial.begin(baud_rate);
   //Wait for the Serial connection to open before doing anything else
-  while(!Serial){}
+  while(!Serial)
+  {
+    ;
+  }
   //Clear anything that might be in the serial buffers
   Serial.flush();
   //Send a "serial ready" message to the Raspberry Pi

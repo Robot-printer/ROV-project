@@ -7,7 +7,7 @@
 #include "MessagePrefixes.h"
 
 //Wrapper to start the serial connection
-void start_serial(long baud_rate);
+void start_serial(unsigned long baud_rate);
 
 //Wrapper to read an 8-byte message and return the size of it (which should also be 8)
 size_t read_serial(uint8_t message[8]);
