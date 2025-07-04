@@ -6,6 +6,7 @@
 #include "IMU.h"
 #include "Comms.h"
 #include "MessagePrefixes.h"
+#include "Common.h"
 
 //States (modes) for the Arduino to be in
 #define STBY 0x0 // "Standby". Do nothing, wait for instructions
@@ -15,7 +16,6 @@
 #define RSET 0xD // "Reset". Set everything back to default settings in event of error.
 #define ESTP 0xE // "Emergency Stop". Turn off all motors or other moving parts and go into Standby mode.
 #define PDWN 0xF // "Power Down". Standard procedure for turning off all components and shutting off vehicle.
-
 
 //Parse message to figure out which function should be called
 void parse_message(uint8_t message[8]);
