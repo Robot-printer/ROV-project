@@ -18,7 +18,7 @@ int chip_count = 0;
 
 // There are 3 different sensor module types on the vehicle, and 4 total types of chip, each of which needs its own function to initialize it:
 //
-// LSM6DSO32 - Single chip module with accelerometer & gyroscope (I2C: 0x6A (default), 0x6B (alternative))
+// (DISABLED TO AVOID CONFLICTS) LSM6DSO32 - Single chip module with accelerometer & gyroscope (I2C: 0x6A (default), 0x6B (alternative))
 // LSM6DSOX+LIS3MDL - Double chip module, where one chip has accelerometer & gyroscope, and the other chip has magnetometer
 // --LSM6DSOX - Accelerometer & gyroscope (I2C: 0x6A (default), 0x6B (alternative))
 // -- --This chip uses the same I2C address set as LSM6DSO32, but has a different object class in the code
@@ -52,6 +52,7 @@ uint8_t init_IMUs()
     }
   }
 
+  //DISABLED TO AVOID CONFLICTS
   /*
   //Loop through possible LSM6DSO32 addresses and begin I2C communication with them, then register the chip in pointer array
   for (int i = 0; i < 2; i++)
@@ -145,7 +146,7 @@ size_t register_IMUs(device* devs, size_t size)
     }
   }
 
-
+  //DISABLED TO AVOID CONFLICTS
   /*
   // Regsiter LSM6DSO32 chips in main device list
   for (int i = 0; i < 2; i++)
