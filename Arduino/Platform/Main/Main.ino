@@ -43,6 +43,12 @@ int active_ult_son_sensor = 0;
 //Flag to keep track of whether the ultrasonic sensor is waiting for a response ping or not
 bool sensor_awaiting_response = false;
 
+//What time (ms) the last ping was sent from an ultrasonic sensor
+unsigned long last_ping_time = 0;
+
+//Maximum amount of time (ms) we're willing to wait before we consider the ping a failure and move on
+unsigned long max_ping_wait_time = 100;
+
 //Buffers for Ultrasonic sensors
 unsigned char ult_son_buff[4][4];
 
@@ -51,6 +57,8 @@ uint8_t checksum[4];
 
 //Distance readings from Ultrasonic sensors
 int distance[4];
+
+int old_distance[4];
 
 //Accelerometer data from each IMU
 sensors_event_t accel[3];
@@ -109,31 +117,30 @@ Servo thruster8;
 //This is where initialization, configuration, etc. should be added.
 void setup()
 {
+  unsigned long t1 = 0;
   //Primary serial connection, used to communicate with Raspberry Pi
   Serial.begin(115200);
   while (!Serial){;}
   Serial.flush();
+
   
   //Serial communication to first Ultrasonic Sensor
   //Pins: RX=19, TX=18
   Serial1.begin(115200);
   while (!Serial1){;}
   Serial1.flush();
-  sensorSerial[0].hardware = &Serial1;
-
+  /*
   //Serial communication to second Ultrasonic Sensor
   //Pins: RX=17, TX=16
   Serial2.begin(115200);
   while (!Serial2){;}
   Serial2.flush();
-  sensorSerial[1].hardware = &Serial2;
 
   //Serial communication to third Ultrasonic Sensor
   //Pins: RX=15, TX=14
   Serial3.begin(115200);
   while (!Serial3){;}
   Serial3.flush();
-  sensorSerial[2].hardware = &Serial3;
 
   //Serial communication to fourth Ultrasonic Sensor
   pinMode(SER4RX, INPUT);
@@ -141,6 +148,11 @@ void setup()
   Serial4.begin(115200);
   while (!Serial4){;}
   Serial4.flush();
+  */
+
+  sensorSerial[0].hardware = &Serial1;
+  sensorSerial[1].hardware = &Serial2;
+  sensorSerial[2].hardware = &Serial3;
   sensorSerial[3].software = &Serial4;
 
   //Begin I2C communication with the IMU/Magnetometer chips
@@ -149,6 +161,7 @@ void setup()
   chip_948_1.begin_I2C(0x69);
   chip_948_2.begin_I2C(0x68);
 
+  /*
   //Attach the ESCs to their corresponding servo object
   thruster1.attach(THRUSTER1PIN, ESC_MIN, ESC_MAX);
   thruster2.attach(THRUSTER2PIN, ESC_MIN, ESC_MAX);
@@ -158,7 +171,8 @@ void setup()
   thruster6.attach(THRUSTER6PIN, ESC_MIN, ESC_MAX);
   thruster7.attach(THRUSTER7PIN, ESC_MIN, ESC_MAX);
   thruster8.attach(THRUSTER8PIN, ESC_MIN, ESC_MAX);
-  
+  */
+
   //Once setup is finished, send "READY" to Raspberry Pi
   Serial.println("READY");
 
@@ -212,6 +226,7 @@ void loop()
     unsigned int count = ms.GlobalMatch("(%S+)", matchCallback);
   }
 
+  /*
   //Set throttle for each thruster according to message from Pi
   if (command == "MOTOR")
   {
@@ -246,7 +261,7 @@ void loop()
         break;
     }
   }
-
+  */
   //Read current state of IMUs
   chip_OX_1.getEvent(&accel[0], &gyro[0], &temp[0]);
   chip_MDL_1.getEvent(&magnet[0]);
@@ -254,6 +269,7 @@ void loop()
   chip_948_2.getEvent(&accel[2], &gyro[2], &temp[2], &magnet[2]);
 
   //Send data from accel, gyro, and magnet from each IMU to Pi
+  
   for (int i = 0; i < 3; i++)
   {
     Serial.print("ACCEL ");
@@ -269,11 +285,11 @@ void loop()
     Serial.print("GYRO ");
     Serial.print(i + 1);
     Serial.print(" ");
-    Serial.print(gyro[i].gyro.heading, 10);
+    Serial.print(gyro[i].gyro.x, 10);
     Serial.print(" ");
-    Serial.print(gyro[i].gyro.pitch, 10);
+    Serial.print(gyro[i].gyro.y, 10);
     Serial.print(" ");
-    Serial.print(gyro[i].gyro.roll, 10);
+    Serial.print(gyro[i].gyro.z, 10);
     Serial.println();
 
     Serial.print("MAGNET ");
@@ -286,22 +302,50 @@ void loop()
     Serial.print(magnet[i].magnetic.z, 10);
     Serial.println();
   }
-
+  
   //Read current state of Ultrasonic Sensors
   if (active_ult_son_sensor < 3)
   {
-    
+    //Serial.println("One of the hardware ones");
     if (!sensor_awaiting_response)
     {
+      //Serial.println("Not waiting, so time to ping");
       sensorSerial[active_ult_son_sensor].hardware->write(COM);
+      last_ping_time = millis();
       sensor_awaiting_response = true;
-      //delay(5);
+      //delay(2);
+    }
+    else
+    {
+      if (millis() - last_ping_time > max_ping_wait_time)
+      {
+        distance[active_ult_son_sensor] = -1;
+        sensor_awaiting_response = false;
+        sensorSerial[active_ult_son_sensor].hardware->end();
+        active_ult_son_sensor ++;
+        if (active_ult_son_sensor > 3)
+        {
+          active_ult_son_sensor = 0;
+        }
+
+        if (active_ult_son_sensor < 3)
+        {
+          sensorSerial[active_ult_son_sensor].hardware->begin(115200);
+        }
+        else
+        {
+          sensorSerial[active_ult_son_sensor].software->begin(115200);
+        }
+      }
     }
     if (sensorSerial[active_ult_son_sensor].hardware->available() >= 4)
     {
-      if (sensorSerial[active_ult_son_sensor].hardware->read() == 0xFF)
+      int data = sensorSerial[active_ult_son_sensor].hardware->read();
+      //Serial.println(data, HEX);
+      if (data == 0xFF)
       {
         ult_son_buff[active_ult_son_sensor][0] = 0xFF;
+        //Serial.println("Got a response for a sensor");
         for (int i = 1; i < 4; i++)
         {
           ult_son_buff[active_ult_son_sensor][i] = sensorSerial[active_ult_son_sensor].hardware->read();
@@ -310,12 +354,23 @@ void loop()
 
         if (ult_son_buff[active_ult_son_sensor][3] == checksum[active_ult_son_sensor])
         {
+          //Serial.println("Checksum is correct");
           distance[active_ult_son_sensor] = (ult_son_buff[active_ult_son_sensor][1] << 8) + ult_son_buff[active_ult_son_sensor][2];
+          sensorSerial[active_ult_son_sensor].hardware->end();
           active_ult_son_sensor ++;
           sensor_awaiting_response = false;
           if (active_ult_son_sensor > 3)
           {
             active_ult_son_sensor = 0;
+          }
+
+          if (active_ult_son_sensor < 3)
+          {
+            sensorSerial[active_ult_son_sensor].hardware->begin(115200);
+          }
+          else
+          {
+           sensorSerial[active_ult_son_sensor].software->begin(115200);
           }
         }
       }
@@ -323,11 +378,29 @@ void loop()
   }
   else
   {
+    //Serial.println("The Software one");
     if (!sensor_awaiting_response)
     {
+      //Serial.println("Not waiting, ping");
       sensorSerial[active_ult_son_sensor].software->write(COM);
+      last_ping_time = millis();
       sensor_awaiting_response = true;
-      //delay(5);
+      //delay(2);
+    }
+    else
+    {
+      if (millis() - last_ping_time > max_ping_wait_time)
+      {
+        distance[active_ult_son_sensor] = -1;
+        sensor_awaiting_response = false;
+        sensorSerial[active_ult_son_sensor].software->end();
+        active_ult_son_sensor ++;
+        if (active_ult_son_sensor > 3)
+        {
+          active_ult_son_sensor = 0;
+        }
+        sensorSerial[active_ult_son_sensor].hardware->begin(115200);
+      }
     }
     if (sensorSerial[active_ult_son_sensor].software->available() >= 4)
     {
@@ -343,24 +416,30 @@ void loop()
         if (ult_son_buff[active_ult_son_sensor][3] == checksum[active_ult_son_sensor])
         {
           distance[active_ult_son_sensor] = (ult_son_buff[active_ult_son_sensor][1] << 8) + ult_son_buff[active_ult_son_sensor][2];
+          sensorSerial[active_ult_son_sensor].software->end();
           active_ult_son_sensor ++;
           sensor_awaiting_response = false;
           if (active_ult_son_sensor > 3)
           {
             active_ult_son_sensor = 0;
           }
+          sensorSerial[active_ult_son_sensor].hardware->begin(115200);
         }
       }
     }
   }
   //Send distance data from each ultrasonic sensor to pi
-  for (int i = 0; i < 3; i++)
+  for (int i = 0; i < 4; i++)
   {
-    Serial.print("USONIC ");
-    Serial.print(i + 1);
-    Serial.print(" ");
-    Serial.print(distance[i]);
-    Serial.println();
+    if (distance[i] != old_distance[i])
+    {
+      Serial.print("USONIC ");
+      Serial.print(i + 1);
+      Serial.print(" ");
+      Serial.print(distance[i]);
+      Serial.println();
+      old_distance[i] = distance[i];
+    }
   }
 
   //DISABLED IN FAVOR OF SIMPLER SYSTEM
