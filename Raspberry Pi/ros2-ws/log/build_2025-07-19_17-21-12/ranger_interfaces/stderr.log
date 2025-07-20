@@ -1,0 +1,10 @@
+[31mCMake Error at /opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'msg/UltrasonicDistance/msg'
+  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/ranger/ROV-project/ROV-project/Raspberry
+  Pi/ros2-ws/src/ranger_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:14 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:1625: cmake_check_build_system] Error 1

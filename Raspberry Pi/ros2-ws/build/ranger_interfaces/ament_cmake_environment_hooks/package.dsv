@@ -1,0 +1,4 @@
+source;share/ranger_interfaces/local_setup.bash
+source;share/ranger_interfaces/local_setup.dsv
+source;share/ranger_interfaces/local_setup.sh
+source;share/ranger_interfaces/local_setup.zsh

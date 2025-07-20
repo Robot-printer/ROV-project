@@ -9,7 +9,20 @@ endif()
 find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/ThrusterThrottle.msg"
+  "msg/IMUAccel.msg"
+  "msg/IMUGyro.msg"
+  "msg/IMUMagnet.msg"
+  "msg/UltrasonicDistance.msg"
+  "msg/VehicleTransform.msg"
+  "msg/WaypointLocation.msg"
+  "msg/WaypointDistance.msg"
+  "msg/ObstacleLocation.msg"
+  "msg/MovementVector.msg"
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

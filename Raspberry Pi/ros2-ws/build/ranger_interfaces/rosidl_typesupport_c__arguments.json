@@ -1,0 +1,35 @@
+{
+  "package_name": "ranger_interfaces",
+  "output_dir": "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_c/ranger_interfaces",
+  "template_dir": "/opt/ros/kilted/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/ThrusterThrottle.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/IMUAccel.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/IMUGyro.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/IMUMagnet.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/UltrasonicDistance.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/VehicleTransform.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/WaypointLocation.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/WaypointDistance.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/ObstacleLocation.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/MovementVector.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/kilted/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/kilted/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/kilted/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/kilted/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/kilted/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/ThrusterThrottle.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/IMUAccel.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/IMUGyro.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/IMUMagnet.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/UltrasonicDistance.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/VehicleTransform.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/WaypointLocation.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/WaypointDistance.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/ObstacleLocation.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/MovementVector.idl"
+  ]
+}
