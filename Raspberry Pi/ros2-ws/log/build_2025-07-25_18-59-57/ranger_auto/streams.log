@@ -1,0 +1,25 @@
+[1.579s] Invoking command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ranger_auto build --build-base /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build install --record /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/install.log --single-version-externally-managed install_data
+[2.079s] running egg_info
+[2.110s] writing ../../build/ranger_auto/ranger_auto.egg-info/PKG-INFO
+[2.111s] writing dependency_links to ../../build/ranger_auto/ranger_auto.egg-info/dependency_links.txt
+[2.112s] writing entry points to ../../build/ranger_auto/ranger_auto.egg-info/entry_points.txt
+[2.113s] writing requirements to ../../build/ranger_auto/ranger_auto.egg-info/requires.txt
+[2.113s] writing top-level names to ../../build/ranger_auto/ranger_auto.egg-info/top_level.txt
+[2.182s] reading manifest file '../../build/ranger_auto/ranger_auto.egg-info/SOURCES.txt'
+[2.182s] adding license file 'LICENSE'
+[2.183s] writing manifest file '../../build/ranger_auto/ranger_auto.egg-info/SOURCES.txt'
+[2.184s] running build
+[2.184s] running build_py
+[2.184s] copying ranger_auto/serial_comms.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto
+[2.185s] running install
+[2.197s] running install_lib
+[2.230s] copying /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto/serial_comms.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto
+[2.230s] byte-compiling /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto/serial_comms.py to serial_comms.cpython-312.pyc
+[2.234s] running install_data
+[2.234s] running install_egg_info
+[2.269s] removing '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto-0.0.0-py3.12.egg-info' (and everything under it)
+[2.270s] Copying ../../build/ranger_auto/ranger_auto.egg-info to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto-0.0.0-py3.12.egg-info
+[2.271s] running install_scripts
+[2.475s] Installing pathfinder script to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/ranger_auto
+[2.475s] writing list of installed files to '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/install.log'
+[2.577s] Invoked command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ranger_auto build --build-base /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build install --record /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/install.log --single-version-externally-managed install_data

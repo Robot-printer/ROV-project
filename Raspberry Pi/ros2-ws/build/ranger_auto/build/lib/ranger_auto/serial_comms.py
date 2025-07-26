@@ -16,7 +16,7 @@ baudrate = 115200
 pattern = re.compile(r'\S+')
 ser = serial.Serial()
 
-sensor_update_frequency = 5000  # Hz
+sensor_update_frequency = 5000  #Hz
 
 latest_accel = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 latest_gyro = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
