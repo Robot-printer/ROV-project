@@ -8,6 +8,7 @@ from sensor_msgs.msg import Imu, MagneticField, Range
 import re
 
 import serial
+import time
 
 
 comport = '/dev/ttyACM0'
@@ -53,13 +54,14 @@ class SerialComms(Node):
     
 
 def parse_message(message):
+    t_stamp = time.time_ns()
     result = pattern.split(message)
     command = result[0]
     id = result[1]
     data = []
-    try:
+    if len(result) > 3:
         data = [result[2], result[3], result[4]]
-    except:
+    else:
         data = result[2]
 
     match command:
@@ -79,6 +81,9 @@ def parse_message(message):
 
                 latest_accel[id] = [0, 0, 0]
                 latest_gyro[id] = [0, 0, 0]
+
+                pub.header.stamp.sec = int(t_stamp / 1_000_000_000)
+                pub.header.stamp.nanosec = t_stamp % 1_000_000_000
 
                 return pub
 
@@ -100,6 +105,9 @@ def parse_message(message):
                 latest_accel[id] = [0, 0, 0]
                 latest_gyro[id] = [0, 0, 0]
 
+                pub.header.stamp.sec = int(t_stamp / 1_000_000_000)
+                pub.header.stamp.nanosec = t_stamp % 1_000_000_000
+
                 return pub
 
         case "MAGNET":
@@ -110,6 +118,9 @@ def parse_message(message):
             pub.magnetic_field.y = data[1]
             pub.magnetic_field.z = data[2]
 
+            pub.header.stamp.sec = int(t_stamp / 1_000_000_000)
+            pub.header.stamp.nanosec = t_stamp % 1_000_000_000
+
             return pub
         case "USONIC":
             pub = Range()
@@ -117,6 +128,9 @@ def parse_message(message):
             pub.header.frame_id = id
             pub.radiation_type = 0
             pub.range = data[0]
+
+            pub.header.stamp.sec = int(t_stamp / 1_000_000_000)
+            pub.header.stamp.nanosec = t_stamp % 1_000_000_000
 
             return pub
         case _:

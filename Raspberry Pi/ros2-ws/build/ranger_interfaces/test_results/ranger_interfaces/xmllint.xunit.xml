@@ -4,7 +4,7 @@
   tests="1"
   errors="0"
   failures="0"
-  time="0.193"
+  time="0.203"
 >
   <testcase
     name="package.xml"

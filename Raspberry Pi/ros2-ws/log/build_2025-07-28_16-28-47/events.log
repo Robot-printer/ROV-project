@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000403] (-) JobUnselected: {'identifier': 'ranger_interfaces'}
+[0.000752] (ranger_auto) JobQueued: {'identifier': 'ranger_auto', 'dependencies': OrderedDict()}
+[0.000932] (ranger_auto) JobStarted: {'identifier': 'ranger_auto'}
+[0.099662] (-) TimerEvent: {}
+[0.200054] (-) TimerEvent: {}
+[0.304120] (-) TimerEvent: {}
+[0.404561] (-) TimerEvent: {}
+[0.504976] (-) TimerEvent: {}
+[0.605500] (-) TimerEvent: {}
+[0.706076] (-) TimerEvent: {}
+[0.806552] (-) TimerEvent: {}
+[0.906863] (-) TimerEvent: {}
+[1.007253] (-) TimerEvent: {}
+[1.107765] (-) TimerEvent: {}
+[1.208318] (-) TimerEvent: {}
+[1.308900] (-) TimerEvent: {}
+[1.409463] (-) TimerEvent: {}
+[1.510413] (-) TimerEvent: {}
+[1.610907] (-) TimerEvent: {}
+[1.711366] (-) TimerEvent: {}
+[1.811825] (-) TimerEvent: {}
+[1.912326] (-) TimerEvent: {}
+[1.986406] (ranger_auto) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ranger_auto', 'build', '--build-base', '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build', 'install', '--record', '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ranger', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/ranger', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.102.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1470', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1681', 'BUNDLED_DEBUGPY_PATH': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2482', '_colcon_cd_root': '/opt/ros/kilted/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'ranger', 'JOURNAL_STREAM': '8:17446', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ranger', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/raspi:@/tmp/.ICE-unix/1645,unix/raspi:/tmp/.ICE-unix/1645', 'INVOCATION_ID': 'e466fac908c0450d87397da101b6a317', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b1131dfcb2f2936b.txt', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.R3PCA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-69051de5d0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '55', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[2.012412] (-) TimerEvent: {}
+[2.112740] (-) TimerEvent: {}
+[2.213093] (-) TimerEvent: {}
+[2.313409] (-) TimerEvent: {}
+[2.405863] (ranger_auto) StdoutLine: {'line': b'running egg_info\n'}
+[2.413503] (-) TimerEvent: {}
+[2.434330] (ranger_auto) StdoutLine: {'line': b'writing ../../build/ranger_auto/ranger_auto.egg-info/PKG-INFO\n'}
+[2.435042] (ranger_auto) StdoutLine: {'line': b'writing dependency_links to ../../build/ranger_auto/ranger_auto.egg-info/dependency_links.txt\n'}
+[2.436059] (ranger_auto) StdoutLine: {'line': b'writing entry points to ../../build/ranger_auto/ranger_auto.egg-info/entry_points.txt\n'}
+[2.436646] (ranger_auto) StdoutLine: {'line': b'writing requirements to ../../build/ranger_auto/ranger_auto.egg-info/requires.txt\n'}
+[2.437323] (ranger_auto) StdoutLine: {'line': b'writing top-level names to ../../build/ranger_auto/ranger_auto.egg-info/top_level.txt\n'}
+[2.513644] (-) TimerEvent: {}
+[2.519875] (ranger_auto) StdoutLine: {'line': b"reading manifest file '../../build/ranger_auto/ranger_auto.egg-info/SOURCES.txt'\n"}
+[2.521300] (ranger_auto) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.522617] (ranger_auto) StdoutLine: {'line': b"writing manifest file '../../build/ranger_auto/ranger_auto.egg-info/SOURCES.txt'\n"}
+[2.522962] (ranger_auto) StdoutLine: {'line': b'running build\n'}
+[2.523113] (ranger_auto) StdoutLine: {'line': b'running build_py\n'}
+[2.523298] (ranger_auto) StdoutLine: {'line': b'copying ranger_auto/serial_comms.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto\n'}
+[2.523927] (ranger_auto) StdoutLine: {'line': b'running install\n'}
+[2.536626] (ranger_auto) StdoutLine: {'line': b'running install_lib\n'}
+[2.572809] (ranger_auto) StdoutLine: {'line': b'copying /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto/serial_comms.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto\n'}
+[2.574747] (ranger_auto) StdoutLine: {'line': b'byte-compiling /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto/serial_comms.py to serial_comms.cpython-312.pyc\n'}
+[2.578013] (ranger_auto) StdoutLine: {'line': b'running install_data\n'}
+[2.578288] (ranger_auto) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.612348] (ranger_auto) StdoutLine: {'line': b"removing '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.612973] (ranger_auto) StdoutLine: {'line': b'Copying ../../build/ranger_auto/ranger_auto.egg-info to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto-0.0.0-py3.12.egg-info\n'}
+[2.613696] (-) TimerEvent: {}
+[2.615179] (ranger_auto) StdoutLine: {'line': b'running install_scripts\n'}
+[2.713993] (-) TimerEvent: {}
+[2.817793] (-) TimerEvent: {}
+[2.905182] (ranger_auto) StdoutLine: {'line': b'Installing pathfinder script to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/ranger_auto\n'}
+[2.905794] (ranger_auto) StdoutLine: {'line': b"writing list of installed files to '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/install.log'\n"}
+[2.917892] (-) TimerEvent: {}
+[3.007410] (ranger_auto) CommandEnded: {'returncode': 0}
+[3.018251] (-) TimerEvent: {}
+[3.035678] (ranger_auto) JobEnded: {'identifier': 'ranger_auto', 'rc': 0}
+[3.037697] (-) EventReactorShutdown: {}

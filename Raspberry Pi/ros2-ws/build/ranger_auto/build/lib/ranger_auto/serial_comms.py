@@ -16,7 +16,7 @@ baudrate = 115200
 pattern = re.compile(r'\S+')
 ser = serial.Serial()
 
-sensor_update_frequency = 5000  #Hz
+sensor_update_frequency = 5000  # Hz
 
 latest_accel = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 latest_gyro = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
@@ -57,9 +57,9 @@ def parse_message(message):
     command = result[0]
     id = result[1]
     data = []
-    try:
+    if len(result) > 3:
         data = [result[2], result[3], result[4]]
-    except:
+    else:
         data = result[2]
 
     match command:
