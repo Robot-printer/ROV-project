@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="4" time="0.745" timestamp="2025-07-25T19:00:03.615777" hostname="raspi"><testcase classname="ranger_auto.test.test_copyright" name="test_copyright" time="0.001"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="ranger_auto.test.test_flake8" name="test_flake8" time="0.315"><failure message="AssertionError: Found 28 code style errors / warnings:&#10;  ./ranger_auto/serial_comms.py:5:1: I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from rclpy.node import Node'&#10;  ./ranger_auto/serial_comms.py:8:1: I100 Import statements are in the wrong order. 'import re' should be before 'from sensor_msgs.msg import Imu, MagneticField, Range' and in a different group.&#10;  ./ranger_auto/serial_comms.py:19:33: E262 inline comment should start with '# '&#10;  ./ranger_auto/serial_comms.py:24:1: E302 expected 2 blank lines, found 1&#10;  ./ranger_auto/serial_comms.py:32:100: E501 line too long (123 &gt; 99 characters)&#10;  ./ranger_auto/serial_comms.py:34:1: W293 blank line contains whitespace&#10;  ./ranger_auto/serial_comms.py:53:1: W293 blank line contains whitespace&#10;  ./ranger_auto/serial_comms.py:58:5: A001 variable &quot;id&quot; is shadowing a python builtin&#10;  ./ranger_auto/serial_comms.py:62:1: B901 blind except: statement&#10;  ./ranger_auto/serial_comms.py:62:5: E722 do not use bare 'except'&#10;  ./ranger_auto/serial_comms.py:66:14: Q000 Double quotes found but single quotes preferred&#10;  ./ranger_auto/serial_comms.py:86:9: E303 too many blank lines (2)&#10;  ./ranger_auto/serial_comms.py:86:14: Q000 Double quotes found but single quotes preferred&#10;  ./ranger_auto/serial_comms.py:89:38: E231 missing whitespace after ','&#10;  ./ranger_auto/serial_comms.py:89:40: E231 missing whitespace after ','&#10;  ./ranger_auto/serial_comms.py:105:14: Q000 Double quotes found but single quotes preferred&#10;  ./ranger_auto/serial_comms.py:114:14: Q000 Double quotes found but single quotes preferred&#10;  ./ranger_auto/serial_comms.py:125:1: E302 expected 2 blank lines, found 1&#10;  ./ranger_auto/serial_comms.py:131:1: E302 expected 2 blank lines, found 1&#10;  ./ranger_auto/serial_comms.py:131:32: E231 missing whitespace after ':'&#10;  ./ranger_auto/serial_comms.py:132:15: Q000 Double quotes found but single quotes preferred&#10;  ./ranger_auto/serial_comms.py:132:41: Q000 Double quotes found but single quotes preferred&#10;  ./ranger_auto/serial_comms.py:135:1: E302 expected 2 blank lines, found 1&#10;  ./ranger_auto/serial_comms.py:143:1: E302 expected 2 blank lines, found 1&#10;  ./ranger_auto/serial_comms.py:147:1: E302 expected 2 blank lines, found 1&#10;  ./ranger_auto/serial_comms.py:152:1: E302 expected 2 blank lines, found 1&#10;  ./ranger_auto/serial_comms.py:161:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./ranger_auto/serial_comms.py:162:11: W292 no newline at end of file&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 28 code style errors / warnings:
+E     ./ranger_auto/serial_comms.py:5:1: I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from rclpy.node import Node'
+E     ./ranger_auto/serial_comms.py:8:1: I100 Import statements are in the wrong order. 'import re' should be before 'from sensor_msgs.msg import Imu, MagneticField, Range' and in a different group.
+E     ./ranger_auto/serial_comms.py:19:33: E262 inline comment should start with '# '
+E     ./ranger_auto/serial_comms.py:24:1: E302 expected 2 blank lines, found 1
+E     ./ranger_auto/serial_comms.py:32:100: E501 line too long (123 &gt; 99 characters)
+E     ./ranger_auto/serial_comms.py:34:1: W293 blank line contains whitespace
+E     ./ranger_auto/serial_comms.py:53:1: W293 blank line contains whitespace
+E     ./ranger_auto/serial_comms.py:58:5: A001 variable "id" is shadowing a python builtin
+E     ./ranger_auto/serial_comms.py:62:1: B901 blind except: statement
+E     ./ranger_auto/serial_comms.py:62:5: E722 do not use bare 'except'
+E     ./ranger_auto/serial_comms.py:66:14: Q000 Double quotes found but single quotes preferred
+E     ./ranger_auto/serial_comms.py:86:9: E303 too many blank lines (2)
+E     ./ranger_auto/serial_comms.py:86:14: Q000 Double quotes found but single quotes preferred
+E     ./ranger_auto/serial_comms.py:89:38: E231 missing whitespace after ','
+E     ./ranger_auto/serial_comms.py:89:40: E231 missing whitespace after ','
+E     ./ranger_auto/serial_comms.py:105:14: Q000 Double quotes found but single quotes preferred
+E     ./ranger_auto/serial_comms.py:114:14: Q000 Double quotes found but single quotes preferred
+E     ./ranger_auto/serial_comms.py:125:1: E302 expected 2 blank lines, found 1
+E     ./ranger_auto/serial_comms.py:131:1: E302 expected 2 blank lines, found 1
+E     ./ranger_auto/serial_comms.py:131:32: E231 missing whitespace after ':'
+E     ./ranger_auto/serial_comms.py:132:15: Q000 Double quotes found but single quotes preferred
+E     ./ranger_auto/serial_comms.py:132:41: Q000 Double quotes found but single quotes preferred
+E     ./ranger_auto/serial_comms.py:135:1: E302 expected 2 blank lines, found 1
+E     ./ranger_auto/serial_comms.py:143:1: E302 expected 2 blank lines, found 1
+E     ./ranger_auto/serial_comms.py:147:1: E302 expected 2 blank lines, found 1
+E     ./ranger_auto/serial_comms.py:152:1: E302 expected 2 blank lines, found 1
+E     ./ranger_auto/serial_comms.py:161:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./ranger_auto/serial_comms.py:162:11: W292 no newline at end of file
+E   assert 1 == 0</failure></testcase><testcase classname="ranger_auto.test.test_pep257" name="test_pep257" time="0.033" /><testcase classname="ranger_auto.test.test_xmllint" name="test_xmllint" time="0.164" /></testsuite></testsuites>

@@ -1,0 +1,53 @@
+Start testing: Jul 25 18:55 PDT
+----------------------------------------------------------
+1/2 Testing: lint_cmake
+1/2 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/kilted/share/ament_cmake_test/cmake/run_test.py" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml" "--package-name" "ranger_interfaces" "--output-file" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/kilted/bin/ament_lint_cmake" "--xunit-file" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml"
+Directory: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces
+"lint_cmake" start time: Jul 25 18:55 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces':
+ - /opt/ros/kilted/bin/ament_lint_cmake --xunit-file /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Jul 25 18:55 PDT
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: xmllint
+2/2 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/kilted/share/ament_cmake_test/cmake/run_test.py" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/xmllint.xunit.xml" "--package-name" "ranger_interfaces" "--output-file" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/kilted/bin/ament_xmllint" "--xunit-file" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/xmllint.xunit.xml"
+Directory: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces
+"xmllint" start time: Jul 25 18:55 PDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces':
+ - /opt/ros/kilted/bin/ament_xmllint --xunit-file /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/xmllint.xunit.xml'
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Jul 25 18:55 PDT
+"xmllint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 25 18:55 PDT
+
+lint_cmake =   0.46 sec*proc
+
+linter =   1.07 sec*proc
+
+xmllint =   0.61 sec*proc
+

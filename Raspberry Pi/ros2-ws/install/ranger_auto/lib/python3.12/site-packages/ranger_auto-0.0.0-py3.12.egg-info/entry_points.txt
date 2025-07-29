@@ -1,0 +1,2 @@
+[console_scripts]
+pathfinder = ranger_auto.pathfinder:main

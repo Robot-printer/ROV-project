@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (ranger_auto) JobQueued: {'identifier': 'ranger_auto', 'dependencies': OrderedDict({'ranger_auto': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto'})}
+[0.000780] (ranger_interfaces) JobQueued: {'identifier': 'ranger_interfaces', 'dependencies': OrderedDict({'ranger_interfaces': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces'})}
+[0.001245] (ranger_auto) JobStarted: {'identifier': 'ranger_auto'}
+[0.012904] (ranger_interfaces) JobStarted: {'identifier': 'ranger_interfaces'}
+[0.099524] (-) TimerEvent: {}
+[0.199964] (-) TimerEvent: {}
+[0.300307] (-) TimerEvent: {}
+[0.400940] (-) TimerEvent: {}
+[0.405649] (ranger_auto) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ranger', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/ranger', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src', 'TERM_PROGRAM_VERSION': '1.102.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1467', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1679', 'BUNDLED_DEBUGPY_PATH': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2662', '_colcon_cd_root': '/opt/ros/kilted/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'ranger', 'JOURNAL_STREAM': '8:17605', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ranger', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/raspi:@/tmp/.ICE-unix/1642,unix/raspi:/tmp/.ICE-unix/1642', 'INVOCATION_ID': 'bb229620dbb24dacb8707416b5fa79e9', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b1131dfcb2f2936b.txt', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.B39NA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-69051de5d0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '55', 'AMENT_PREFIX_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto:/opt/ros/kilted', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short "--junit-xml=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/pytest.xml" --junit-prefix=ranger_auto -o "cache_dir=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/.pytest_cache"'}, 'shell': False}
+[0.502853] (-) TimerEvent: {}
+[0.604626] (-) TimerEvent: {}
+[0.637110] (ranger_interfaces) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ranger', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/ranger', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src', 'TERM_PROGRAM_VERSION': '1.102.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1467', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1679', 'BUNDLED_DEBUGPY_PATH': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2662', '_colcon_cd_root': '/opt/ros/kilted/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'ranger', 'JOURNAL_STREAM': '8:17605', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ranger', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/raspi:@/tmp/.ICE-unix/1642,unix/raspi:/tmp/.ICE-unix/1642', 'INVOCATION_ID': 'bb229620dbb24dacb8707416b5fa79e9', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b1131dfcb2f2936b.txt', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.B39NA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-69051de5d0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '55', 'AMENT_PREFIX_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces:/opt/ros/kilted', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}), 'shell': False}
+[0.682665] (ranger_interfaces) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CTestConfiguration.ini\n'}
+[0.683229] (ranger_interfaces) StdoutLine: {'line': b'Parse Config file:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CTestConfiguration.ini\n'}
+[0.683422] (ranger_interfaces) StdoutLine: {'line': b'   Site: raspi\n'}
+[0.683676] (ranger_interfaces) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.683836] (ranger_interfaces) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.683951] (ranger_interfaces) StdoutLine: {'line': b'Create new tag: 20250726-0155 - Experimental\n'}
+[0.684059] (ranger_interfaces) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CTestConfiguration.ini\n'}
+[0.684175] (ranger_interfaces) StdoutLine: {'line': b'Parse Config file:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CTestConfiguration.ini\n'}
+[0.684315] (ranger_interfaces) StdoutLine: {'line': b'Test project /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces\n'}
+[0.684465] (ranger_interfaces) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.684740] (ranger_interfaces) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.684944] (ranger_interfaces) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.685083] (ranger_interfaces) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.685189] (ranger_interfaces) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.685295] (ranger_interfaces) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.685387] (ranger_interfaces) StdoutLine: {'line': b'test 1\n'}
+[0.685471] (ranger_interfaces) StdoutLine: {'line': b'    Start 1: lint_cmake\n'}
+[0.685644] (ranger_interfaces) StdoutLine: {'line': b'\n'}
+[0.685779] (ranger_interfaces) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/kilted/share/ament_cmake_test/cmake/run_test.py" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml" "--package-name" "ranger_interfaces" "--output-file" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/kilted/bin/ament_lint_cmake" "--xunit-file" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml"\n'}
+[0.685969] (ranger_interfaces) StdoutLine: {'line': b'1: Working Directory: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces\n'}
+[0.686102] (ranger_interfaces) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.705585] (-) TimerEvent: {}
+[0.808963] (-) TimerEvent: {}
+[0.867674] (ranger_interfaces) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces':\n"}
+[0.868214] (ranger_interfaces) StdoutLine: {'line': b'1:  - /opt/ros/kilted/bin/ament_lint_cmake --xunit-file /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml\n'}
+[0.909094] (-) TimerEvent: {}
+[1.010603] (-) TimerEvent: {}
+[1.039993] (ranger_interfaces) StdoutLine: {'line': b'1: \n'}
+[1.040680] (ranger_interfaces) StdoutLine: {'line': b'1: No problems found\n'}
+[1.098308] (ranger_interfaces) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[1.099199] (ranger_interfaces) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml'\n"}
+[1.110755] (-) TimerEvent: {}
+[1.140186] (ranger_interfaces) StdoutLine: {'line': b'1/2 Test #1: lint_cmake .......................   Passed    0.46 sec\n'}
+[1.141956] (ranger_interfaces) StdoutLine: {'line': b'test 2\n'}
+[1.142306] (ranger_interfaces) StdoutLine: {'line': b'    Start 2: xmllint\n'}
+[1.142466] (ranger_interfaces) StdoutLine: {'line': b'\n'}
+[1.142695] (ranger_interfaces) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/kilted/share/ament_cmake_test/cmake/run_test.py" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/xmllint.xunit.xml" "--package-name" "ranger_interfaces" "--output-file" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/kilted/bin/ament_xmllint" "--xunit-file" "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/xmllint.xunit.xml"\n'}
+[1.142840] (ranger_interfaces) StdoutLine: {'line': b'2: Working Directory: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces\n'}
+[1.142986] (ranger_interfaces) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[1.210890] (-) TimerEvent: {}
+[1.270205] (ranger_interfaces) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces':\n"}
+[1.270650] (ranger_interfaces) StdoutLine: {'line': b'2:  - /opt/ros/kilted/bin/ament_xmllint --xunit-file /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/xmllint.xunit.xml\n'}
+[1.311031] (-) TimerEvent: {}
+[1.411739] (-) TimerEvent: {}
+[1.493675] (ranger_auto) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[1.494199] (ranger_auto) StdoutLine: {'line': b'platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0\n'}
+[1.499996] (ranger_auto) StdoutLine: {'line': b'cachedir: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/.pytest_cache\n'}
+[1.500277] (ranger_auto) StdoutLine: {'line': b'rootdir: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto\n'}
+[1.500384] (ranger_auto) StdoutLine: {'line': b'plugins: ament-lint-0.19.2, ament-flake8-0.19.2, ament-pep257-0.19.2, ament-copyright-0.19.2, launch-testing-3.8.1, launch-testing-ros-0.28.1, ament-xmllint-0.19.2, typeguard-4.1.5, colcon-core-0.19.0, cov-4.1.0\n'}
+[1.511806] (-) TimerEvent: {}
+[1.612120] (-) TimerEvent: {}
+[1.676397] (ranger_interfaces) StdoutLine: {'line': b"2: File 'package.xml' is valid\n"}
+[1.677410] (ranger_interfaces) StdoutLine: {'line': b'2: \n'}
+[1.677805] (ranger_interfaces) StdoutLine: {'line': b'2: No problems found\n'}
+[1.705123] (ranger_auto) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[1.705442] (ranger_auto) StdoutLine: {'line': b'collected 4 items                                                              \x1b[0m\n'}
+[1.706139] (ranger_auto) StdoutLine: {'line': b'\n'}
+[1.712218] (-) TimerEvent: {}
+[1.715744] (ranger_interfaces) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.716115] (ranger_interfaces) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/xmllint.xunit.xml'\n"}
+[1.717281] (ranger_auto) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 25%]\x1b[0m\n'}
+[1.751171] (ranger_interfaces) StdoutLine: {'line': b'2/2 Test #2: xmllint ..........................   Passed    0.61 sec\n'}
+[1.751482] (ranger_interfaces) StdoutLine: {'line': b'\n'}
+[1.751614] (ranger_interfaces) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 2\n'}
+[1.751708] (ranger_interfaces) StdoutLine: {'line': b'\n'}
+[1.751795] (ranger_interfaces) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.751883] (ranger_interfaces) StdoutLine: {'line': b'lint_cmake    =   0.46 sec*proc (1 test)\n'}
+[1.751972] (ranger_interfaces) StdoutLine: {'line': b'linter        =   1.07 sec*proc (2 tests)\n'}
+[1.752060] (ranger_interfaces) StdoutLine: {'line': b'xmllint       =   0.61 sec*proc (1 test)\n'}
+[1.752141] (ranger_interfaces) StdoutLine: {'line': b'\n'}
+[1.752223] (ranger_interfaces) StdoutLine: {'line': b'Total Test time (real) =   1.07 sec\n'}
+[1.761587] (ranger_interfaces) CommandEnded: {'returncode': 0}
+[1.762309] (ranger_interfaces) JobEnded: {'identifier': 'ranger_interfaces', 'rc': 0}
+[1.812380] (-) TimerEvent: {}
+[1.912929] (-) TimerEvent: {}
+[2.013618] (-) TimerEvent: {}
+[2.049268] (ranger_auto) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 50%]\x1b[0m\n'}
+[2.082520] (ranger_auto) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [ 75%]\x1b[0m\n'}
+[2.113736] (-) TimerEvent: {}
+[2.214143] (-) TimerEvent: {}
+[2.245460] (ranger_auto) StdoutLine: {'line': b'test/test_xmllint.py \x1b[32m.\x1b[0m\x1b[31m                                                   [100%]\x1b[0m\n'}
+[2.246031] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.246198] (ranger_auto) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[2.246321] (ranger_auto) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[2.246434] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[2.306842] (ranger_auto) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[2.307381] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 56 code style errors / warnings:\x1b[0m\n'}
+[2.307514] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:5:1: I101 Imported names are in the wrong order. Should be Imu, MagneticField, Range\x1b[0m\n'}
+[2.307623] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:6:1: I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from sensor_msgs.msg import Imu, Range, MagneticField'\x1b[0m\n"}
+[2.307719] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:8:1: I100 Import statements are in the wrong order. 'import re' should be before 'import serial' and in a different group.\x1b[0m\n"}
+[2.307835] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:8:1: I201 Missing newline between import groups. 'import re' is identified as Stdlib and 'import serial' is identified as Third Party.\x1b[0m\n"}
+[2.307923] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:13:22: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[2.308007] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:16:31: E261 at least two spaces before inline comment\x1b[0m\n'}
+[2.308090] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:16:32: E262 inline comment should start with '# '\x1b[0m\n"}
+[2.308173] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:18:19: E231 missing whitespace after ','\x1b[0m\n"}
+[2.308254] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:18:21: E231 missing whitespace after ','\x1b[0m\n"}
+[2.308334] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:18:28: E231 missing whitespace after ','\x1b[0m\n"}
+[2.308413] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:18:30: E231 missing whitespace after ','\x1b[0m\n"}
+[2.308504] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:18:37: E231 missing whitespace after ','\x1b[0m\n"}
+[2.308618] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:18:39: E231 missing whitespace after ','\x1b[0m\n"}
+[2.308704] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:19:18: E231 missing whitespace after ','\x1b[0m\n"}
+[2.308786] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:19:20: E231 missing whitespace after ','\x1b[0m\n"}
+[2.308883] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:19:27: E231 missing whitespace after ','\x1b[0m\n"}
+[2.308967] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:19:29: E231 missing whitespace after ','\x1b[0m\n"}
+[2.309047] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:19:36: E231 missing whitespace after ','\x1b[0m\n"}
+[2.309127] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:19:38: E231 missing whitespace after ','\x1b[0m\n"}
+[2.309206] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:21:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[2.309287] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:29:100: E501 line too long (123 > 99 characters)\x1b[0m\n'}
+[2.309368] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:31:1: W293 blank line contains whitespace\x1b[0m\n'}
+[2.309448] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:50:1: W293 blank line contains whitespace\x1b[0m\n'}
+[2.310002] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:55:5: A001 variable "id" is shadowing a python builtin\x1b[0m\n'}
+[2.310694] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:59:1: B901 blind except: statement\x1b[0m\n'}
+[2.310783] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:59:5: E722 do not use bare 'except'\x1b[0m\n"}
+[2.310917] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:63:14: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[2.311002] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:66:37: E231 missing whitespace after ','\x1b[0m\n"}
+[2.311091] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:66:39: E231 missing whitespace after ','\x1b[0m\n"}
+[2.311172] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:72:45: F823 local variable 'latest_accel' defined in enclosing scope on line 18 referenced before assignment\x1b[0m\n"}
+[2.311257] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:75:42: F823 local variable 'latest_gyro' defined in enclosing scope on line 19 referenced before assignment\x1b[0m\n"}
+[2.311340] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:77:34: E231 missing whitespace after ','\x1b[0m\n"}
+[2.311420] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:77:36: E231 missing whitespace after ','\x1b[0m\n"}
+[2.311514] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:78:33: E231 missing whitespace after ','\x1b[0m\n"}
+[2.311611] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:78:35: E231 missing whitespace after ','\x1b[0m\n"}
+[2.311695] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:83:9: E303 too many blank lines (2)\x1b[0m\n'}
+[2.311774] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:83:14: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[2.311853] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:86:38: E231 missing whitespace after ','\x1b[0m\n"}
+[2.311933] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:86:40: E231 missing whitespace after ','\x1b[0m\n"}
+[2.312011] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:97:34: E231 missing whitespace after ','\x1b[0m\n"}
+[2.312089] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:97:36: E231 missing whitespace after ','\x1b[0m\n"}
+[2.312168] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:98:33: E231 missing whitespace after ','\x1b[0m\n"}
+[2.312246] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:98:35: E231 missing whitespace after ','\x1b[0m\n"}
+[2.312325] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:102:14: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[2.312404] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:111:14: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[2.312482] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:122:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[2.312601] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:128:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[2.312694] (ranger_auto) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:128:32: E231 missing whitespace after ':'\x1b[0m\n"}
+[2.312794] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:129:15: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[2.312887] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:129:41: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[2.312984] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:132:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[2.313076] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:140:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[2.313169] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:144:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[2.313280] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:149:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[2.313392] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:158:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[2.313514] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./ranger_auto/serial_comms.py:159:11: W292 no newline at end of file\x1b[0m\n'}
+[2.313743] (ranger_auto) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[2.313863] (ranger_auto) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[2.313974] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.314077] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:5:1: I101 Imported names are in the wrong order. Should be Imu, MagneticField, Range\n'}
+[2.314171] (-) TimerEvent: {}
+[2.314383] (ranger_auto) StdoutLine: {'line': b'from sensor_msgs.msg import Imu, Range, MagneticField\n'}
+[2.314582] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.314709] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.314827] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:6:1: I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from sensor_msgs.msg import Imu, Range, MagneticField'\n"}
+[2.314953] (ranger_auto) StdoutLine: {'line': b'from ranger_interfaces.msg import ThrusterThrottle\n'}
+[2.315074] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.315175] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.315277] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:8:1: I100 Import statements are in the wrong order. 'import re' should be before 'import serial' and in a different group.\n"}
+[2.315382] (ranger_auto) StdoutLine: {'line': b'import re\n'}
+[2.315503] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.315659] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.315752] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:8:1: I201 Missing newline between import groups. 'import re' is identified as Stdlib and 'import serial' is identified as Third Party.\n"}
+[2.315851] (ranger_auto) StdoutLine: {'line': b'import re\n'}
+[2.315944] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.316028] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.316110] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:13:22: Q000 Double quotes found but single quotes preferred\n'}
+[2.316194] (ranger_auto) StdoutLine: {'line': b'pattern = re.compile(r"\\S+")\n'}
+[2.316278] (ranger_auto) StdoutLine: {'line': b'                     ^\n'}
+[2.316360] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.316520] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:16:31: E261 at least two spaces before inline comment\n'}
+[2.316663] (ranger_auto) StdoutLine: {'line': b'sensor_update_frequency = 5000 #Hz\n'}
+[2.316762] (ranger_auto) StdoutLine: {'line': b'                              ^\n'}
+[2.316862] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.316962] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:16:32: E262 inline comment should start with '# '\n"}
+[2.317067] (ranger_auto) StdoutLine: {'line': b'sensor_update_frequency = 5000 #Hz\n'}
+[2.317175] (ranger_auto) StdoutLine: {'line': b'                               ^\n'}
+[2.317271] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.317386] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:18:19: E231 missing whitespace after ','\n"}
+[2.317511] (ranger_auto) StdoutLine: {'line': b'latest_accel = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.317635] (ranger_auto) StdoutLine: {'line': b'                  ^\n'}
+[2.317735] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.317829] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:18:21: E231 missing whitespace after ','\n"}
+[2.317936] (ranger_auto) StdoutLine: {'line': b'latest_accel = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.318083] (ranger_auto) StdoutLine: {'line': b'                    ^\n'}
+[2.318254] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.318420] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:18:28: E231 missing whitespace after ','\n"}
+[2.318580] (ranger_auto) StdoutLine: {'line': b'latest_accel = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.318743] (ranger_auto) StdoutLine: {'line': b'                           ^\n'}
+[2.318865] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.318979] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:18:30: E231 missing whitespace after ','\n"}
+[2.319092] (ranger_auto) StdoutLine: {'line': b'latest_accel = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.319246] (ranger_auto) StdoutLine: {'line': b'                             ^\n'}
+[2.319399] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.319599] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:18:37: E231 missing whitespace after ','\n"}
+[2.319749] (ranger_auto) StdoutLine: {'line': b'latest_accel = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.319888] (ranger_auto) StdoutLine: {'line': b'                                    ^\n'}
+[2.320029] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.320155] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:18:39: E231 missing whitespace after ','\n"}
+[2.320274] (ranger_auto) StdoutLine: {'line': b'latest_accel = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.320381] (ranger_auto) StdoutLine: {'line': b'                                      ^\n'}
+[2.320471] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.320634] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:19:18: E231 missing whitespace after ','\n"}
+[2.320766] (ranger_auto) StdoutLine: {'line': b'latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.320883] (ranger_auto) StdoutLine: {'line': b'                 ^\n'}
+[2.320989] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.321080] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:19:20: E231 missing whitespace after ','\n"}
+[2.321175] (ranger_auto) StdoutLine: {'line': b'latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.321262] (ranger_auto) StdoutLine: {'line': b'                   ^\n'}
+[2.321355] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.321452] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:19:27: E231 missing whitespace after ','\n"}
+[2.321602] (ranger_auto) StdoutLine: {'line': b'latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.321720] (ranger_auto) StdoutLine: {'line': b'                          ^\n'}
+[2.321828] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.321929] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:19:29: E231 missing whitespace after ','\n"}
+[2.322038] (ranger_auto) StdoutLine: {'line': b'latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.322139] (ranger_auto) StdoutLine: {'line': b'                            ^\n'}
+[2.322241] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.322356] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:19:36: E231 missing whitespace after ','\n"}
+[2.322463] (ranger_auto) StdoutLine: {'line': b'latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.322593] (ranger_auto) StdoutLine: {'line': b'                                   ^\n'}
+[2.322686] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.322768] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:19:38: E231 missing whitespace after ','\n"}
+[2.322852] (ranger_auto) StdoutLine: {'line': b'latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]\n'}
+[2.322934] (ranger_auto) StdoutLine: {'line': b'                                     ^\n'}
+[2.323048] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.323137] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:21:1: E302 expected 2 blank lines, found 1\n'}
+[2.323219] (ranger_auto) StdoutLine: {'line': b'class SerialComms(Node):\n'}
+[2.323307] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.323388] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.323472] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:29:100: E501 line too long (123 > 99 characters)\n'}
+[2.323803] (ranger_auto) StdoutLine: {'line': b"        self.throttle_subscriber_ = self.create_subscription(ThrusterThrottle, 'throttle_data', throttle_data_callback, 10)\n"}
+[2.324213] (ranger_auto) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.324320] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.324418] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:31:1: W293 blank line contains whitespace\n'}
+[2.324530] (ranger_auto) StdoutLine: {'line': b'    \n'}
+[2.324643] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.324731] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.324815] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:50:1: W293 blank line contains whitespace\n'}
+[2.324903] (ranger_auto) StdoutLine: {'line': b'    \n'}
+[2.324988] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.325070] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.325150] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:55:5: A001 variable "id" is shadowing a python builtin\n'}
+[2.325236] (ranger_auto) StdoutLine: {'line': b'    id = result[1]\n'}
+[2.325317] (ranger_auto) StdoutLine: {'line': b'    ^\n'}
+[2.325396] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.325477] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:59:1: B901 blind except: statement\n'}
+[2.325592] (ranger_auto) StdoutLine: {'line': b'    except:\n'}
+[2.325678] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.325761] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.325857] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:59:5: E722 do not use bare 'except'\n"}
+[2.325944] (ranger_auto) StdoutLine: {'line': b'    except:\n'}
+[2.326031] (ranger_auto) StdoutLine: {'line': b'    ^\n'}
+[2.326114] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.326194] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:63:14: Q000 Double quotes found but single quotes preferred\n'}
+[2.326278] (ranger_auto) StdoutLine: {'line': b'        case "ACCEL":\n'}
+[2.326366] (ranger_auto) StdoutLine: {'line': b'             ^\n'}
+[2.326452] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.326559] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:66:37: E231 missing whitespace after ','\n"}
+[2.326649] (ranger_auto) StdoutLine: {'line': b'            if latest_gyro[id] != [0,0,0]:\n'}
+[2.326733] (ranger_auto) StdoutLine: {'line': b'                                    ^\n'}
+[2.326817] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.326899] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:66:39: E231 missing whitespace after ','\n"}
+[2.326981] (ranger_auto) StdoutLine: {'line': b'            if latest_gyro[id] != [0,0,0]:\n'}
+[2.327063] (ranger_auto) StdoutLine: {'line': b'                                      ^\n'}
+[2.327147] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.327232] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:72:45: F823 local variable 'latest_accel' defined in enclosing scope on line 18 referenced before assignment\n"}
+[2.327318] (ranger_auto) StdoutLine: {'line': b'                pub.linear_acceleration.z = latest_accel[id][2]\n'}
+[2.327404] (ranger_auto) StdoutLine: {'line': b'                                            ^\n'}
+[2.327580] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.327882] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:75:42: F823 local variable 'latest_gyro' defined in enclosing scope on line 19 referenced before assignment\n"}
+[2.328051] (ranger_auto) StdoutLine: {'line': b'                pub.angular_velocity.z = latest_gyro[id][2]\n'}
+[2.328193] (ranger_auto) StdoutLine: {'line': b'                                         ^\n'}
+[2.328346] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.328466] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:77:34: E231 missing whitespace after ','\n"}
+[2.328639] (ranger_auto) StdoutLine: {'line': b'                latest_accel = [0,0,0]\n'}
+[2.328798] (ranger_auto) StdoutLine: {'line': b'                                 ^\n'}
+[2.328924] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.329021] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:77:36: E231 missing whitespace after ','\n"}
+[2.329159] (ranger_auto) StdoutLine: {'line': b'                latest_accel = [0,0,0]\n'}
+[2.329248] (ranger_auto) StdoutLine: {'line': b'                                   ^\n'}
+[2.329352] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.329465] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:78:33: E231 missing whitespace after ','\n"}
+[2.329687] (ranger_auto) StdoutLine: {'line': b'                latest_gyro = [0,0,0]\n'}
+[2.329846] (ranger_auto) StdoutLine: {'line': b'                                ^\n'}
+[2.329950] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.330050] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:78:35: E231 missing whitespace after ','\n"}
+[2.330169] (ranger_auto) StdoutLine: {'line': b'                latest_gyro = [0,0,0]\n'}
+[2.330297] (ranger_auto) StdoutLine: {'line': b'                                  ^\n'}
+[2.330444] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.330612] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:83:9: E303 too many blank lines (2)\n'}
+[2.330759] (ranger_auto) StdoutLine: {'line': b'        case "GYRO":\n'}
+[2.330883] (ranger_auto) StdoutLine: {'line': b'        ^\n'}
+[2.331004] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.331123] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:83:14: Q000 Double quotes found but single quotes preferred\n'}
+[2.331249] (ranger_auto) StdoutLine: {'line': b'        case "GYRO":\n'}
+[2.331366] (ranger_auto) StdoutLine: {'line': b'             ^\n'}
+[2.331474] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.331654] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:86:38: E231 missing whitespace after ','\n"}
+[2.331800] (ranger_auto) StdoutLine: {'line': b'            if latest_accel[id] != [0,0,0]:\n'}
+[2.331935] (ranger_auto) StdoutLine: {'line': b'                                     ^\n'}
+[2.332050] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.332164] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:86:40: E231 missing whitespace after ','\n"}
+[2.332275] (ranger_auto) StdoutLine: {'line': b'            if latest_accel[id] != [0,0,0]:\n'}
+[2.332373] (ranger_auto) StdoutLine: {'line': b'                                       ^\n'}
+[2.332470] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.332618] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:97:34: E231 missing whitespace after ','\n"}
+[2.332755] (ranger_auto) StdoutLine: {'line': b'                latest_accel = [0,0,0]\n'}
+[2.332873] (ranger_auto) StdoutLine: {'line': b'                                 ^\n'}
+[2.332975] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.333077] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:97:36: E231 missing whitespace after ','\n"}
+[2.333190] (ranger_auto) StdoutLine: {'line': b'                latest_accel = [0,0,0]\n'}
+[2.333297] (ranger_auto) StdoutLine: {'line': b'                                   ^\n'}
+[2.333401] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.333577] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:98:33: E231 missing whitespace after ','\n"}
+[2.333717] (ranger_auto) StdoutLine: {'line': b'                latest_gyro = [0,0,0]\n'}
+[2.333860] (ranger_auto) StdoutLine: {'line': b'                                ^\n'}
+[2.333980] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.334106] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:98:35: E231 missing whitespace after ','\n"}
+[2.334253] (ranger_auto) StdoutLine: {'line': b'                latest_gyro = [0,0,0]\n'}
+[2.334408] (ranger_auto) StdoutLine: {'line': b'                                  ^\n'}
+[2.334554] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.334677] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:102:14: Q000 Double quotes found but single quotes preferred\n'}
+[2.334797] (ranger_auto) StdoutLine: {'line': b'        case "MAGNET":\n'}
+[2.334911] (ranger_auto) StdoutLine: {'line': b'             ^\n'}
+[2.335051] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.335157] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:111:14: Q000 Double quotes found but single quotes preferred\n'}
+[2.335261] (ranger_auto) StdoutLine: {'line': b'        case "USONIC":\n'}
+[2.335364] (ranger_auto) StdoutLine: {'line': b'             ^\n'}
+[2.335476] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.335626] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:122:1: E302 expected 2 blank lines, found 1\n'}
+[2.335723] (ranger_auto) StdoutLine: {'line': b'def open_serial(comport, baudrate):\n'}
+[2.335835] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.335934] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.336023] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:128:1: E302 expected 2 blank lines, found 1\n'}
+[2.336114] (ranger_auto) StdoutLine: {'line': b'def throttle_data_callback(data:ThrusterThrottle):\n'}
+[2.336208] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.336302] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.336412] (ranger_auto) StdoutLine: {'line': b"./ranger_auto/serial_comms.py:128:32: E231 missing whitespace after ':'\n"}
+[2.336572] (ranger_auto) StdoutLine: {'line': b'def throttle_data_callback(data:ThrusterThrottle):\n'}
+[2.336726] (ranger_auto) StdoutLine: {'line': b'                               ^\n'}
+[2.336849] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.336972] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:129:15: Q000 Double quotes found but single quotes preferred\n'}
+[2.337091] (ranger_auto) StdoutLine: {'line': b'    message = "MOTOR " + str(data.id) + " " + str(data.value)\n'}
+[2.337202] (ranger_auto) StdoutLine: {'line': b'              ^\n'}
+[2.337308] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.337414] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:129:41: Q000 Double quotes found but single quotes preferred\n'}
+[2.337553] (ranger_auto) StdoutLine: {'line': b'    message = "MOTOR " + str(data.id) + " " + str(data.value)\n'}
+[2.337690] (ranger_auto) StdoutLine: {'line': b'                                        ^\n'}
+[2.337803] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.337911] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:132:1: E302 expected 2 blank lines, found 1\n'}
+[2.338033] (ranger_auto) StdoutLine: {'line': b'def read_serial():\n'}
+[2.338148] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.338259] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.338372] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:140:1: E302 expected 2 blank lines, found 1\n'}
+[2.338477] (ranger_auto) StdoutLine: {'line': b'def write_serial(message):\n'}
+[2.338647] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.338765] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.338879] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:144:1: E302 expected 2 blank lines, found 1\n'}
+[2.338994] (ranger_auto) StdoutLine: {'line': b'def close_serial():\n'}
+[2.339108] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.339218] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.339333] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:149:1: E302 expected 2 blank lines, found 1\n'}
+[2.339430] (ranger_auto) StdoutLine: {'line': b'def main(args=None):\n'}
+[2.339619] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.339738] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.339852] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:158:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[2.339948] (ranger_auto) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[2.340040] (ranger_auto) StdoutLine: {'line': b'^\n'}
+[2.340133] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.340442] (ranger_auto) StdoutLine: {'line': b'./ranger_auto/serial_comms.py:159:11: W292 no newline at end of file\n'}
+[2.340627] (ranger_auto) StdoutLine: {'line': b'    main()          ^\n'}
+[2.340735] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.340835] (ranger_auto) StdoutLine: {'line': b'1     A001 variable "id" is shadowing a python builtin\n'}
+[2.340987] (ranger_auto) StdoutLine: {'line': b'1     B901 blind except: statement\n'}
+[2.341080] (ranger_auto) StdoutLine: {'line': b"25    E231 missing whitespace after ','\n"}
+[2.341166] (ranger_auto) StdoutLine: {'line': b'1     E261 at least two spaces before inline comment\n'}
+[2.341251] (ranger_auto) StdoutLine: {'line': b"1     E262 inline comment should start with '# '\n"}
+[2.341340] (ranger_auto) StdoutLine: {'line': b'7     E302 expected 2 blank lines, found 1\n'}
+[2.341425] (ranger_auto) StdoutLine: {'line': b'1     E303 too many blank lines (2)\n'}
+[2.341557] (ranger_auto) StdoutLine: {'line': b'1     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[2.341664] (ranger_auto) StdoutLine: {'line': b'1     E501 line too long (123 > 99 characters)\n'}
+[2.341761] (ranger_auto) StdoutLine: {'line': b"1     E722 do not use bare 'except'\n"}
+[2.341875] (ranger_auto) StdoutLine: {'line': b"2     F823 local variable 'latest_accel' defined in enclosing scope on line 18 referenced before assignment\n"}
+[2.342003] (ranger_auto) StdoutLine: {'line': b"2     I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from sensor_msgs.msg import Imu, Range, MagneticField'\n"}
+[2.342156] (ranger_auto) StdoutLine: {'line': b'1     I101 Imported names are in the wrong order. Should be Imu, MagneticField, Range\n'}
+[2.342294] (ranger_auto) StdoutLine: {'line': b"1     I201 Missing newline between import groups. 'import re' is identified as Stdlib and 'import serial' is identified as Third Party.\n"}
+[2.342421] (ranger_auto) StdoutLine: {'line': b'7     Q000 Double quotes found but single quotes preferred\n'}
+[2.342665] (ranger_auto) StdoutLine: {'line': b'1     W292 no newline at end of file\n'}
+[2.342810] (ranger_auto) StdoutLine: {'line': b'2     W293 blank line contains whitespace\n'}
+[2.342963] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.343122] (ranger_auto) StdoutLine: {'line': b'8 files checked\n'}
+[2.343243] (ranger_auto) StdoutLine: {'line': b'56 errors\n'}
+[2.343360] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.343949] (ranger_auto) StdoutLine: {'line': b"'A'-type errors: 1\n"}
+[2.344156] (ranger_auto) StdoutLine: {'line': b"'B'-type errors: 1\n"}
+[2.344302] (ranger_auto) StdoutLine: {'line': b"'E'-type errors: 38\n"}
+[2.344428] (ranger_auto) StdoutLine: {'line': b"'F'-type errors: 2\n"}
+[2.344908] (ranger_auto) StdoutLine: {'line': b"'I'-type errors: 4\n"}
+[2.345031] (ranger_auto) StdoutLine: {'line': b"'Q'-type errors: 7\n"}
+[2.345136] (ranger_auto) StdoutLine: {'line': b"'W'-type errors: 3\n"}
+[2.345235] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.345324] (ranger_auto) StdoutLine: {'line': b'Checked files:\n'}
+[2.345436] (ranger_auto) StdoutLine: {'line': b'\n'}
+[2.345562] (ranger_auto) StdoutLine: {'line': b'* ./setup.py\n'}
+[2.345667] (ranger_auto) StdoutLine: {'line': b'* ./test/test_xmllint.py\n'}
+[2.345755] (ranger_auto) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[2.345840] (ranger_auto) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[2.345927] (ranger_auto) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[2.346050] (ranger_auto) StdoutLine: {'line': b'* ./ranger_auto/serial_comms.py\n'}
+[2.346147] (ranger_auto) StdoutLine: {'line': b'* ./ranger_auto/__init__.py\n'}
+[2.346253] (ranger_auto) StdoutLine: {'line': b'* ./ranger_auto/pathfinder.py\n'}
+[2.346348] (ranger_auto) StdoutLine: {'line': b'- generated xml file: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/pytest.xml -\n'}
+[2.346442] (ranger_auto) StdoutLine: {'line': b'\x1b[36m\x1b[1m=========================== short test summary info ============================\x1b[0m\n'}
+[2.346561] (ranger_auto) StdoutLine: {'line': b'\x1b[31mFAILED\x1b[0m test/test_flake8.py::\x1b[1mtest_flake8\x1b[0m - AssertionError: Found 56 code style errors / warnings:\n'}
+[2.346663] (ranger_auto) StdoutLine: {'line': b'\x1b[31m==================== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m2 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m\x1b[31m in 0.82s\x1b[0m\x1b[31m ====================\x1b[0m\n'}
+[2.414383] (-) TimerEvent: {}
+[2.514973] (-) TimerEvent: {}
+[2.602068] (ranger_auto) CommandEnded: {'returncode': 1}
+[2.602989] (ranger_auto) TestFailure: {'identifier': 'ranger_auto'}
+[2.603375] (ranger_auto) JobEnded: {'identifier': 'ranger_auto', 'rc': 0}
+[2.604552] (-) EventReactorShutdown: {}

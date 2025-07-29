@@ -1,0 +1,343 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/.pytest_cache
+rootdir: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto
+plugins: ament-lint-0.19.2, ament-flake8-0.19.2, ament-pep257-0.19.2, ament-copyright-0.19.2, launch-testing-3.8.1, launch-testing-ros-0.28.1, ament-xmllint-0.19.2, typeguard-4.1.5, colcon-core-0.19.0, cov-4.1.0
+[1mcollecting ... [0m[1m
+collected 4 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 25%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 50%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [ 75%][0m
+test/test_xmllint.py [32m.[0m[31m                                                   [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 56 code style errors / warnings:[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:5:1: I101 Imported names are in the wrong order. Should be Imu, MagneticField, Range[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:6:1: I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from sensor_msgs.msg import Imu, Range, MagneticField'[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:8:1: I100 Import statements are in the wrong order. 'import re' should be before 'import serial' and in a different group.[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:8:1: I201 Missing newline between import groups. 'import re' is identified as Stdlib and 'import serial' is identified as Third Party.[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:13:22: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:16:31: E261 at least two spaces before inline comment[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:16:32: E262 inline comment should start with '# '[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:18:19: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:18:21: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:18:28: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:18:30: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:18:37: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:18:39: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:19:18: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:19:20: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:19:27: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:19:29: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:19:36: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:19:38: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:21:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:29:100: E501 line too long (123 > 99 characters)[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:31:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:50:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:55:5: A001 variable "id" is shadowing a python builtin[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:59:1: B901 blind except: statement[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:59:5: E722 do not use bare 'except'[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:63:14: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:66:37: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:66:39: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:72:45: F823 local variable 'latest_accel' defined in enclosing scope on line 18 referenced before assignment[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:75:42: F823 local variable 'latest_gyro' defined in enclosing scope on line 19 referenced before assignment[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:77:34: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:77:36: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:78:33: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:78:35: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:83:9: E303 too many blank lines (2)[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:83:14: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:86:38: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:86:40: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:97:34: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:97:36: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:98:33: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:98:35: E231 missing whitespace after ','[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:102:14: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:111:14: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:122:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:128:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:128:32: E231 missing whitespace after ':'[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:129:15: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:129:41: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:132:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:140:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:144:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:149:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:158:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./ranger_auto/serial_comms.py:159:11: W292 no newline at end of file[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./ranger_auto/serial_comms.py:5:1: I101 Imported names are in the wrong order. Should be Imu, MagneticField, Range
+from sensor_msgs.msg import Imu, Range, MagneticField
+^
+
+./ranger_auto/serial_comms.py:6:1: I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from sensor_msgs.msg import Imu, Range, MagneticField'
+from ranger_interfaces.msg import ThrusterThrottle
+^
+
+./ranger_auto/serial_comms.py:8:1: I100 Import statements are in the wrong order. 'import re' should be before 'import serial' and in a different group.
+import re
+^
+
+./ranger_auto/serial_comms.py:8:1: I201 Missing newline between import groups. 'import re' is identified as Stdlib and 'import serial' is identified as Third Party.
+import re
+^
+
+./ranger_auto/serial_comms.py:13:22: Q000 Double quotes found but single quotes preferred
+pattern = re.compile(r"\S+")
+                     ^
+
+./ranger_auto/serial_comms.py:16:31: E261 at least two spaces before inline comment
+sensor_update_frequency = 5000 #Hz
+                              ^
+
+./ranger_auto/serial_comms.py:16:32: E262 inline comment should start with '# '
+sensor_update_frequency = 5000 #Hz
+                               ^
+
+./ranger_auto/serial_comms.py:18:19: E231 missing whitespace after ','
+latest_accel = [[0,0,0], [0,0,0], [0,0,0]]
+                  ^
+
+./ranger_auto/serial_comms.py:18:21: E231 missing whitespace after ','
+latest_accel = [[0,0,0], [0,0,0], [0,0,0]]
+                    ^
+
+./ranger_auto/serial_comms.py:18:28: E231 missing whitespace after ','
+latest_accel = [[0,0,0], [0,0,0], [0,0,0]]
+                           ^
+
+./ranger_auto/serial_comms.py:18:30: E231 missing whitespace after ','
+latest_accel = [[0,0,0], [0,0,0], [0,0,0]]
+                             ^
+
+./ranger_auto/serial_comms.py:18:37: E231 missing whitespace after ','
+latest_accel = [[0,0,0], [0,0,0], [0,0,0]]
+                                    ^
+
+./ranger_auto/serial_comms.py:18:39: E231 missing whitespace after ','
+latest_accel = [[0,0,0], [0,0,0], [0,0,0]]
+                                      ^
+
+./ranger_auto/serial_comms.py:19:18: E231 missing whitespace after ','
+latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]
+                 ^
+
+./ranger_auto/serial_comms.py:19:20: E231 missing whitespace after ','
+latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]
+                   ^
+
+./ranger_auto/serial_comms.py:19:27: E231 missing whitespace after ','
+latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]
+                          ^
+
+./ranger_auto/serial_comms.py:19:29: E231 missing whitespace after ','
+latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]
+                            ^
+
+./ranger_auto/serial_comms.py:19:36: E231 missing whitespace after ','
+latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]
+                                   ^
+
+./ranger_auto/serial_comms.py:19:38: E231 missing whitespace after ','
+latest_gyro = [[0,0,0], [0,0,0], [0,0,0]]
+                                     ^
+
+./ranger_auto/serial_comms.py:21:1: E302 expected 2 blank lines, found 1
+class SerialComms(Node):
+^
+
+./ranger_auto/serial_comms.py:29:100: E501 line too long (123 > 99 characters)
+        self.throttle_subscriber_ = self.create_subscription(ThrusterThrottle, 'throttle_data', throttle_data_callback, 10)
+                                                                                                   ^
+
+./ranger_auto/serial_comms.py:31:1: W293 blank line contains whitespace
+    
+^
+
+./ranger_auto/serial_comms.py:50:1: W293 blank line contains whitespace
+    
+^
+
+./ranger_auto/serial_comms.py:55:5: A001 variable "id" is shadowing a python builtin
+    id = result[1]
+    ^
+
+./ranger_auto/serial_comms.py:59:1: B901 blind except: statement
+    except:
+^
+
+./ranger_auto/serial_comms.py:59:5: E722 do not use bare 'except'
+    except:
+    ^
+
+./ranger_auto/serial_comms.py:63:14: Q000 Double quotes found but single quotes preferred
+        case "ACCEL":
+             ^
+
+./ranger_auto/serial_comms.py:66:37: E231 missing whitespace after ','
+            if latest_gyro[id] != [0,0,0]:
+                                    ^
+
+./ranger_auto/serial_comms.py:66:39: E231 missing whitespace after ','
+            if latest_gyro[id] != [0,0,0]:
+                                      ^
+
+./ranger_auto/serial_comms.py:72:45: F823 local variable 'latest_accel' defined in enclosing scope on line 18 referenced before assignment
+                pub.linear_acceleration.z = latest_accel[id][2]
+                                            ^
+
+./ranger_auto/serial_comms.py:75:42: F823 local variable 'latest_gyro' defined in enclosing scope on line 19 referenced before assignment
+                pub.angular_velocity.z = latest_gyro[id][2]
+                                         ^
+
+./ranger_auto/serial_comms.py:77:34: E231 missing whitespace after ','
+                latest_accel = [0,0,0]
+                                 ^
+
+./ranger_auto/serial_comms.py:77:36: E231 missing whitespace after ','
+                latest_accel = [0,0,0]
+                                   ^
+
+./ranger_auto/serial_comms.py:78:33: E231 missing whitespace after ','
+                latest_gyro = [0,0,0]
+                                ^
+
+./ranger_auto/serial_comms.py:78:35: E231 missing whitespace after ','
+                latest_gyro = [0,0,0]
+                                  ^
+
+./ranger_auto/serial_comms.py:83:9: E303 too many blank lines (2)
+        case "GYRO":
+        ^
+
+./ranger_auto/serial_comms.py:83:14: Q000 Double quotes found but single quotes preferred
+        case "GYRO":
+             ^
+
+./ranger_auto/serial_comms.py:86:38: E231 missing whitespace after ','
+            if latest_accel[id] != [0,0,0]:
+                                     ^
+
+./ranger_auto/serial_comms.py:86:40: E231 missing whitespace after ','
+            if latest_accel[id] != [0,0,0]:
+                                       ^
+
+./ranger_auto/serial_comms.py:97:34: E231 missing whitespace after ','
+                latest_accel = [0,0,0]
+                                 ^
+
+./ranger_auto/serial_comms.py:97:36: E231 missing whitespace after ','
+                latest_accel = [0,0,0]
+                                   ^
+
+./ranger_auto/serial_comms.py:98:33: E231 missing whitespace after ','
+                latest_gyro = [0,0,0]
+                                ^
+
+./ranger_auto/serial_comms.py:98:35: E231 missing whitespace after ','
+                latest_gyro = [0,0,0]
+                                  ^
+
+./ranger_auto/serial_comms.py:102:14: Q000 Double quotes found but single quotes preferred
+        case "MAGNET":
+             ^
+
+./ranger_auto/serial_comms.py:111:14: Q000 Double quotes found but single quotes preferred
+        case "USONIC":
+             ^
+
+./ranger_auto/serial_comms.py:122:1: E302 expected 2 blank lines, found 1
+def open_serial(comport, baudrate):
+^
+
+./ranger_auto/serial_comms.py:128:1: E302 expected 2 blank lines, found 1
+def throttle_data_callback(data:ThrusterThrottle):
+^
+
+./ranger_auto/serial_comms.py:128:32: E231 missing whitespace after ':'
+def throttle_data_callback(data:ThrusterThrottle):
+                               ^
+
+./ranger_auto/serial_comms.py:129:15: Q000 Double quotes found but single quotes preferred
+    message = "MOTOR " + str(data.id) + " " + str(data.value)
+              ^
+
+./ranger_auto/serial_comms.py:129:41: Q000 Double quotes found but single quotes preferred
+    message = "MOTOR " + str(data.id) + " " + str(data.value)
+                                        ^
+
+./ranger_auto/serial_comms.py:132:1: E302 expected 2 blank lines, found 1
+def read_serial():
+^
+
+./ranger_auto/serial_comms.py:140:1: E302 expected 2 blank lines, found 1
+def write_serial(message):
+^
+
+./ranger_auto/serial_comms.py:144:1: E302 expected 2 blank lines, found 1
+def close_serial():
+^
+
+./ranger_auto/serial_comms.py:149:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./ranger_auto/serial_comms.py:158:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./ranger_auto/serial_comms.py:159:11: W292 no newline at end of file
+    main()          ^
+
+1     A001 variable "id" is shadowing a python builtin
+1     B901 blind except: statement
+25    E231 missing whitespace after ','
+1     E261 at least two spaces before inline comment
+1     E262 inline comment should start with '# '
+7     E302 expected 2 blank lines, found 1
+1     E303 too many blank lines (2)
+1     E305 expected 2 blank lines after class or function definition, found 1
+1     E501 line too long (123 > 99 characters)
+1     E722 do not use bare 'except'
+2     F823 local variable 'latest_accel' defined in enclosing scope on line 18 referenced before assignment
+2     I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from sensor_msgs.msg import Imu, Range, MagneticField'
+1     I101 Imported names are in the wrong order. Should be Imu, MagneticField, Range
+1     I201 Missing newline between import groups. 'import re' is identified as Stdlib and 'import serial' is identified as Third Party.
+7     Q000 Double quotes found but single quotes preferred
+1     W292 no newline at end of file
+2     W293 blank line contains whitespace
+
+8 files checked
+56 errors
+
+'A'-type errors: 1
+'B'-type errors: 1
+'E'-type errors: 38
+'F'-type errors: 2
+'I'-type errors: 4
+'Q'-type errors: 7
+'W'-type errors: 3
+
+Checked files:
+
+* ./setup.py
+* ./test/test_xmllint.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+* ./ranger_auto/serial_comms.py
+* ./ranger_auto/__init__.py
+* ./ranger_auto/pathfinder.py
+- generated xml file: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/pytest.xml -
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 56 code style errors / warnings:
+[31m==================== [31m[1m1 failed[0m, [32m2 passed[0m, [33m1 skipped[0m[31m in 0.82s[0m[31m ====================[0m
