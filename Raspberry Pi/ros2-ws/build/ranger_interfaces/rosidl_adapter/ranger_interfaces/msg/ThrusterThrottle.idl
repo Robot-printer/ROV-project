@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ranger_interfaces/msg/ThrusterThrottle.msg
+// generated code does not contain a copyright notice
+
+
+module ranger_interfaces {
+  module msg {
+    struct ThrusterThrottle {
+      int64 id;
+
+      int64 value;
+    };
+  };
+};

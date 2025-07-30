@@ -1,0 +1,19 @@
+[0.017s] Invoking command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces -- -j4 -l4
+[0.069s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.112s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.262s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[0.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.357s] -- Found rosidl_adapter: 4.9.4 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[0.360s] [31mCMake Error at /opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.360s]   rosidl_generate_interfaces() the passed file 'msg/UltrasonicDistance/msg'
+[0.360s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.360s]   '/home/ranger/ROV-project/ROV-project/Raspberry
+[0.360s]   Pi/ros2-ws/src/ranger_interfaces'
+[0.360s] Call Stack (most recent call first):
+[0.360s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.360s] 
+[0.360s] [0m
+[0.361s] -- Configuring incomplete, errors occurred!
+[0.368s] gmake: *** [Makefile:1625: cmake_check_build_system] Error 1
+[0.371s] Invoked command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces -- -j4 -l4

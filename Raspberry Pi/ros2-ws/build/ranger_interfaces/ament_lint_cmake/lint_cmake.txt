@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces':
+ - /opt/ros/kilted/bin/ament_lint_cmake --xunit-file /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/test_results/ranger_interfaces/lint_cmake.xunit.xml'

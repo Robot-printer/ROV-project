@@ -1,0 +1,181 @@
+[0.448s] Invoking command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto': AMENT_PREFIX_PATH=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short "--junit-xml=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/pytest.xml" --junit-prefix=ranger_auto -o "cache_dir=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/.pytest_cache" PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.479s] [1m============================= test session starts ==============================[0m
+[1.479s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[1.485s] cachedir: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/.pytest_cache
+[1.485s] rootdir: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto
+[1.485s] plugins: ament-lint-0.19.2, ament-flake8-0.19.2, ament-pep257-0.19.2, ament-copyright-0.19.2, launch-testing-3.8.1, launch-testing-ros-0.28.1, ament-xmllint-0.19.2, typeguard-4.1.5, colcon-core-0.19.0, cov-4.1.0
+[1.748s] [1mcollecting ... [0m[1m
+[1.748s] collected 4 items                                                              [0m
+[1.748s] 
+[1.761s] test/test_copyright.py [33ms[0m[32m                                                 [ 25%][0m
+[2.094s] test/test_flake8.py [31mF[0m[31m                                                    [ 50%][0m
+[2.137s] test/test_pep257.py [32m.[0m[31m                                                    [ 75%][0m
+[2.281s] test/test_xmllint.py [32m.[0m[31m                                                   [100%][0m
+[2.282s] 
+[2.282s] =================================== FAILURES ===================================
+[2.282s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[2.282s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[2.348s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[2.349s] [1m[31mE   AssertionError: Found 25 code style errors / warnings:[0m
+[2.349s] [1m[31mE     ./ranger_auto/serial_comms.py:5:1: I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from rclpy.node import Node'[0m
+[2.349s] [1m[31mE     ./ranger_auto/serial_comms.py:8:1: I100 Import statements are in the wrong order. 'import re' should be before 'from sensor_msgs.msg import Imu, MagneticField, Range' and in a different group.[0m
+[2.349s] [1m[31mE     ./ranger_auto/serial_comms.py:24:1: E302 expected 2 blank lines, found 1[0m
+[2.349s] [1m[31mE     ./ranger_auto/serial_comms.py:32:100: E501 line too long (123 > 99 characters)[0m
+[2.349s] [1m[31mE     ./ranger_auto/serial_comms.py:34:1: W293 blank line contains whitespace[0m
+[2.349s] [1m[31mE     ./ranger_auto/serial_comms.py:53:1: W293 blank line contains whitespace[0m
+[2.349s] [1m[31mE     ./ranger_auto/serial_comms.py:58:5: A001 variable "id" is shadowing a python builtin[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:66:14: Q000 Double quotes found but single quotes preferred[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:86:9: E303 too many blank lines (2)[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:86:14: Q000 Double quotes found but single quotes preferred[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:89:38: E231 missing whitespace after ','[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:89:40: E231 missing whitespace after ','[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:105:14: Q000 Double quotes found but single quotes preferred[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:114:14: Q000 Double quotes found but single quotes preferred[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:125:1: E302 expected 2 blank lines, found 1[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:131:1: E302 expected 2 blank lines, found 1[0m
+[2.350s] [1m[31mE     ./ranger_auto/serial_comms.py:131:32: E231 missing whitespace after ':'[0m
+[2.351s] [1m[31mE     ./ranger_auto/serial_comms.py:132:15: Q000 Double quotes found but single quotes preferred[0m
+[2.351s] [1m[31mE     ./ranger_auto/serial_comms.py:132:41: Q000 Double quotes found but single quotes preferred[0m
+[2.351s] [1m[31mE     ./ranger_auto/serial_comms.py:135:1: E302 expected 2 blank lines, found 1[0m
+[2.351s] [1m[31mE     ./ranger_auto/serial_comms.py:143:1: E302 expected 2 blank lines, found 1[0m
+[2.351s] [1m[31mE     ./ranger_auto/serial_comms.py:147:1: E302 expected 2 blank lines, found 1[0m
+[2.351s] [1m[31mE     ./ranger_auto/serial_comms.py:152:1: E302 expected 2 blank lines, found 1[0m
+[2.351s] [1m[31mE     ./ranger_auto/serial_comms.py:161:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[2.351s] [1m[31mE     ./ranger_auto/serial_comms.py:162:11: W292 no newline at end of file[0m
+[2.351s] [1m[31mE   assert 1 == 0[0m
+[2.351s] ----------------------------- Captured stdout call -----------------------------
+[2.351s] 
+[2.352s] ./ranger_auto/serial_comms.py:5:1: I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from rclpy.node import Node'
+[2.352s] from ranger_interfaces.msg import ThrusterThrottle
+[2.352s] ^
+[2.352s] 
+[2.352s] ./ranger_auto/serial_comms.py:8:1: I100 Import statements are in the wrong order. 'import re' should be before 'from sensor_msgs.msg import Imu, MagneticField, Range' and in a different group.
+[2.352s] import re
+[2.352s] ^
+[2.352s] 
+[2.352s] ./ranger_auto/serial_comms.py:24:1: E302 expected 2 blank lines, found 1
+[2.353s] class SerialComms(Node):
+[2.353s] ^
+[2.353s] 
+[2.353s] ./ranger_auto/serial_comms.py:32:100: E501 line too long (123 > 99 characters)
+[2.353s]         self.throttle_subscriber_ = self.create_subscription(ThrusterThrottle, 'throttle_data', throttle_data_callback, 10)
+[2.353s]                                                                                                    ^
+[2.353s] 
+[2.354s] ./ranger_auto/serial_comms.py:34:1: W293 blank line contains whitespace
+[2.354s]     
+[2.354s] ^
+[2.354s] 
+[2.354s] ./ranger_auto/serial_comms.py:53:1: W293 blank line contains whitespace
+[2.354s]     
+[2.354s] ^
+[2.354s] 
+[2.354s] ./ranger_auto/serial_comms.py:58:5: A001 variable "id" is shadowing a python builtin
+[2.354s]     id = result[1]
+[2.355s]     ^
+[2.355s] 
+[2.355s] ./ranger_auto/serial_comms.py:66:14: Q000 Double quotes found but single quotes preferred
+[2.355s]         case "ACCEL":
+[2.355s]              ^
+[2.355s] 
+[2.355s] ./ranger_auto/serial_comms.py:86:9: E303 too many blank lines (2)
+[2.355s]         case "GYRO":
+[2.356s]         ^
+[2.356s] 
+[2.356s] ./ranger_auto/serial_comms.py:86:14: Q000 Double quotes found but single quotes preferred
+[2.356s]         case "GYRO":
+[2.356s]              ^
+[2.356s] 
+[2.357s] ./ranger_auto/serial_comms.py:89:38: E231 missing whitespace after ','
+[2.357s]             if latest_accel[id] != [0,0,0]:
+[2.357s]                                      ^
+[2.357s] 
+[2.357s] ./ranger_auto/serial_comms.py:89:40: E231 missing whitespace after ','
+[2.357s]             if latest_accel[id] != [0,0,0]:
+[2.357s]                                        ^
+[2.357s] 
+[2.357s] ./ranger_auto/serial_comms.py:105:14: Q000 Double quotes found but single quotes preferred
+[2.358s]         case "MAGNET":
+[2.358s]              ^
+[2.358s] 
+[2.358s] ./ranger_auto/serial_comms.py:114:14: Q000 Double quotes found but single quotes preferred
+[2.358s]         case "USONIC":
+[2.358s]              ^
+[2.358s] 
+[2.358s] ./ranger_auto/serial_comms.py:125:1: E302 expected 2 blank lines, found 1
+[2.358s] def open_serial(comport, baudrate):
+[2.358s] ^
+[2.358s] 
+[2.359s] ./ranger_auto/serial_comms.py:131:1: E302 expected 2 blank lines, found 1
+[2.359s] def throttle_data_callback(data:ThrusterThrottle):
+[2.359s] ^
+[2.359s] 
+[2.359s] ./ranger_auto/serial_comms.py:131:32: E231 missing whitespace after ':'
+[2.359s] def throttle_data_callback(data:ThrusterThrottle):
+[2.359s]                                ^
+[2.359s] 
+[2.359s] ./ranger_auto/serial_comms.py:132:15: Q000 Double quotes found but single quotes preferred
+[2.359s]     message = "MOTOR " + str(data.id) + " " + str(data.value)
+[2.360s]               ^
+[2.360s] 
+[2.360s] ./ranger_auto/serial_comms.py:132:41: Q000 Double quotes found but single quotes preferred
+[2.360s]     message = "MOTOR " + str(data.id) + " " + str(data.value)
+[2.360s]                                         ^
+[2.360s] 
+[2.360s] ./ranger_auto/serial_comms.py:135:1: E302 expected 2 blank lines, found 1
+[2.360s] def read_serial():
+[2.360s] ^
+[2.360s] 
+[2.360s] ./ranger_auto/serial_comms.py:143:1: E302 expected 2 blank lines, found 1
+[2.361s] def write_serial(message):
+[2.361s] ^
+[2.361s] 
+[2.361s] ./ranger_auto/serial_comms.py:147:1: E302 expected 2 blank lines, found 1
+[2.361s] def close_serial():
+[2.361s] ^
+[2.361s] 
+[2.361s] ./ranger_auto/serial_comms.py:152:1: E302 expected 2 blank lines, found 1
+[2.361s] def main(args=None):
+[2.361s] ^
+[2.361s] 
+[2.362s] ./ranger_auto/serial_comms.py:161:1: E305 expected 2 blank lines after class or function definition, found 1
+[2.362s] if __name__ == '__main__':
+[2.362s] ^
+[2.362s] 
+[2.362s] ./ranger_auto/serial_comms.py:162:11: W292 no newline at end of file
+[2.362s]     main()          ^
+[2.362s] 
+[2.362s] 1     A001 variable "id" is shadowing a python builtin
+[2.362s] 3     E231 missing whitespace after ','
+[2.362s] 7     E302 expected 2 blank lines, found 1
+[2.363s] 1     E303 too many blank lines (2)
+[2.363s] 1     E305 expected 2 blank lines after class or function definition, found 1
+[2.363s] 1     E501 line too long (123 > 99 characters)
+[2.363s] 2     I100 Import statements are in the wrong order. 'from ranger_interfaces.msg import ThrusterThrottle' should be before 'from rclpy.node import Node'
+[2.363s] 6     Q000 Double quotes found but single quotes preferred
+[2.363s] 1     W292 no newline at end of file
+[2.364s] 2     W293 blank line contains whitespace
+[2.364s] 
+[2.364s] 8 files checked
+[2.364s] 25 errors
+[2.364s] 
+[2.364s] 'A'-type errors: 1
+[2.364s] 'E'-type errors: 13
+[2.366s] 'I'-type errors: 2
+[2.366s] 'Q'-type errors: 6
+[2.366s] 'W'-type errors: 3
+[2.366s] 
+[2.366s] Checked files:
+[2.367s] 
+[2.367s] * ./setup.py
+[2.367s] * ./test/test_xmllint.py
+[2.367s] * ./test/test_copyright.py
+[2.367s] * ./test/test_pep257.py
+[2.368s] * ./test/test_flake8.py
+[2.368s] * ./ranger_auto/serial_comms.py
+[2.368s] * ./ranger_auto/__init__.py
+[2.368s] * ./ranger_auto/pathfinder.py
+[2.368s] - generated xml file: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/pytest.xml -
+[2.368s] [36m[1m=========================== short test summary info ============================[0m
+[2.368s] [31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 25 code style errors / warnings:
+[2.369s] [31m==================== [31m[1m1 failed[0m, [32m2 passed[0m, [33m1 skipped[0m[31m in 0.87s[0m[31m ====================[0m
+[2.646s] Invoked command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto' returned '1': AMENT_PREFIX_PATH=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short "--junit-xml=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/pytest.xml" --junit-prefix=ranger_auto -o "cache_dir=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/.pytest_cache" PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

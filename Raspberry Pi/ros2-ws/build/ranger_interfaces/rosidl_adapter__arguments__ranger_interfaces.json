@@ -1,0 +1,15 @@
+{
+  "package_name": "ranger_interfaces",
+  "non_idl_tuples": [
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/ThrusterThrottle.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/IMUAccel.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/IMUGyro.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/IMUMagnet.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/UltrasonicDistance.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/VehicleTransform.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/WaypointLocation.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/WaypointDistance.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/ObstacleLocation.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/MovementVector.msg"
+  ]
+}

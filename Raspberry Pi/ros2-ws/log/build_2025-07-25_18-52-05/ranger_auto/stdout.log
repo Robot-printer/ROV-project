@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/ranger_auto/ranger_auto.egg-info
+writing ../../build/ranger_auto/ranger_auto.egg-info/PKG-INFO
+writing dependency_links to ../../build/ranger_auto/ranger_auto.egg-info/dependency_links.txt
+writing entry points to ../../build/ranger_auto/ranger_auto.egg-info/entry_points.txt
+writing requirements to ../../build/ranger_auto/ranger_auto.egg-info/requires.txt
+writing top-level names to ../../build/ranger_auto/ranger_auto.egg-info/top_level.txt
+writing manifest file '../../build/ranger_auto/ranger_auto.egg-info/SOURCES.txt'
+reading manifest file '../../build/ranger_auto/ranger_auto.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ranger_auto/ranger_auto.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build
+creating /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib
+creating /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto
+copying ranger_auto/serial_comms.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto
+copying ranger_auto/__init__.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto
+copying ranger_auto/pathfinder.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto
+running install
+running install_lib
+creating /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto
+copying /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto/serial_comms.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto
+copying /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto/__init__.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto
+copying /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto/pathfinder.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto
+byte-compiling /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto/serial_comms.py to serial_comms.cpython-312.pyc
+byte-compiling /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto/pathfinder.py to pathfinder.cpython-312.pyc
+running install_data
+creating /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/share/ament_index
+creating /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/share/ament_index/resource_index
+creating /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/share/ament_index/resource_index/packages
+copying resource/ranger_auto -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/share/ament_index/resource_index/packages
+copying package.xml -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/share/ranger_auto
+running install_egg_info
+Copying ../../build/ranger_auto/ranger_auto.egg-info to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pathfinder script to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/ranger_auto
+writing list of installed files to '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/install.log'

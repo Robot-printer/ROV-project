@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ranger_interfaces/msg/VehicleTransform.msg
+// generated code does not contain a copyright notice
+
+
+module ranger_interfaces {
+  module msg {
+    struct VehicleTransform {
+      double x_pos;
+
+      double y_pos;
+
+      double z_pos;
+
+      double x_rot;
+
+      double y_rot;
+
+      double z_rot;
+    };
+  };
+};

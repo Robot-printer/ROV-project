@@ -1,0 +1,5 @@
+[console_scripts]
+pathfinder = ranger_auto.pathfinder:main
+serialcom = ranger_auto.serial_comms:main
+testdrive = ranger_auto.test_move:main
+throttleresolve = ranger_auto.throttle_resolver:main

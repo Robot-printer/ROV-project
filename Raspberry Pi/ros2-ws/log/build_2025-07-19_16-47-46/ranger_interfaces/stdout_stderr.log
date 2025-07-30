@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.9.4 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[31mCMake Error at /opt/ros/kilted/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+  ranger_interfaces --arguments-file
+  /home/ranger/ROV-project/ROV-project/Raspberry
+  Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter__arguments__ranger_interfaces.json
+  --output-dir /home/ranger/ROV-project/ROV-project/Raspberry
+  Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces
+  --output-file /home/ranger/ROV-project/ROV-project/Raspberry
+  Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces.idls)
+  returned error code 1:
+
+  Traceback (most recent call last):
+
+    File "<frozen runpy>", line 198, in _run_module_as_main
+    File "<frozen runpy>", line 88, in _run_code
+    File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      main()
+    File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_adapter/main.py", line 54, in main
+      abs_idl_file = convert_to_idl(
+                     ^^^^^^^^^^^^^^^
+    File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 22, in convert_to_idl
+      return convert_msg_to_idl(
+             ^^^^^^^^^^^^^^^^^^^
+    File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 32, in convert_msg_to_idl
+      msg = parse_message_string(package_name, input_file.stem, content)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 563, in parse_message_string
+      msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 406, in __init__
+      self.base_type = BaseType(
+                       ^^^^^^^^^
+    File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 221, in __init__
+      raise InvalidResourceName(
+
+  rosidl_adapter.parser.InvalidResourceName: 'Thruster-Throttle' is an
+  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+
+Call Stack (most recent call first):
+  /opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+  CMakeLists.txt:14 (rosidl_generate_interfaces)
+
+[0m
+-- Configuring incomplete, errors occurred!

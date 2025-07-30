@@ -1,0 +1,4 @@
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto/serial_comms.py:18: SyntaxWarning: list indices must be integers or slices, not tuple; perhaps you missed a comma?
+  latest_accel = [0][0,0,0]
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto/serial_comms.py:19: SyntaxWarning: list indices must be integers or slices, not tuple; perhaps you missed a comma?
+  latest_gyro = [0][0,0,0]
