@@ -2,7 +2,7 @@ import rclpy
 from rclpy.executors import ExternalShutdownException
 from rclpy.node import Node
 
-from ranger_interfaces.msg import ThrusterThrottle
+from ranger_interfaces.msg import ThrusterThrottle, MovementVector
 
 class ThrottleResolver(Node):
     
@@ -11,6 +11,7 @@ class ThrottleResolver(Node):
     def __init__(self):
         super().__init__('throttle_resolver')
         self.throttle_publisher = self.create_publisher(ThrusterThrottle, 'throttle_data', 10)
+        self.input_subscriber = self.create_subscription(MovementVector, 'movement_vector_data', self.input_data_callback, 10)
 
         self.thrusters.append(Thruster(1, [0,0,0], [0, -1, 0, 0.5,0, 0.5])) # Thruster 1
         self.thrusters.append(Thruster(2, [0,0,0], [0,  1, 0, 0.5,0,-0.5])) # Thruster 2
@@ -21,6 +22,12 @@ class ThrottleResolver(Node):
         self.thrusters.append(Thruster(7, [0,0,0], [-1, 0, 1, 0,  1, 0])) # Thruster 7
         self.thrusters.append(Thruster(8, [0,0,0], [-1, 0,-1, 0,  1, 0])) # Thruster 8
     
+    def input_data_callback(self, data:MovementVector):
+        translation = [data.x, data.y, data.z]
+        rotation = [data.roll, data.pitch, data.yaw]
+
+        self.calculate_throttles(self, translation, rotation)
+
     def calculate_throttles(self, translation_input, rotation_input):
 
         for thruster in self.thrusters:
@@ -59,7 +66,7 @@ def main(args=None):
 
             rclpy.spin(throttle_resolver)
     except (KeyboardInterrupt, ExternalShutdownException):
-        pass
+        pass  
 
 if __name__ == '__main__':
     main()
