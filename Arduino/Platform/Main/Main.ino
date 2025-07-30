@@ -123,13 +123,13 @@ void setup()
   while (!Serial){;}
   Serial.flush();
 
-  
+  /*
   //Serial communication to first Ultrasonic Sensor
   //Pins: RX=19, TX=18
   Serial1.begin(115200);
   while (!Serial1){;}
   Serial1.flush();
-  /*
+  
   //Serial communication to second Ultrasonic Sensor
   //Pins: RX=17, TX=16
   Serial2.begin(115200);
@@ -149,7 +149,7 @@ void setup()
   while (!Serial4){;}
   Serial4.flush();
   */
-
+  /*
   sensorSerial[0].hardware = &Serial1;
   sensorSerial[1].hardware = &Serial2;
   sensorSerial[2].hardware = &Serial3;
@@ -160,8 +160,8 @@ void setup()
   chip_MDL_1.begin_I2C(0x1C);
   chip_948_1.begin_I2C(0x69);
   chip_948_2.begin_I2C(0x68);
+  */
 
-  /*
   //Attach the ESCs to their corresponding servo object
   thruster1.attach(THRUSTER1PIN, ESC_MIN, ESC_MAX);
   thruster2.attach(THRUSTER2PIN, ESC_MIN, ESC_MAX);
@@ -171,7 +171,16 @@ void setup()
   thruster6.attach(THRUSTER6PIN, ESC_MIN, ESC_MAX);
   thruster7.attach(THRUSTER7PIN, ESC_MIN, ESC_MAX);
   thruster8.attach(THRUSTER8PIN, ESC_MIN, ESC_MAX);
-  */
+
+  //Set all thrusters to minimum on startup
+  thruster1.write(ESC_MIN);
+  thruster2.write(ESC_MIN);
+  thruster3.write(ESC_MIN);
+  thruster4.write(ESC_MIN);
+  thruster5.write(ESC_MIN);
+  thruster6.write(ESC_MIN);
+  thruster7.write(ESC_MIN);
+  thruster8.write(ESC_MIN);
 
   //Once setup is finished, send "READY" to Raspberry Pi
   Serial.println("READY");
@@ -225,8 +234,7 @@ void loop()
     //Match the target string with the pattern, and run the callback function for each match
     unsigned int count = ms.GlobalMatch("(%S+)", matchCallback);
   }
-
-  /*
+  
   //Set throttle for each thruster according to message from Pi
   if (command == "MOTOR")
   {
@@ -236,32 +244,77 @@ void loop()
     switch (identifier)
     {
       case 1:
-        thruster1.write(throttle);
+        throttle1 = throttle;
+        //Serial.print("Motor1 ");
+        //Serial.println(throttle);
+        thruster1.write(throttle1);
         break;
       case 2:
-        thruster2.write(throttle);
+        throttle2 = throttle;
+        //Serial.print("Motor2 ");
+        //Serial.println(throttle);
+        thruster2.write(throttle2);
         break;
       case 3:
-        thruster3.write(throttle);
+        throttle3 = throttle;
+        //Serial.print("Motor3 ");
+        //Serial.println(throttle);
+        thruster3.write(throttle3);
         break;
       case 4:
-        thruster4.write(throttle);
+        throttle4 = throttle;
+        //Serial.print("Motor4 ");
+        //Serial.println(throttle);
+        thruster4.write(throttle4);
         break;
       case 5:
-        thruster5.write(throttle);
+        throttle5 = throttle;
+        //Serial.print("Motor5 ");
+        //Serial.println(throttle);
+        thruster5.write(throttle5);
         break;
       case 6:
-        thruster6.write(throttle);
+        throttle6 = throttle;
+        //Serial.print("Motor6 ");
+        //Serial.println(throttle);
+        thruster6.write(throttle6);
         break;
       case 7:
-        thruster7.write(throttle);
+        throttle7 = throttle;
+        //Serial.print("Motor7 ");
+        //Serial.println(throttle);
+        thruster7.write(throttle7);
         break;
       case 8:
-        thruster8.write(throttle);
+        throttle8 = throttle;
+        //Serial.print("Motor8 ");
+        //Serial.println(throttle);
+        thruster8.write(throttle8);
+        break;
+      case 0:
+        //Serial.print("All Motors ");
+        //Serial.println(throttle);
+        throttle1 = throttle;
+        throttle2 = throttle;
+        throttle3 = throttle;
+        throttle4 = throttle;
+        throttle5 = throttle;
+        throttle6 = throttle;
+        throttle7 = throttle;
+        throttle8 = throttle;
+        thruster1.write(throttle1);
+        thruster2.write(throttle2);
+        thruster3.write(throttle3);
+        thruster4.write(throttle4);
+        thruster5.write(throttle5);
+        thruster6.write(throttle6);
+        thruster7.write(throttle7);
+        thruster8.write(throttle8);
         break;
     }
+    command = "";
   }
-  */
+  /*
   //Read current state of IMUs
   chip_OX_1.getEvent(&accel[0], &gyro[0], &temp[0]);
   chip_MDL_1.getEvent(&magnet[0]);
@@ -302,7 +355,8 @@ void loop()
     Serial.print(magnet[i].magnetic.z, 10);
     Serial.println();
   }
-  
+  */
+  /*
   //Read current state of Ultrasonic Sensors
   if (active_ult_son_sensor < 3)
   {
@@ -441,7 +495,7 @@ void loop()
       old_distance[i] = distance[i];
     }
   }
-
+  */
   //DISABLED IN FAVOR OF SIMPLER SYSTEM
   /*uint8_t message[8]; //Initialize variable to hold the 8-byte message
   size_t message_size = read_serial(message); //Read a message and return its size (8 if successful, or 0 if no message)
