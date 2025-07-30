@@ -67,6 +67,9 @@ class MovementVector(metaclass=Metaclass_MovementVector):
         '_x',
         '_y',
         '_z',
+        '_roll',
+        '_pitch',
+        '_yaw',
         '_check_fields',
     ]
 
@@ -74,11 +77,17 @@ class MovementVector(metaclass=Metaclass_MovementVector):
         'x': 'double',
         'y': 'double',
         'z': 'double',
+        'roll': 'double',
+        'pitch': 'double',
+        'yaw': 'double',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
@@ -96,6 +105,9 @@ class MovementVector(metaclass=Metaclass_MovementVector):
         self.x = kwargs.get('x', float())
         self.y = kwargs.get('y', float())
         self.z = kwargs.get('z', float())
+        self.roll = kwargs.get('roll', float())
+        self.pitch = kwargs.get('pitch', float())
+        self.yaw = kwargs.get('yaw', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -132,6 +144,12 @@ class MovementVector(metaclass=Metaclass_MovementVector):
         if self.y != other.y:
             return False
         if self.z != other.z:
+            return False
+        if self.roll != other.roll:
+            return False
+        if self.pitch != other.pitch:
+            return False
+        if self.yaw != other.yaw:
             return False
         return True
 
@@ -184,3 +202,48 @@ class MovementVector(metaclass=Metaclass_MovementVector):
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
                 "The 'z' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._z = value
+
+    @builtins.property
+    def roll(self):
+        """Message field 'roll'."""
+        return self._roll
+
+    @roll.setter
+    def roll(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'roll' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'roll' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._roll = value
+
+    @builtins.property
+    def pitch(self):
+        """Message field 'pitch'."""
+        return self._pitch
+
+    @pitch.setter
+    def pitch(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'pitch' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'pitch' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._pitch = value
+
+    @builtins.property
+    def yaw(self):
+        """Message field 'yaw'."""
+        return self._yaw
+
+    @yaw.setter
+    def yaw(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'yaw' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'yaw' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._yaw = value

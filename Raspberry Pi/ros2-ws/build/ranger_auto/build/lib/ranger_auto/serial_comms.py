@@ -37,7 +37,7 @@ class SerialComms(Node):
         data = 0
         messages = []
         while data == 0:
-            data = read_serial()
+            data = str(read_serial())
             if data != 0:
                 messages.append(data)
 
@@ -56,13 +56,15 @@ class SerialComms(Node):
 def parse_message(message):
     t_stamp = time.time_ns()
     result = pattern.split(message)
+    if len(result) < 3:
+        return 0
     command = result[0]
     id = result[1]
     data = []
     if len(result) > 3:
         data = [result[2], result[3], result[4]]
     else:
-        data = result[2]
+        data[0] = result[2]
 
     match command:
         case "ACCEL":
@@ -144,7 +146,7 @@ def open_serial(comport, baudrate):
 
 def throttle_data_callback(data:ThrusterThrottle):
     message = "MOTOR " + str(data.id) + " " + str(data.value)
-    write_serial(message)
+    write_serial(message.encode())
 
 def read_serial():
     global ser

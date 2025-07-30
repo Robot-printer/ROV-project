@@ -26,7 +26,7 @@ class ThrottleResolver(Node):
         translation = [data.x, data.y, data.z]
         rotation = [data.roll, data.pitch, data.yaw]
 
-        self.calculate_throttles(self, translation, rotation)
+        self.calculate_throttles(translation, rotation)
 
     def calculate_throttles(self, translation_input, rotation_input):
 
@@ -39,7 +39,7 @@ class ThrottleResolver(Node):
             longitudinal_comp = thruster.actuation_components[5] * translation_input[2]
 
             throttle = pitch_comp + yaw_comp + roll_comp + lateral_comp + vertical_comp + longitudinal_comp
-            throttle = throttle * 100
+            throttle = int(throttle * 100)
 
             pub = ThrusterThrottle()
             pub.id = thruster.id_num

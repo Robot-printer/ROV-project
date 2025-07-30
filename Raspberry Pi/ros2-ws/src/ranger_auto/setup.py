@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'pathfinder = ranger_auto.pathfinder:main',
-            'testdrive = ranger_auto.test_move:main'
+            'testdrive = ranger_auto.test_move:main',
+            'serialcom = ranger_auto.serial_comms:main',
+            'throttleresolve = ranger_auto.throttle_resolver:main'
         ],
     },
 )

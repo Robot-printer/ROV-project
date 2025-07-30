@@ -16,31 +16,37 @@ class TestDriver(Node):
     
 
     def simple_drive_routine(self):
-        vector:MovementVector
+        vector = MovementVector()
         
         time.sleep(10)
 
-        vector.z = 1
+        print("Going forward...")
+        vector.z = 1.0
         self.movement_publisher.publish(vector)
         time.sleep(3)
 
-        vector.z = 0
+        print("Stopping...")
+        vector.z = 0.0
         self.movement_publisher.publish(vector)
         time.sleep(1)
 
-        vector.yaw = 1
+        print("Turning...")
+        vector.yaw = 1.0
         self.movement_publisher.publish(vector)
         time.sleep(5)
 
-        vector.yaw = 0
+        print("Stopping...")
+        vector.yaw = 0.0
         self.movement_publisher.publish(vector)
         time.sleep(1)
 
-        vector.z = 1
+        print("Going forward...")
+        vector.z = 1.0
         self.movement_publisher.publish(vector)
         time.sleep(3)
 
-        vector.z = 0
+        print("Stopping...")
+        vector.z = 0.0
         self.movement_publisher.publish(vector)
         time.sleep(1)
 
