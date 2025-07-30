@@ -10,8 +10,12 @@ setup.py
 ../../build/ranger_auto/ranger_auto.egg-info/top_level.txt
 ../../build/ranger_auto/ranger_auto.egg-info/zip-safe
 ranger_auto/__init__.py
+ranger_auto/orientation_updater.py
 ranger_auto/pathfinder.py
+ranger_auto/remote_pilot.py
 ranger_auto/serial_comms.py
+ranger_auto/test_move.py
+ranger_auto/throttle_resolver.py
 resource/ranger_auto
 test/test_copyright.py
 test/test_flake8.py

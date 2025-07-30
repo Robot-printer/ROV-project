@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'pathfinder = ranger_auto.pathfinder:main'
+            'pathfinder = ranger_auto.pathfinder:main',
+            'testdrive = ranger_auto.test_move:main'
         ],
     },
 )
