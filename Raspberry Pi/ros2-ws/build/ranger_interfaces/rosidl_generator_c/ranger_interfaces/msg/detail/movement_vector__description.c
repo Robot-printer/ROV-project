@@ -11,10 +11,10 @@ ranger_interfaces__msg__MovementVector__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xfe, 0x45, 0x4b, 0x27, 0x99, 0xec, 0x0f, 0x20,
-      0x1a, 0xa1, 0xbe, 0x5a, 0x55, 0xee, 0x4b, 0xf1,
-      0x19, 0x2e, 0xfe, 0x1f, 0x60, 0xd0, 0x76, 0x32,
-      0x1e, 0x14, 0xf6, 0x35, 0xb8, 0x21, 0xd7, 0x28,
+      0xfa, 0x2d, 0x29, 0x8a, 0xe2, 0x73, 0xfb, 0xe6,
+      0xf0, 0xe1, 0xa9, 0x35, 0x2c, 0x21, 0x49, 0x40,
+      0x7a, 0xba, 0x01, 0x04, 0xa2, 0x24, 0xd1, 0xf5,
+      0x12, 0x55, 0x38, 0x51, 0x91, 0x0a, 0x19, 0xf3,
     }};
   return &hash;
 }
@@ -34,6 +34,9 @@ static char ranger_interfaces__msg__MovementVector__TYPE_NAME[] = "ranger_interf
 static char ranger_interfaces__msg__MovementVector__FIELD_NAME__x[] = "x";
 static char ranger_interfaces__msg__MovementVector__FIELD_NAME__y[] = "y";
 static char ranger_interfaces__msg__MovementVector__FIELD_NAME__z[] = "z";
+static char ranger_interfaces__msg__MovementVector__FIELD_NAME__roll[] = "roll";
+static char ranger_interfaces__msg__MovementVector__FIELD_NAME__pitch[] = "pitch";
+static char ranger_interfaces__msg__MovementVector__FIELD_NAME__yaw[] = "yaw";
 
 static rosidl_runtime_c__type_description__Field ranger_interfaces__msg__MovementVector__FIELDS[] = {
   {
@@ -66,6 +69,36 @@ static rosidl_runtime_c__type_description__Field ranger_interfaces__msg__Movemen
     },
     {NULL, 0, 0},
   },
+  {
+    {ranger_interfaces__msg__MovementVector__FIELD_NAME__roll, 4, 4},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {ranger_interfaces__msg__MovementVector__FIELD_NAME__pitch, 5, 5},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {ranger_interfaces__msg__MovementVector__FIELD_NAME__yaw, 3, 3},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
 };
 
 const rosidl_runtime_c__type_description__TypeDescription *
@@ -77,7 +110,7 @@ ranger_interfaces__msg__MovementVector__get_type_description(
   static const rosidl_runtime_c__type_description__TypeDescription description = {
     {
       {ranger_interfaces__msg__MovementVector__TYPE_NAME, 36, 36},
-      {ranger_interfaces__msg__MovementVector__FIELDS, 3, 3},
+      {ranger_interfaces__msg__MovementVector__FIELDS, 6, 6},
     },
     {NULL, 0, 0},
   };
@@ -90,7 +123,11 @@ ranger_interfaces__msg__MovementVector__get_type_description(
 static char toplevel_type_raw_source[] =
   "float64 x\n"
   "float64 y\n"
-  "float64 z";
+  "float64 z\n"
+  "\n"
+  "float64 roll\n"
+  "float64 pitch\n"
+  "float64 yaw";
 
 static char msg_encoding[] = "msg";
 
@@ -104,7 +141,7 @@ ranger_interfaces__msg__MovementVector__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {ranger_interfaces__msg__MovementVector__TYPE_NAME, 36, 36},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 29, 29},
+    {toplevel_type_raw_source, 69, 69},
   };
   return &source;
 }

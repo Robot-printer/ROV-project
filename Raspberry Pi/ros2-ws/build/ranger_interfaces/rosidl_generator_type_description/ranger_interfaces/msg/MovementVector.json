@@ -32,6 +32,36 @@
             "nested_type_name": ""
           },
           "default_value": ""
+        },
+        {
+          "name": "roll",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pitch",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "yaw",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
         }
       ]
     },
@@ -40,7 +70,7 @@
   "type_hashes": [
     {
       "type_name": "ranger_interfaces/msg/MovementVector",
-      "hash_string": "RIHS01_fe454b2799ec0f201aa1be5a55ee4bf1192efe1f60d076321e14f635b821d728"
+      "hash_string": "RIHS01_fa2d298ae273fbe6f0e1a9352c2149407aba0104a224d1f512553851910a19f3"
     }
   ]
 }

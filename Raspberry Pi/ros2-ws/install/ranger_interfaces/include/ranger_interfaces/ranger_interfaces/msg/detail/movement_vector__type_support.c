@@ -31,7 +31,7 @@ void ranger_interfaces__msg__MovementVector__rosidl_typesupport_introspection_c_
   ranger_interfaces__msg__MovementVector__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember ranger_interfaces__msg__MovementVector__rosidl_typesupport_introspection_c__MovementVector_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember ranger_interfaces__msg__MovementVector__rosidl_typesupport_introspection_c__MovementVector_message_member_array[6] = {
   {
     "x",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
@@ -85,13 +85,67 @@ static rosidl_typesupport_introspection_c__MessageMember ranger_interfaces__msg_
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "roll",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(ranger_interfaces__msg__MovementVector, roll),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "pitch",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(ranger_interfaces__msg__MovementVector, pitch),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "yaw",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(ranger_interfaces__msg__MovementVector, yaw),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers ranger_interfaces__msg__MovementVector__rosidl_typesupport_introspection_c__MovementVector_message_members = {
   "ranger_interfaces__msg",  // message namespace
   "MovementVector",  // message name
-  3,  // number of fields
+  6,  // number of fields
   sizeof(ranger_interfaces__msg__MovementVector),
   false,  // has_any_key_member_
   ranger_interfaces__msg__MovementVector__rosidl_typesupport_introspection_c__MovementVector_message_member_array,  // message members

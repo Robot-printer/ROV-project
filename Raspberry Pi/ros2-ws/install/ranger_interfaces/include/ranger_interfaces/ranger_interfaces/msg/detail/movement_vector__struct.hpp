@@ -44,6 +44,9 @@ struct MovementVector_
       this->x = 0.0;
       this->y = 0.0;
       this->z = 0.0;
+      this->roll = 0.0;
+      this->pitch = 0.0;
+      this->yaw = 0.0;
     }
   }
 
@@ -56,6 +59,9 @@ struct MovementVector_
       this->x = 0.0;
       this->y = 0.0;
       this->z = 0.0;
+      this->roll = 0.0;
+      this->pitch = 0.0;
+      this->yaw = 0.0;
     }
   }
 
@@ -69,6 +75,15 @@ struct MovementVector_
   using _z_type =
     double;
   _z_type z;
+  using _roll_type =
+    double;
+  _roll_type roll;
+  using _pitch_type =
+    double;
+  _pitch_type pitch;
+  using _yaw_type =
+    double;
+  _yaw_type yaw;
 
   // setters for named parameter idiom
   Type & set__x(
@@ -87,6 +102,24 @@ struct MovementVector_
     const double & _arg)
   {
     this->z = _arg;
+    return *this;
+  }
+  Type & set__roll(
+    const double & _arg)
+  {
+    this->roll = _arg;
+    return *this;
+  }
+  Type & set__pitch(
+    const double & _arg)
+  {
+    this->pitch = _arg;
+    return *this;
+  }
+  Type & set__yaw(
+    const double & _arg)
+  {
+    this->yaw = _arg;
     return *this;
   }
 
@@ -139,6 +172,15 @@ struct MovementVector_
       return false;
     }
     if (this->z != other.z) {
+      return false;
+    }
+    if (this->roll != other.roll) {
+      return false;
+    }
+    if (this->pitch != other.pitch) {
+      return false;
+    }
+    if (this->yaw != other.yaw) {
       return false;
     }
     return true;

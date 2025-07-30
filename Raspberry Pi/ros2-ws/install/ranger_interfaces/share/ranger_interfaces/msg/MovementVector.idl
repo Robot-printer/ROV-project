@@ -11,6 +11,12 @@ module ranger_interfaces {
       double y;
 
       double z;
+
+      double roll;
+
+      double pitch;
+
+      double yaw;
     };
   };
 };

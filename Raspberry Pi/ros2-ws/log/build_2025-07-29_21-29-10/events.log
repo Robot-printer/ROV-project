@@ -1,0 +1,798 @@
+[0.000000] (-) TimerEvent: {}
+[0.000401] (-) JobUnselected: {'identifier': 'ranger_auto'}
+[0.000736] (ranger_interfaces) JobQueued: {'identifier': 'ranger_interfaces', 'dependencies': OrderedDict()}
+[0.000773] (ranger_interfaces) JobStarted: {'identifier': 'ranger_interfaces'}
+[0.019163] (ranger_interfaces) JobProgress: {'identifier': 'ranger_interfaces', 'progress': 'cmake'}
+[0.022747] (ranger_interfaces) JobProgress: {'identifier': 'ranger_interfaces', 'progress': 'build'}
+[0.024094] (ranger_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ranger', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/ranger', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.102.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1464', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1675', 'BUNDLED_DEBUGPY_PATH': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2406', '_colcon_cd_root': '/opt/ros/kilted/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'ranger', 'JOURNAL_STREAM': '8:16564', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ranger', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/raspi:@/tmp/.ICE-unix/1637,unix/raspi:/tmp/.ICE-unix/1637', 'INVOCATION_ID': 'abc53ecc8b9d4ebfb9f96529603bcc1d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b1131dfcb2f2936b.txt', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.ROAEA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-69051de5d0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '55', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted'}), 'shell': False}
+[0.099699] (-) TimerEvent: {}
+[0.155577] (ranger_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.199812] (-) TimerEvent: {}
+[0.211634] (ranger_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.299934] (-) TimerEvent: {}
+[0.400337] (-) TimerEvent: {}
+[0.484738] (ranger_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)\n'}
+[0.497635] (ranger_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500507] (-) TimerEvent: {}
+[0.590531] (ranger_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600578] (-) TimerEvent: {}
+[0.668321] (ranger_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.4 (/opt/ros/kilted/share/rosidl_adapter/cmake)\n'}
+[0.700710] (-) TimerEvent: {}
+[0.802386] (-) TimerEvent: {}
+[0.902870] (-) TimerEvent: {}
+[1.003890] (-) TimerEvent: {}
+[1.104265] (-) TimerEvent: {}
+[1.204621] (-) TimerEvent: {}
+[1.302132] (ranger_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)\n'}
+[1.304684] (-) TimerEvent: {}
+[1.404980] (-) TimerEvent: {}
+[1.468100] (ranger_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.505089] (-) TimerEvent: {}
+[1.605454] (-) TimerEvent: {}
+[1.684886] (ranger_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.705533] (-) TimerEvent: {}
+[1.805904] (-) TimerEvent: {}
+[1.906941] (-) TimerEvent: {}
+[2.011503] (-) TimerEvent: {}
+[2.111863] (-) TimerEvent: {}
+[2.212240] (-) TimerEvent: {}
+[2.312646] (-) TimerEvent: {}
+[2.413013] (-) TimerEvent: {}
+[2.433059] (ranger_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.454921] (ranger_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[2.496615] (ranger_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.500076] (ranger_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.507779] (ranger_interfaces) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.513097] (-) TimerEvent: {}
+[2.613418] (-) TimerEvent: {}
+[2.713764] (-) TimerEvent: {}
+[2.719354] (ranger_interfaces) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[2.771290] (ranger_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces\n'}
+[2.814282] (-) TimerEvent: {}
+[2.844588] (ranger_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.884882] (ranger_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_ranger_interfaces\n'}
+[2.914410] (-) TimerEvent: {}
+[3.014869] (-) TimerEvent: {}
+[3.115226] (-) TimerEvent: {}
+[3.215569] (-) TimerEvent: {}
+[3.267917] (ranger_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.296992] (ranger_interfaces) StdoutLine: {'line': b'writing ranger_interfaces.egg-info/PKG-INFO\n'}
+[3.298619] (ranger_interfaces) StdoutLine: {'line': b'writing dependency_links to ranger_interfaces.egg-info/dependency_links.txt\n'}
+[3.299603] (ranger_interfaces) StdoutLine: {'line': b'writing top-level names to ranger_interfaces.egg-info/top_level.txt\n'}
+[3.315678] (-) TimerEvent: {}
+[3.417259] (-) TimerEvent: {}
+[3.421278] (ranger_interfaces) StdoutLine: {'line': b'[  1%] Built target ranger_interfaces__rosidl_generator_type_description\n'}
+[3.431765] (ranger_interfaces) StdoutLine: {'line': b"reading manifest file 'ranger_interfaces.egg-info/SOURCES.txt'\n"}
+[3.438095] (ranger_interfaces) StdoutLine: {'line': b"writing manifest file 'ranger_interfaces.egg-info/SOURCES.txt'\n"}
+[3.467809] (ranger_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.511298] (ranger_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.519642] (-) TimerEvent: {}
+[3.597710] (ranger_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_ranger_interfaces_egg\n'}
+[3.619782] (-) TimerEvent: {}
+[3.721284] (-) TimerEvent: {}
+[3.821899] (-) TimerEvent: {}
+[3.925394] (-) TimerEvent: {}
+[4.025804] (-) TimerEvent: {}
+[4.127325] (-) TimerEvent: {}
+[4.227734] (-) TimerEvent: {}
+[4.331816] (-) TimerEvent: {}
+[4.433219] (-) TimerEvent: {}
+[4.533657] (-) TimerEvent: {}
+[4.634062] (-) TimerEvent: {}
+[4.736492] (-) TimerEvent: {}
+[4.836879] (-) TimerEvent: {}
+[4.937263] (-) TimerEvent: {}
+[5.038771] (-) TimerEvent: {}
+[5.140295] (-) TimerEvent: {}
+[5.242287] (-) TimerEvent: {}
+[5.343619] (-) TimerEvent: {}
+[5.444095] (-) TimerEvent: {}
+[5.547287] (-) TimerEvent: {}
+[5.647787] (-) TimerEvent: {}
+[5.751283] (-) TimerEvent: {}
+[5.851795] (-) TimerEvent: {}
+[5.954629] (-) TimerEvent: {}
+[6.055431] (-) TimerEvent: {}
+[6.159453] (-) TimerEvent: {}
+[6.220629] (ranger_interfaces) StdoutLine: {'line': b'[  2%] Built target ranger_interfaces__cpp\n'}
+[6.259589] (-) TimerEvent: {}
+[6.361334] (-) TimerEvent: {}
+[6.461927] (-) TimerEvent: {}
+[6.537664] (ranger_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__description.c.o\x1b[0m\n'}
+[6.543591] (ranger_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__functions.c.o\x1b[0m\n'}
+[6.548899] (ranger_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__type_support.c.o\x1b[0m\n'}
+[6.562085] (-) TimerEvent: {}
+[6.563320] (ranger_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__description.c.o\x1b[0m\n'}
+[6.662473] (-) TimerEvent: {}
+[6.763581] (-) TimerEvent: {}
+[6.805592] (ranger_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__functions.c.o\x1b[0m\n'}
+[6.865322] (-) TimerEvent: {}
+[6.874649] (ranger_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__description.c.o\x1b[0m\n'}
+[6.886297] (ranger_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__type_support.c.o\x1b[0m\n'}
+[6.965477] (-) TimerEvent: {}
+[6.968434] (ranger_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__functions.c.o\x1b[0m\n'}
+[6.975600] (ranger_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__type_support.c.o\x1b[0m\n'}
+[7.011109] (ranger_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__description.c.o\x1b[0m\n'}
+[7.066323] (ranger_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__functions.c.o\x1b[0m\n'}
+[7.067038] (-) TimerEvent: {}
+[7.105106] (ranger_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__type_support.c.o\x1b[0m\n'}
+[7.167292] (-) TimerEvent: {}
+[7.185600] (ranger_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__description.c.o\x1b[0m\n'}
+[7.218339] (ranger_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__functions.c.o\x1b[0m\n'}
+[7.237916] (ranger_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.c.o\x1b[0m\n'}
+[7.245377] (ranger_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__description.c.o\x1b[0m\n'}
+[7.268305] (-) TimerEvent: {}
+[7.359665] (ranger_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__functions.c.o\x1b[0m\n'}
+[7.369285] (-) TimerEvent: {}
+[7.370569] (ranger_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__type_support.c.o\x1b[0m\n'}
+[7.414912] (ranger_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_location__description.c.o\x1b[0m\n'}
+[7.420935] (ranger_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_location__functions.c.o\x1b[0m\n'}
+[7.472315] (-) TimerEvent: {}
+[7.526603] (ranger_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_location__type_support.c.o\x1b[0m\n'}
+[7.566609] (ranger_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__description.c.o\x1b[0m\n'}
+[7.572454] (-) TimerEvent: {}
+[7.590533] (ranger_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__functions.c.o\x1b[0m\n'}
+[7.651457] (ranger_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__type_support.c.o\x1b[0m\n'}
+[7.672604] (-) TimerEvent: {}
+[7.681644] (ranger_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__description.c.o\x1b[0m\n'}
+[7.761257] (ranger_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__functions.c.o\x1b[0m\n'}
+[7.768799] (ranger_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__type_support.c.o\x1b[0m\n'}
+[7.773673] (-) TimerEvent: {}
+[7.808234] (ranger_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__description.c.o\x1b[0m\n'}
+[7.873295] (ranger_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__functions.c.o\x1b[0m\n'}
+[7.877615] (-) TimerEvent: {}
+[7.899323] (ranger_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.c.o\x1b[0m\n'}
+[7.977734] (-) TimerEvent: {}
+[8.021345] (ranger_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C shared library libranger_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[8.077867] (-) TimerEvent: {}
+[8.178378] (-) TimerEvent: {}
+[8.193863] (ranger_interfaces) StdoutLine: {'line': b'[ 27%] Built target ranger_interfaces__rosidl_generator_c\n'}
+[8.223456] (ranger_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.224079] (ranger_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.224392] (ranger_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.232598] (ranger_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.278530] (-) TimerEvent: {}
+[8.380278] (-) TimerEvent: {}
+[8.480678] (-) TimerEvent: {}
+[8.582051] (-) TimerEvent: {}
+[8.684257] (-) TimerEvent: {}
+[8.784623] (-) TimerEvent: {}
+[8.885111] (-) TimerEvent: {}
+[8.985637] (-) TimerEvent: {}
+[9.087948] (-) TimerEvent: {}
+[9.188789] (-) TimerEvent: {}
+[9.255514] (ranger_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/thruster_throttle__type_support.cpp.o\x1b[0m\n'}
+[9.288884] (-) TimerEvent: {}
+[9.377074] (ranger_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/thruster_throttle__type_support.cpp.o\x1b[0m\n'}
+[9.389121] (-) TimerEvent: {}
+[9.489582] (-) TimerEvent: {}
+[9.591527] (-) TimerEvent: {}
+[9.691995] (-) TimerEvent: {}
+[9.725653] (ranger_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/thruster_throttle__type_support.c.o\x1b[0m\n'}
+[9.765125] (ranger_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/imu_accel__type_support.cpp.o\x1b[0m\n'}
+[9.792143] (-) TimerEvent: {}
+[9.835929] (ranger_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/imu_accel__type_support.c.o\x1b[0m\n'}
+[9.874290] (ranger_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/imu_gyro__type_support.cpp.o\x1b[0m\n'}
+[9.892322] (-) TimerEvent: {}
+[9.941083] (ranger_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/imu_gyro__type_support.c.o\x1b[0m\n'}
+[9.988330] (ranger_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/imu_magnet__type_support.cpp.o\x1b[0m\n'}
+[9.992438] (-) TimerEvent: {}
+[10.063744] (ranger_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__type_support_c.cpp.o\x1b[0m\n'}
+[10.072109] (ranger_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/imu_magnet__type_support.c.o\x1b[0m\n'}
+[10.092606] (-) TimerEvent: {}
+[10.100297] (ranger_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/ultrasonic_distance__type_support.cpp.o\x1b[0m\n'}
+[10.192747] (-) TimerEvent: {}
+[10.209554] (ranger_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.c.o\x1b[0m\n'}
+[10.227555] (ranger_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/vehicle_transform__type_support.cpp.o\x1b[0m\n'}
+[10.293275] (-) TimerEvent: {}
+[10.320542] (ranger_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/vehicle_transform__type_support.c.o\x1b[0m\n'}
+[10.371912] (ranger_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/waypoint_location__type_support.cpp.o\x1b[0m\n'}
+[10.395332] (-) TimerEvent: {}
+[10.494647] (ranger_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/waypoint_location__type_support.c.o\x1b[0m\n'}
+[10.496274] (-) TimerEvent: {}
+[10.562337] (ranger_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/waypoint_distance__type_support.cpp.o\x1b[0m\n'}
+[10.566460] (ranger_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/imu_accel__type_support.cpp.o\x1b[0m\n'}
+[10.596406] (-) TimerEvent: {}
+[10.623285] (ranger_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/waypoint_distance__type_support.c.o\x1b[0m\n'}
+[10.696430] (ranger_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/obstacle_location__type_support.cpp.o\x1b[0m\n'}
+[10.696850] (-) TimerEvent: {}
+[10.730953] (ranger_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/obstacle_location__type_support.c.o\x1b[0m\n'}
+[10.797010] (-) TimerEvent: {}
+[10.847984] (ranger_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ranger_interfaces/msg/detail/movement_vector__type_support.c.o\x1b[0m\n'}
+[10.856281] (ranger_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/movement_vector__type_support.cpp.o\x1b[0m\n'}
+[10.897218] (-) TimerEvent: {}
+[10.961323] (ranger_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libranger_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.997340] (-) TimerEvent: {}
+[10.999448] (ranger_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libranger_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.080013] (ranger_interfaces) StdoutLine: {'line': b'[ 51%] Built target ranger_interfaces__rosidl_typesupport_introspection_c\n'}
+[11.099297] (-) TimerEvent: {}
+[11.108477] (ranger_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/imu_gyro__type_support.cpp.o\x1b[0m\n'}
+[11.191404] (ranger_interfaces) StdoutLine: {'line': b'[ 52%] Built target ranger_interfaces__rosidl_typesupport_c\n'}
+[11.199436] (-) TimerEvent: {}
+[11.264698] (ranger_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.300353] (-) TimerEvent: {}
+[11.403623] (-) TimerEvent: {}
+[11.487477] (ranger_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/imu_magnet__type_support.cpp.o\x1b[0m\n'}
+[11.504929] (-) TimerEvent: {}
+[11.609299] (-) TimerEvent: {}
+[11.693857] (ranger_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/imu_accel__type_support_c.cpp.o\x1b[0m\n'}
+[11.710276] (-) TimerEvent: {}
+[11.813268] (-) TimerEvent: {}
+[11.913687] (-) TimerEvent: {}
+[12.014582] (-) TimerEvent: {}
+[12.116774] (-) TimerEvent: {}
+[12.217409] (-) TimerEvent: {}
+[12.280453] (ranger_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/ultrasonic_distance__type_support.cpp.o\x1b[0m\n'}
+[12.317509] (-) TimerEvent: {}
+[12.356422] (ranger_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/vehicle_transform__type_support.cpp.o\x1b[0m\n'}
+[12.419262] (-) TimerEvent: {}
+[12.519742] (-) TimerEvent: {}
+[12.631859] (-) TimerEvent: {}
+[12.732325] (-) TimerEvent: {}
+[12.832866] (-) TimerEvent: {}
+[12.936256] (-) TimerEvent: {}
+[13.039368] (ranger_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/imu_gyro__type_support_c.cpp.o\x1b[0m\n'}
+[13.039839] (-) TimerEvent: {}
+[13.144289] (-) TimerEvent: {}
+[13.244739] (-) TimerEvent: {}
+[13.345266] (-) TimerEvent: {}
+[13.376445] (ranger_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/imu_magnet__type_support_c.cpp.o\x1b[0m\n'}
+[13.395114] (ranger_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/waypoint_location__type_support.cpp.o\x1b[0m\n'}
+[13.445474] (-) TimerEvent: {}
+[13.546093] (-) TimerEvent: {}
+[13.565435] (ranger_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/thruster_throttle__type_support.cpp.o\x1b[0m\n'}
+[13.646342] (-) TimerEvent: {}
+[13.746956] (-) TimerEvent: {}
+[13.849324] (-) TimerEvent: {}
+[13.949850] (-) TimerEvent: {}
+[14.051314] (-) TimerEvent: {}
+[14.151891] (-) TimerEvent: {}
+[14.255295] (-) TimerEvent: {}
+[14.355834] (-) TimerEvent: {}
+[14.424977] (ranger_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/waypoint_distance__type_support.cpp.o\x1b[0m\n'}
+[14.458277] (-) TimerEvent: {}
+[14.558712] (-) TimerEvent: {}
+[14.659139] (-) TimerEvent: {}
+[14.687703] (ranger_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/obstacle_location__type_support.cpp.o\x1b[0m\n'}
+[14.693285] (ranger_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/ultrasonic_distance__type_support_c.cpp.o\x1b[0m\n'}
+[14.759287] (-) TimerEvent: {}
+[14.861604] (-) TimerEvent: {}
+[14.926495] (ranger_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/imu_accel__type_support.cpp.o\x1b[0m\n'}
+[14.961747] (-) TimerEvent: {}
+[15.065287] (-) TimerEvent: {}
+[15.165736] (-) TimerEvent: {}
+[15.266307] (-) TimerEvent: {}
+[15.369311] (-) TimerEvent: {}
+[15.381559] (ranger_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/imu_gyro__type_support.cpp.o\x1b[0m\n'}
+[15.469441] (-) TimerEvent: {}
+[15.569954] (-) TimerEvent: {}
+[15.644321] (ranger_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ranger_interfaces/msg/movement_vector__type_support.cpp.o\x1b[0m\n'}
+[15.673288] (-) TimerEvent: {}
+[15.773771] (-) TimerEvent: {}
+[15.874357] (-) TimerEvent: {}
+[15.967112] (ranger_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/vehicle_transform__type_support_c.cpp.o\x1b[0m\n'}
+[15.975304] (-) TimerEvent: {}
+[16.075794] (-) TimerEvent: {}
+[16.179707] (-) TimerEvent: {}
+[16.280225] (-) TimerEvent: {}
+[16.335384] (ranger_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/waypoint_location__type_support_c.cpp.o\x1b[0m\n'}
+[16.381282] (-) TimerEvent: {}
+[16.484662] (-) TimerEvent: {}
+[16.496193] (ranger_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libranger_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[16.584806] (-) TimerEvent: {}
+[16.681328] (ranger_interfaces) StdoutLine: {'line': b'[ 65%] Built target ranger_interfaces__rosidl_typesupport_cpp\n'}
+[16.684955] (-) TimerEvent: {}
+[16.707050] (ranger_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.785109] (-) TimerEvent: {}
+[16.820566] (ranger_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/imu_magnet__type_support.cpp.o\x1b[0m\n'}
+[16.885280] (-) TimerEvent: {}
+[16.988268] (-) TimerEvent: {}
+[17.088732] (-) TimerEvent: {}
+[17.189357] (-) TimerEvent: {}
+[17.204596] (ranger_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/waypoint_distance__type_support_c.cpp.o\x1b[0m\n'}
+[17.289603] (-) TimerEvent: {}
+[17.393271] (-) TimerEvent: {}
+[17.493730] (-) TimerEvent: {}
+[17.594517] (-) TimerEvent: {}
+[17.605908] (ranger_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/ultrasonic_distance__type_support.cpp.o\x1b[0m\n'}
+[17.695038] (-) TimerEvent: {}
+[17.795480] (-) TimerEvent: {}
+[17.898284] (-) TimerEvent: {}
+[17.998757] (-) TimerEvent: {}
+[18.102285] (-) TimerEvent: {}
+[18.176107] (ranger_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/obstacle_location__type_support_c.cpp.o\x1b[0m\n'}
+[18.202416] (-) TimerEvent: {}
+[18.302864] (-) TimerEvent: {}
+[18.403405] (-) TimerEvent: {}
+[18.504462] (-) TimerEvent: {}
+[18.588709] (ranger_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp.o\x1b[0m\n'}
+[18.607326] (-) TimerEvent: {}
+[18.613430] (ranger_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__type_support.cpp.o\x1b[0m\n'}
+[18.707463] (-) TimerEvent: {}
+[18.807912] (-) TimerEvent: {}
+[18.911301] (-) TimerEvent: {}
+[18.999472] (ranger_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/vehicle_transform__type_support.cpp.o\x1b[0m\n'}
+[19.011450] (-) TimerEvent: {}
+[19.111957] (-) TimerEvent: {}
+[19.214475] (-) TimerEvent: {}
+[19.315260] (-) TimerEvent: {}
+[19.416008] (-) TimerEvent: {}
+[19.518667] (-) TimerEvent: {}
+[19.525047] (ranger_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/imu_accel__type_support.cpp.o\x1b[0m\n'}
+[19.541371] (ranger_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/imu_gyro__type_support.cpp.o\x1b[0m\n'}
+[19.618795] (-) TimerEvent: {}
+[19.720566] (-) TimerEvent: {}
+[19.823464] (-) TimerEvent: {}
+[19.893194] (ranger_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libranger_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.924339] (-) TimerEvent: {}
+[20.027350] (-) TimerEvent: {}
+[20.122377] (ranger_interfaces) StdoutLine: {'line': b'[ 74%] Built target ranger_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[20.127480] (-) TimerEvent: {}
+[20.152235] (ranger_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/waypoint_location__type_support.cpp.o\x1b[0m\n'}
+[20.230282] (-) TimerEvent: {}
+[20.333476] (-) TimerEvent: {}
+[20.358403] (ranger_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/waypoint_distance__type_support.cpp.o\x1b[0m\n'}
+[20.433589] (-) TimerEvent: {}
+[20.535432] (-) TimerEvent: {}
+[20.637452] (-) TimerEvent: {}
+[20.650684] (ranger_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/imu_magnet__type_support.cpp.o\x1b[0m\n'}
+[20.736157] (ranger_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.cpp.o\x1b[0m\n'}
+[20.738303] (-) TimerEvent: {}
+[20.841296] (-) TimerEvent: {}
+[20.941779] (-) TimerEvent: {}
+[21.042288] (-) TimerEvent: {}
+[21.142753] (-) TimerEvent: {}
+[21.245290] (-) TimerEvent: {}
+[21.345761] (-) TimerEvent: {}
+[21.434549] (ranger_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/obstacle_location__type_support.cpp.o\x1b[0m\n'}
+[21.447225] (-) TimerEvent: {}
+[21.548310] (-) TimerEvent: {}
+[21.651307] (-) TimerEvent: {}
+[21.688459] (ranger_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/vehicle_transform__type_support.cpp.o\x1b[0m\n'}
+[21.752906] (-) TimerEvent: {}
+[21.760386] (ranger_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ranger_interfaces/msg/detail/dds_fastrtps/movement_vector__type_support.cpp.o\x1b[0m\n'}
+[21.853043] (-) TimerEvent: {}
+[21.870304] (ranger_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/waypoint_location__type_support.cpp.o\x1b[0m\n'}
+[21.953203] (-) TimerEvent: {}
+[22.055571] (-) TimerEvent: {}
+[22.156295] (-) TimerEvent: {}
+[22.257463] (-) TimerEvent: {}
+[22.360699] (-) TimerEvent: {}
+[22.461192] (-) TimerEvent: {}
+[22.561735] (-) TimerEvent: {}
+[22.627549] (ranger_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/waypoint_distance__type_support.cpp.o\x1b[0m\n'}
+[22.664298] (-) TimerEvent: {}
+[22.736928] (ranger_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/obstacle_location__type_support.cpp.o\x1b[0m\n'}
+[22.756581] (ranger_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp.o\x1b[0m\n'}
+[22.764447] (-) TimerEvent: {}
+[22.867319] (-) TimerEvent: {}
+[22.967895] (-) TimerEvent: {}
+[23.068591] (-) TimerEvent: {}
+[23.142961] (ranger_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libranger_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[23.174367] (-) TimerEvent: {}
+[23.275091] (-) TimerEvent: {}
+[23.359461] (ranger_interfaces) StdoutLine: {'line': b'[ 84%] Built target ranger_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[23.375277] (-) TimerEvent: {}
+[23.477289] (-) TimerEvent: {}
+[23.577763] (-) TimerEvent: {}
+[23.676543] (ranger_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libranger_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[23.677837] (-) TimerEvent: {}
+[23.775075] (ranger_interfaces) StdoutLine: {'line': b'[ 85%] Built target ranger_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[23.777953] (-) TimerEvent: {}
+[23.825335] (ranger_interfaces) StdoutLine: {'line': b'[ 85%] Built target ranger_interfaces\n'}
+[23.869264] (ranger_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[23.878067] (-) TimerEvent: {}
+[23.978468] (-) TimerEvent: {}
+[24.078796] (-) TimerEvent: {}
+[24.179114] (-) TimerEvent: {}
+[24.279439] (-) TimerEvent: {}
+[24.379738] (-) TimerEvent: {}
+[24.480035] (-) TimerEvent: {}
+[24.580373] (-) TimerEvent: {}
+[24.680673] (-) TimerEvent: {}
+[24.780989] (-) TimerEvent: {}
+[24.881298] (-) TimerEvent: {}
+[24.981610] (-) TimerEvent: {}
+[25.081928] (-) TimerEvent: {}
+[25.182635] (-) TimerEvent: {}
+[25.283881] (-) TimerEvent: {}
+[25.387649] (-) TimerEvent: {}
+[25.406924] (ranger_interfaces) StdoutLine: {'line': b'[ 86%] Built target ranger_interfaces__py\n'}
+[25.488681] (-) TimerEvent: {}
+[25.489327] (ranger_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_thruster_throttle_s.c.o\x1b[0m\n'}
+[25.489722] (ranger_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_imu_accel_s.c.o\x1b[0m\n'}
+[25.489906] (ranger_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_imu_gyro_s.c.o\x1b[0m\n'}
+[25.588818] (-) TimerEvent: {}
+[25.689262] (-) TimerEvent: {}
+[25.790033] (-) TimerEvent: {}
+[25.814212] (ranger_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_imu_magnet_s.c.o\x1b[0m\n'}
+[25.818775] (ranger_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_ultrasonic_distance_s.c.o\x1b[0m\n'}
+[25.828065] (ranger_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_vehicle_transform_s.c.o\x1b[0m\n'}
+[25.857112] (ranger_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_waypoint_location_s.c.o\x1b[0m\n'}
+[25.890270] (-) TimerEvent: {}
+[25.993521] (-) TimerEvent: {}
+[26.094084] (-) TimerEvent: {}
+[26.146708] (ranger_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_waypoint_distance_s.c.o\x1b[0m\n'}
+[26.196296] (-) TimerEvent: {}
+[26.296835] (-) TimerEvent: {}
+[26.305099] (ranger_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_obstacle_location_s.c.o\x1b[0m\n'}
+[26.332238] (ranger_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c.o\x1b[0m\n'}
+[26.398287] (-) TimerEvent: {}
+[26.498677] (-) TimerEvent: {}
+[26.599057] (-) TimerEvent: {}
+[26.641908] (ranger_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library libranger_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[26.699205] (-) TimerEvent: {}
+[26.747279] (ranger_interfaces) StdoutLine: {'line': b'[ 95%] Built target ranger_interfaces__rosidl_generator_py\n'}
+[26.800887] (ranger_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.801375] (-) TimerEvent: {}
+[26.802295] (ranger_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.802556] (ranger_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ranger_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.903675] (-) TimerEvent: {}
+[27.005272] (-) TimerEvent: {}
+[27.069453] (ranger_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[27.105453] (-) TimerEvent: {}
+[27.118241] (ranger_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[27.156007] (ranger_interfaces) StdoutLine: {'line': b'[ 99%] Built target ranger_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[27.179249] (ranger_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[27.199788] (ranger_interfaces) StdoutLine: {'line': b'[100%] Built target ranger_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[27.205561] (-) TimerEvent: {}
+[27.238468] (ranger_interfaces) StdoutLine: {'line': b'[100%] Built target ranger_interfaces_s__rosidl_typesupport_c\n'}
+[27.268594] (ranger_interfaces) CommandEnded: {'returncode': 0}
+[27.270370] (ranger_interfaces) JobProgress: {'identifier': 'ranger_interfaces', 'progress': 'install'}
+[27.287576] (ranger_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces'], 'cwd': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ranger', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/ranger', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.102.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1464', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1675', 'BUNDLED_DEBUGPY_PATH': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2406', '_colcon_cd_root': '/opt/ros/kilted/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'ranger', 'JOURNAL_STREAM': '8:16564', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ranger', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/raspi:@/tmp/.ICE-unix/1637,unix/raspi:/tmp/.ICE-unix/1637', 'INVOCATION_ID': 'abc53ecc8b9d4ebfb9f96529603bcc1d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ranger/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b1131dfcb2f2936b.txt', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.ROAEA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-69051de5d0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '55', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted'}), 'shell': False}
+[27.302813] (ranger_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.303105] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ament_index/resource_index/rosidl_interfaces/ranger_interfaces\n'}
+[27.303233] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ThrusterThrottle.json\n'}
+[27.303371] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUAccel.json\n'}
+[27.303563] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUGyro.json\n'}
+[27.303761] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUMagnet.json\n'}
+[27.303961] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/UltrasonicDistance.json\n'}
+[27.304160] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/VehicleTransform.json\n'}
+[27.304406] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/WaypointLocation.json\n'}
+[27.304608] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/WaypointDistance.json\n'}
+[27.304818] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ObstacleLocation.json\n'}
+[27.305016] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/MovementVector.json\n'}
+[27.305238] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces\n'}
+[27.305361] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg\n'}
+[27.305481] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/movement_vector.h\n'}
+[27.305572] (-) TimerEvent: {}
+[27.305703] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/waypoint_distance.h\n'}
+[27.305855] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/imu_gyro.h\n'}
+[27.306139] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.306336] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/thruster_throttle.h\n'}
+[27.306437] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail\n'}
+[27.306531] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__type_support.h\n'}
+[27.306662] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__struct.h\n'}
+[27.306753] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__struct.h\n'}
+[27.306862] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__type_support.c\n'}
+[27.306973] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__description.c\n'}
+[27.307165] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__functions.h\n'}
+[27.307605] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__description.c\n'}
+[27.307783] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__struct.h\n'}
+[27.307953] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__description.c\n'}
+[27.308119] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__struct.h\n'}
+[27.308308] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__functions.c\n'}
+[27.308491] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__type_support.h\n'}
+[27.308657] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__type_support.c\n'}
+[27.308839] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__type_support.h\n'}
+[27.309008] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__description.c\n'}
+[27.309175] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__description.c\n'}
+[27.309363] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.h\n'}
+[27.309534] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__type_support.h\n'}
+[27.309700] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__type_support.c\n'}
+[27.309863] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__functions.c\n'}
+[27.310039] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__description.c\n'}
+[27.310220] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__struct.h\n'}
+[27.310430] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__functions.c\n'}
+[27.310622] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__type_support.h\n'}
+[27.310795] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__description.c\n'}
+[27.310964] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__struct.h\n'}
+[27.311134] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__type_support.h\n'}
+[27.311704] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__functions.h\n'}
+[27.311857] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__functions.h\n'}
+[27.312272] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__description.c\n'}
+[27.312684] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__functions.h\n'}
+[27.312801] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__functions.c\n'}
+[27.312906] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__type_support.c\n'}
+[27.313008] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__type_support.c\n'}
+[27.313351] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__description.c\n'}
+[27.313594] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__type_support.c\n'}
+[27.313786] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__type_support.c\n'}
+[27.313895] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.c\n'}
+[27.313996] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__functions.h\n'}
+[27.314159] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__type_support.h\n'}
+[27.314310] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__description.c\n'}
+[27.314421] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__type_support.c\n'}
+[27.314577] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__type_support.h\n'}
+[27.317354] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__type_support.h\n'}
+[27.317631] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__functions.h\n'}
+[27.317758] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__functions.c\n'}
+[27.317862] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__functions.c\n'}
+[27.317950] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__struct.h\n'}
+[27.318034] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__functions.c\n'}
+[27.318117] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__functions.c\n'}
+[27.318224] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__struct.h\n'}
+[27.318320] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__type_support.c\n'}
+[27.318415] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__struct.h\n'}
+[27.318515] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__functions.c\n'}
+[27.318614] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__functions.h\n'}
+[27.318715] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__functions.h\n'}
+[27.318807] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__functions.h\n'}
+[27.319390] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__struct.h\n'}
+[27.320062] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__functions.h\n'}
+[27.320204] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__functions.c\n'}
+[27.320328] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/vehicle_transform.h\n'}
+[27.320439] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/imu_accel.h\n'}
+[27.320551] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/obstacle_location.h\n'}
+[27.320642] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/ultrasonic_distance.h\n'}
+[27.320728] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/imu_magnet.h\n'}
+[27.320831] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/waypoint_location.h\n'}
+[27.320955] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/environment/library_path.sh\n'}
+[27.321061] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/environment/library_path.dsv\n'}
+[27.322701] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_generator_c.so\n'}
+[27.324042] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_generator_c.so" to ""\n'}
+[27.324460] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces\n'}
+[27.324568] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg\n'}
+[27.324668] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.324759] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail\n'}
+[27.324843] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__rosidl_typesupport_fastrtps_c.h\n'}
+[27.324926] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_fastrtps_c.h\n'}
+[27.325031] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__rosidl_typesupport_fastrtps_c.h\n'}
+[27.325342] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__rosidl_typesupport_fastrtps_c.h\n'}
+[27.325648] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__rosidl_typesupport_fastrtps_c.h\n'}
+[27.326276] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__rosidl_typesupport_fastrtps_c.h\n'}
+[27.326478] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__rosidl_typesupport_fastrtps_c.h\n'}
+[27.326619] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_c.h\n'}
+[27.326720] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__rosidl_typesupport_fastrtps_c.h\n'}
+[27.326841] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__rosidl_typesupport_fastrtps_c.h\n'}
+[27.329127] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[27.330508] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.330798] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces\n'}
+[27.330942] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg\n'}
+[27.331039] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail\n'}
+[27.331134] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__type_support.c\n'}
+[27.332269] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_c.h\n'}
+[27.332440] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__rosidl_typesupport_introspection_c.h\n'}
+[27.332558] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__type_support.c\n'}
+[27.332938] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_introspection_c.h\n'}
+[27.333287] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__type_support.c\n'}
+[27.334548] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__rosidl_typesupport_introspection_c.h\n'}
+[27.334744] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__rosidl_typesupport_introspection_c.h\n'}
+[27.334846] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__type_support.c\n'}
+[27.334932] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__type_support.c\n'}
+[27.335013] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__rosidl_typesupport_introspection_c.h\n'}
+[27.335100] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__type_support.c\n'}
+[27.335194] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__type_support.c\n'}
+[27.335294] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.c\n'}
+[27.335401] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__type_support.c\n'}
+[27.335484] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__rosidl_typesupport_introspection_c.h\n'}
+[27.335577] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__rosidl_typesupport_introspection_c.h\n'}
+[27.335706] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__type_support.c\n'}
+[27.335840] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__rosidl_typesupport_introspection_c.h\n'}
+[27.336004] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__rosidl_typesupport_introspection_c.h\n'}
+[27.336103] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.336219] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[27.336575] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.339864] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_c.so\n'}
+[27.340421] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[27.340609] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces\n'}
+[27.340753] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg\n'}
+[27.340863] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/obstacle_location.hpp\n'}
+[27.340972] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/imu_magnet.hpp\n'}
+[27.341073] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/imu_accel.hpp\n'}
+[27.341250] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/ultrasonic_distance.hpp\n'}
+[27.341358] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail\n'}
+[27.341466] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__builder.hpp\n'}
+[27.341590] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__struct.hpp\n'}
+[27.341812] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__struct.hpp\n'}
+[27.342142] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__struct.hpp\n'}
+[27.342975] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__type_support.hpp\n'}
+[27.343132] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__traits.hpp\n'}
+[27.343245] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__struct.hpp\n'}
+[27.343341] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__builder.hpp\n'}
+[27.343460] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__type_support.hpp\n'}
+[27.343553] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__builder.hpp\n'}
+[27.343643] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__builder.hpp\n'}
+[27.343776] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__builder.hpp\n'}
+[27.343867] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__type_support.hpp\n'}
+[27.343968] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__traits.hpp\n'}
+[27.344072] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__traits.hpp\n'}
+[27.344327] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__traits.hpp\n'}
+[27.344501] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__traits.hpp\n'}
+[27.344698] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__type_support.hpp\n'}
+[27.344885] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__builder.hpp\n'}
+[27.345082] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__traits.hpp\n'}
+[27.345298] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__struct.hpp\n'}
+[27.345508] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__struct.hpp\n'}
+[27.345713] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__type_support.hpp\n'}
+[27.345892] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__builder.hpp\n'}
+[27.346072] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__struct.hpp\n'}
+[27.346288] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__type_support.hpp\n'}
+[27.346474] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__traits.hpp\n'}
+[27.346657] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__struct.hpp\n'}
+[27.346839] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__struct.hpp\n'}
+[27.347016] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__traits.hpp\n'}
+[27.347207] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__traits.hpp\n'}
+[27.347407] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__builder.hpp\n'}
+[27.347594] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__builder.hpp\n'}
+[27.347779] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__traits.hpp\n'}
+[27.347965] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.hpp\n'}
+[27.348147] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__type_support.hpp\n'}
+[27.348347] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__type_support.hpp\n'}
+[27.348534] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__struct.hpp\n'}
+[27.348732] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__builder.hpp\n'}
+[27.348916] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__type_support.hpp\n'}
+[27.349115] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[27.349364] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/waypoint_distance.hpp\n'}
+[27.349535] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/thruster_throttle.hpp\n'}
+[27.349702] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/waypoint_location.hpp\n'}
+[27.349872] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/imu_gyro.hpp\n'}
+[27.350185] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/movement_vector.hpp\n'}
+[27.350407] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/vehicle_transform.hpp\n'}
+[27.350776] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces\n'}
+[27.350956] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg\n'}
+[27.351070] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail\n'}
+[27.351181] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.351338] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.351479] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/dds_fastrtps\n'}
+[27.351602] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.351738] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.351911] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.352095] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.352293] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.352486] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.352671] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.352853] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.353036] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.355460] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.356335] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[27.356531] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces\n'}
+[27.356653] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg\n'}
+[27.356747] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail\n'}
+[27.356891] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.356989] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.357144] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.357286] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__type_support.cpp\n'}
+[27.357439] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__type_support.cpp\n'}
+[27.357634] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__type_support.cpp\n'}
+[27.357820] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__type_support.cpp\n'}
+[27.358088] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__type_support.cpp\n'}
+[27.358376] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.358613] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.358934] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.cpp\n'}
+[27.359138] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__type_support.cpp\n'}
+[27.359317] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.359466] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.359624] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__type_support.cpp\n'}
+[27.359808] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.359980] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.360161] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__type_support.cpp\n'}
+[27.360362] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__type_support.cpp\n'}
+[27.360550] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.362167] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[27.362963] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[27.364467] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_cpp.so\n'}
+[27.365255] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[27.365461] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/environment/pythonpath.sh\n'}
+[27.365597] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/environment/pythonpath.dsv\n'}
+[27.365745] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces-0.0.1-py3.12.egg-info\n'}
+[27.365884] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[27.365982] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[27.366097] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[27.366246] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[27.366414] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces\n'}
+[27.366560] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[27.366950] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_c.so\n'}
+[27.367294] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[27.367571] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[27.367894] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/__init__.py\n'}
+[27.368041] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[27.368311] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg\n'}
+[27.368448] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_magnet.py\n'}
+[27.368587] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_waypoint_location.py\n'}
+[27.368773] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_gyro_s.c\n'}
+[27.368946] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_movement_vector.py\n'}
+[27.369142] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_obstacle_location_s.c\n'}
+[27.369332] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_accel_s.c\n'}
+[27.369506] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_waypoint_distance.py\n'}
+[27.369687] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_waypoint_distance_s.c\n'}
+[27.369855] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_accel.py\n'}
+[27.370036] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/__init__.py\n'}
+[27.370208] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_thruster_throttle_s.c\n'}
+[27.370387] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_magnet_s.c\n'}
+[27.370563] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_movement_vector_s.c\n'}
+[27.370742] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_vehicle_transform.py\n'}
+[27.370933] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_ultrasonic_distance.py\n'}
+[27.371112] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_ultrasonic_distance_s.c\n'}
+[27.371292] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_thruster_throttle.py\n'}
+[27.371475] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_vehicle_transform_s.c\n'}
+[27.371646] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_waypoint_location_s.c\n'}
+[27.371816] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_obstacle_location.py\n'}
+[27.371997] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_gyro.py\n'}
+[27.372191] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[27.405676] (-) TimerEvent: {}
+[27.480477] (ranger_interfaces) StdoutLine: {'line': b"Listing '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces'...\n"}
+[27.480780] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/__init__.py'...\n"}
+[27.480915] (ranger_interfaces) StdoutLine: {'line': b"Listing '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg'...\n"}
+[27.481025] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/__init__.py'...\n"}
+[27.481122] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_accel.py'...\n"}
+[27.481262] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_gyro.py'...\n"}
+[27.481410] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_magnet.py'...\n"}
+[27.481517] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_movement_vector.py'...\n"}
+[27.481611] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_obstacle_location.py'...\n"}
+[27.481703] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_thruster_throttle.py'...\n"}
+[27.481791] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_ultrasonic_distance.py'...\n"}
+[27.481878] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_vehicle_transform.py'...\n"}
+[27.481962] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_waypoint_distance.py'...\n"}
+[27.482072] (ranger_interfaces) StdoutLine: {'line': b"Compiling '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_waypoint_location.py'...\n"}
+[27.493576] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[27.494291] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.494661] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[27.495333] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.495672] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_c.so\n'}
+[27.496329] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/ranger_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[27.498301] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_generator_py.so\n'}
+[27.499166] (ranger_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_generator_py.so" to ""\n'}
+[27.499356] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ThrusterThrottle.idl\n'}
+[27.499488] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUAccel.idl\n'}
+[27.499638] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUGyro.idl\n'}
+[27.499775] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUMagnet.idl\n'}
+[27.499868] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/UltrasonicDistance.idl\n'}
+[27.500004] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/VehicleTransform.idl\n'}
+[27.500154] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/WaypointLocation.idl\n'}
+[27.500266] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/WaypointDistance.idl\n'}
+[27.500374] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ObstacleLocation.idl\n'}
+[27.500552] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/MovementVector.idl\n'}
+[27.500720] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ThrusterThrottle.msg\n'}
+[27.500859] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUAccel.msg\n'}
+[27.501022] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUGyro.msg\n'}
+[27.501128] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUMagnet.msg\n'}
+[27.501230] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/UltrasonicDistance.msg\n'}
+[27.501321] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/VehicleTransform.msg\n'}
+[27.501431] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/WaypointLocation.msg\n'}
+[27.501526] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/WaypointDistance.msg\n'}
+[27.501681] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ObstacleLocation.msg\n'}
+[27.501832] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/MovementVector.msg\n'}
+[27.501943] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ament_index/resource_index/package_run_dependencies/ranger_interfaces\n'}
+[27.502045] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ament_index/resource_index/parent_prefix_path/ranger_interfaces\n'}
+[27.502143] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/environment/ament_prefix_path.sh\n'}
+[27.502355] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/environment/ament_prefix_path.dsv\n'}
+[27.502478] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/environment/path.sh\n'}
+[27.502568] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/environment/path.dsv\n'}
+[27.502656] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/local_setup.bash\n'}
+[27.502750] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/local_setup.sh\n'}
+[27.502843] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/local_setup.zsh\n'}
+[27.502932] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/local_setup.dsv\n'}
+[27.503018] (ranger_interfaces) StdoutLine: {'line': b'-- Installing: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/package.dsv\n'}
+[27.503133] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ament_index/resource_index/packages/ranger_interfaces\n'}
+[27.503504] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/export_ranger_interfaces__rosidl_generator_cExport.cmake\n'}
+[27.503698] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/export_ranger_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.504163] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/export_ranger_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[27.504320] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/export_ranger_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[27.504850] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.505012] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.505489] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[27.505633] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.505726] (-) TimerEvent: {}
+[27.506236] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/export_ranger_interfaces__rosidl_generator_cppExport.cmake\n'}
+[27.506771] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/export_ranger_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[27.506930] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/export_ranger_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[27.507641] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.507823] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.508336] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[27.508591] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.508997] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/export_ranger_interfaces__rosidl_generator_pyExport.cmake\n'}
+[27.509151] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/export_ranger_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[27.509422] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[27.509567] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.509778] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.509945] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.510072] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.510186] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.510321] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.510410] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfacesConfig.cmake\n'}
+[27.510508] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/cmake/ranger_interfacesConfig-version.cmake\n'}
+[27.510597] (ranger_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/package.xml\n'}
+[27.514556] (ranger_interfaces) CommandEnded: {'returncode': 0}
+[27.584384] (ranger_interfaces) JobEnded: {'identifier': 'ranger_interfaces', 'rc': 0}
+[27.585877] (-) EventReactorShutdown: {}

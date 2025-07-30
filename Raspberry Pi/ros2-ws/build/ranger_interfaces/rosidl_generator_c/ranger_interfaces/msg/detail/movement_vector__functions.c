@@ -20,6 +20,9 @@ ranger_interfaces__msg__MovementVector__init(ranger_interfaces__msg__MovementVec
   // x
   // y
   // z
+  // roll
+  // pitch
+  // yaw
   return true;
 }
 
@@ -32,6 +35,9 @@ ranger_interfaces__msg__MovementVector__fini(ranger_interfaces__msg__MovementVec
   // x
   // y
   // z
+  // roll
+  // pitch
+  // yaw
 }
 
 bool
@@ -52,6 +58,18 @@ ranger_interfaces__msg__MovementVector__are_equal(const ranger_interfaces__msg__
   if (lhs->z != rhs->z) {
     return false;
   }
+  // roll
+  if (lhs->roll != rhs->roll) {
+    return false;
+  }
+  // pitch
+  if (lhs->pitch != rhs->pitch) {
+    return false;
+  }
+  // yaw
+  if (lhs->yaw != rhs->yaw) {
+    return false;
+  }
   return true;
 }
 
@@ -69,6 +87,12 @@ ranger_interfaces__msg__MovementVector__copy(
   output->y = input->y;
   // z
   output->z = input->z;
+  // roll
+  output->roll = input->roll;
+  // pitch
+  output->pitch = input->pitch;
+  // yaw
+  output->yaw = input->yaw;
   return true;
 }
 

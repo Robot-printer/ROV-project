@@ -24,16 +24,64 @@ namespace msg
 namespace builder
 {
 
+class Init_MovementVector_yaw
+{
+public:
+  explicit Init_MovementVector_yaw(::ranger_interfaces::msg::MovementVector & msg)
+  : msg_(msg)
+  {}
+  ::ranger_interfaces::msg::MovementVector yaw(::ranger_interfaces::msg::MovementVector::_yaw_type arg)
+  {
+    msg_.yaw = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::ranger_interfaces::msg::MovementVector msg_;
+};
+
+class Init_MovementVector_pitch
+{
+public:
+  explicit Init_MovementVector_pitch(::ranger_interfaces::msg::MovementVector & msg)
+  : msg_(msg)
+  {}
+  Init_MovementVector_yaw pitch(::ranger_interfaces::msg::MovementVector::_pitch_type arg)
+  {
+    msg_.pitch = std::move(arg);
+    return Init_MovementVector_yaw(msg_);
+  }
+
+private:
+  ::ranger_interfaces::msg::MovementVector msg_;
+};
+
+class Init_MovementVector_roll
+{
+public:
+  explicit Init_MovementVector_roll(::ranger_interfaces::msg::MovementVector & msg)
+  : msg_(msg)
+  {}
+  Init_MovementVector_pitch roll(::ranger_interfaces::msg::MovementVector::_roll_type arg)
+  {
+    msg_.roll = std::move(arg);
+    return Init_MovementVector_pitch(msg_);
+  }
+
+private:
+  ::ranger_interfaces::msg::MovementVector msg_;
+};
+
 class Init_MovementVector_z
 {
 public:
   explicit Init_MovementVector_z(::ranger_interfaces::msg::MovementVector & msg)
   : msg_(msg)
   {}
-  ::ranger_interfaces::msg::MovementVector z(::ranger_interfaces::msg::MovementVector::_z_type arg)
+  Init_MovementVector_roll z(::ranger_interfaces::msg::MovementVector::_z_type arg)
   {
     msg_.z = std::move(arg);
-    return std::move(msg_);
+    return Init_MovementVector_roll(msg_);
   }
 
 private:

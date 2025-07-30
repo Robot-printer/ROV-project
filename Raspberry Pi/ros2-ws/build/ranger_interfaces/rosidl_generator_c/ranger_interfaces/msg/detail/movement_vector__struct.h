@@ -25,6 +25,9 @@ typedef struct ranger_interfaces__msg__MovementVector
   double x;
   double y;
   double z;
+  double roll;
+  double pitch;
+  double yaw;
 } ranger_interfaces__msg__MovementVector;
 
 // Struct for a sequence of ranger_interfaces__msg__MovementVector.

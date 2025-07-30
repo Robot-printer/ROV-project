@@ -63,6 +63,21 @@ bool cdr_serialize_ranger_interfaces__msg__MovementVector(
     cdr << ros_message->z;
   }
 
+  // Field name: roll
+  {
+    cdr << ros_message->roll;
+  }
+
+  // Field name: pitch
+  {
+    cdr << ros_message->pitch;
+  }
+
+  // Field name: yaw
+  {
+    cdr << ros_message->yaw;
+  }
+
   return true;
 }
 
@@ -84,6 +99,21 @@ bool cdr_deserialize_ranger_interfaces__msg__MovementVector(
   // Field name: z
   {
     cdr >> ros_message->z;
+  }
+
+  // Field name: roll
+  {
+    cdr >> ros_message->roll;
+  }
+
+  // Field name: pitch
+  {
+    cdr >> ros_message->pitch;
+  }
+
+  // Field name: yaw
+  {
+    cdr >> ros_message->yaw;
   }
 
   return true;
@@ -121,6 +151,27 @@ size_t get_serialized_size_ranger_interfaces__msg__MovementVector(
   // Field name: z
   {
     size_t item_size = sizeof(ros_message->z);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: roll
+  {
+    size_t item_size = sizeof(ros_message->roll);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: pitch
+  {
+    size_t item_size = sizeof(ros_message->pitch);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: yaw
+  {
+    size_t item_size = sizeof(ros_message->yaw);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -171,6 +222,30 @@ size_t max_serialized_size_ranger_interfaces__msg__MovementVector(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
+  // Field name: roll
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: pitch
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: yaw
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -180,7 +255,7 @@ size_t max_serialized_size_ranger_interfaces__msg__MovementVector(
     using DataType = ranger_interfaces__msg__MovementVector;
     is_plain =
       (
-      offsetof(DataType, z) +
+      offsetof(DataType, yaw) +
       last_member_size
       ) == ret_val;
   }
@@ -205,6 +280,21 @@ bool cdr_serialize_key_ranger_interfaces__msg__MovementVector(
   // Field name: z
   {
     cdr << ros_message->z;
+  }
+
+  // Field name: roll
+  {
+    cdr << ros_message->roll;
+  }
+
+  // Field name: pitch
+  {
+    cdr << ros_message->pitch;
+  }
+
+  // Field name: yaw
+  {
+    cdr << ros_message->yaw;
   }
 
   return true;
@@ -242,6 +332,27 @@ size_t get_serialized_size_key_ranger_interfaces__msg__MovementVector(
   // Field name: z
   {
     size_t item_size = sizeof(ros_message->z);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: roll
+  {
+    size_t item_size = sizeof(ros_message->roll);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: pitch
+  {
+    size_t item_size = sizeof(ros_message->pitch);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Field name: yaw
+  {
+    size_t item_size = sizeof(ros_message->yaw);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -290,6 +401,30 @@ size_t max_serialized_size_key_ranger_interfaces__msg__MovementVector(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
+  // Field name: roll
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: pitch
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Field name: yaw
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -298,7 +433,7 @@ size_t max_serialized_size_key_ranger_interfaces__msg__MovementVector(
     using DataType = ranger_interfaces__msg__MovementVector;
     is_plain =
       (
-      offsetof(DataType, z) +
+      offsetof(DataType, yaw) +
       last_member_size
       ) == ret_val;
   }
