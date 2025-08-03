@@ -22,8 +22,8 @@
 
 #define COM 0x55 //Control signal to tell ultrasonic sensors to take a reading
 
-const int ESC_MAX = 2400; //Maximum value to send to ESC
-const int ESC_MIN = 544; //Minimum value to send to ESC
+const int ESC_MAX = 1880; //Maximum value to send to ESC
+const int ESC_MIN = 1100; //Minimum value to send to ESC
 
 union uSerial
 {
@@ -172,18 +172,19 @@ void setup()
   thruster7.attach(THRUSTER7PIN, ESC_MIN, ESC_MAX);
   thruster8.attach(THRUSTER8PIN, ESC_MIN, ESC_MAX);
 
-  //Set all thrusters to minimum on startup
-  thruster1.write(ESC_MIN);
-  thruster2.write(ESC_MIN);
-  thruster3.write(ESC_MIN);
-  thruster4.write(ESC_MIN);
-  thruster5.write(ESC_MIN);
-  thruster6.write(ESC_MIN);
-  thruster7.write(ESC_MIN);
-  thruster8.write(ESC_MIN);
+  //Set all thrusters to zero on startup
+  int start_value = map(0, -100, 100, ESC_MIN, ESC_MAX);
+  thruster1.write(start_value);
+  thruster2.write(start_value);
+  thruster3.write(start_value);
+  thruster4.write(start_value);
+  thruster5.write(start_value);
+  thruster6.write(start_value);
+  thruster7.write(start_value);
+  thruster8.write(start_value);
 
   //Once setup is finished, send "READY" to Raspberry Pi
-  Serial.println("READY");
+  //Serial.println("READY");
 
   //DISABLED IN FAVOR OF SIMPLER SYSTEM
   //Turn on the IMU & Magnetometer units
@@ -238,8 +239,8 @@ void loop()
   //Set throttle for each thruster according to message from Pi
   if (command == "MOTOR")
   {
-    //Map the value from scale of 0-100 to scale of ESC_MIN to ESC_MAX
-    int throttle = map(value, 0, 100, ESC_MIN, ESC_MAX);
+    //Map the value from scale of -100-100 to scale of ESC_MIN to ESC_MAX
+    int throttle = map(value, -100, 100, ESC_MIN, ESC_MAX);
     //Depending which motor is specified, set that motor to the throttle value
     switch (identifier)
     {
