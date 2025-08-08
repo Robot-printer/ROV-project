@@ -3,6 +3,7 @@ from ranger_interfaces.msg._imu_gyro import IMUGyro  # noqa: F401
 from ranger_interfaces.msg._imu_magnet import IMUMagnet  # noqa: F401
 from ranger_interfaces.msg._movement_vector import MovementVector  # noqa: F401
 from ranger_interfaces.msg._obstacle_location import ObstacleLocation  # noqa: F401
+from ranger_interfaces.msg._string import String  # noqa: F401
 from ranger_interfaces.msg._thruster_throttle import ThrusterThrottle  # noqa: F401
 from ranger_interfaces.msg._ultrasonic_distance import UltrasonicDistance  # noqa: F401
 from ranger_interfaces.msg._vehicle_transform import VehicleTransform  # noqa: F401

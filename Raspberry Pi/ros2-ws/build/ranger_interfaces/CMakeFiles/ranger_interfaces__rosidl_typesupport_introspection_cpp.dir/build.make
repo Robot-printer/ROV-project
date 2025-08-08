@@ -87,6 +87,7 @@ rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throt
 rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/ranger_interfaces/msg/WaypointDistance.idl
 rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/ranger_interfaces/msg/ObstacleLocation.idl
 rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/ranger_interfaces/msg/MovementVector.idl
+rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/ranger_interfaces/msg/String.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/kilted/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_introspection_cpp__arguments.json"
 
@@ -117,6 +118,9 @@ rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/obstacle_locat
 rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__rosidl_typesupport_introspection_cpp.hpp
 
+rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__rosidl_typesupport_introspection_cpp.hpp
+
 rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__type_support.cpp: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__type_support.cpp
 
@@ -146,6 +150,9 @@ rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/obstacle_locat
 
 rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp
+
+rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp
 
 CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__type_support.cpp.o: CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
 CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__type_support.cpp.o: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__type_support.cpp
@@ -287,6 +294,20 @@ CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_ty
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp" -o CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp.s
 
+CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.o: CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
+CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.o: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp
+CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.o: CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.o -MF CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.o.d -o CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.o -c "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp"
+
+CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp" > CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.i
+
+CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp" -o CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.s
+
 # Object files for target ranger_interfaces__rosidl_typesupport_introspection_cpp
 ranger_interfaces__rosidl_typesupport_introspection_cpp_OBJECTS = \
 "CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__type_support.cpp.o" \
@@ -298,7 +319,8 @@ ranger_interfaces__rosidl_typesupport_introspection_cpp_OBJECTS = \
 "CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/waypoint_location__type_support.cpp.o" \
 "CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/waypoint_distance__type_support.cpp.o" \
 "CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/obstacle_location__type_support.cpp.o" \
-"CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp.o"
+"CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp.o" \
+"CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.o"
 
 # External object files for target ranger_interfaces__rosidl_typesupport_introspection_cpp
 ranger_interfaces__rosidl_typesupport_introspection_cpp_EXTERNAL_OBJECTS =
@@ -313,6 +335,7 @@ libranger_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/ranger
 libranger_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/waypoint_distance__type_support.cpp.o
 libranger_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/obstacle_location__type_support.cpp.o
 libranger_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp.o
+libranger_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp.o
 libranger_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make
 libranger_interfaces__rosidl_typesupport_introspection_cpp.so: libranger_interfaces__rosidl_generator_c.so
 libranger_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/kilted/lib/librosidl_typesupport_introspection_cpp.so
@@ -320,7 +343,7 @@ libranger_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/kilted/l
 libranger_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/kilted/lib/librcutils.so
 libranger_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/kilted/lib/librosidl_typesupport_introspection_c.so
 libranger_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libranger_interfaces__rosidl_typesupport_introspection_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library libranger_interfaces__rosidl_typesupport_introspection_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -341,6 +364,8 @@ CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: r
 CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.cpp
 CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/obstacle_location__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/obstacle_location__type_support.cpp
+CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__rosidl_typesupport_introspection_cpp.hpp
+CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/string__type_support.cpp
 CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/thruster_throttle__type_support.cpp
 CMakeFiles/ranger_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_introspection_cpp.hpp

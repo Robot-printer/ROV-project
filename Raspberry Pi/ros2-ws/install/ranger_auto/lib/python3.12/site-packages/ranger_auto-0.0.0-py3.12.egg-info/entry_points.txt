@@ -1,4 +1,5 @@
 [console_scripts]
+debuglisten = ranger_auto.debug_listener:main
 pathfinder = ranger_auto.pathfinder:main
 serialcom = ranger_auto.serial_comms:main
 testdrive = ranger_auto.test_move:main

@@ -10,6 +10,7 @@ setup.py
 ../../build/ranger_auto/ranger_auto.egg-info/top_level.txt
 ../../build/ranger_auto/ranger_auto.egg-info/zip-safe
 ranger_auto/__init__.py
+ranger_auto/debug_listener.py
 ranger_auto/orientation_updater.py
 ranger_auto/pathfinder.py
 ranger_auto/remote_pilot.py

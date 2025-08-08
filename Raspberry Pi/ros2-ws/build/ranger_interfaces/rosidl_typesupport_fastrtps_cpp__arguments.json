@@ -12,7 +12,8 @@
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/WaypointLocation.idl",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/WaypointDistance.idl",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/ObstacleLocation.idl",
-    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/MovementVector.idl"
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/MovementVector.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/String.idl"
   ],
   "target_dependencies": [
     "/opt/ros/kilted/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -32,6 +33,7 @@
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/WaypointLocation.idl",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/WaypointDistance.idl",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/ObstacleLocation.idl",
-    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/MovementVector.idl"
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/MovementVector.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/String.idl"
   ]
 }

@@ -12,7 +12,8 @@
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/WaypointLocation.idl",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/WaypointDistance.idl",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/ObstacleLocation.idl",
-    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/MovementVector.idl"
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/MovementVector.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces:msg/String.idl"
   ],
   "ros_interface_files": [
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces/msg/ThrusterThrottle.msg",
@@ -24,7 +25,8 @@
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces/msg/WaypointLocation.msg",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces/msg/WaypointDistance.msg",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces/msg/ObstacleLocation.msg",
-    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces/msg/MovementVector.msg"
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces/msg/MovementVector.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces/msg/String.msg"
   ],
   "target_dependencies": [
     "/opt/ros/kilted/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -55,7 +57,8 @@
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/WaypointLocation.idl",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/WaypointDistance.idl",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/ObstacleLocation.idl",
-    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/MovementVector.idl"
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/MovementVector.idl",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_adapter/ranger_interfaces/msg/String.idl"
   ],
   "type_description_tuples": [
     "msg/ThrusterThrottle.idl:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_type_description/ranger_interfaces/msg/ThrusterThrottle.json",
@@ -67,6 +70,7 @@
     "msg/WaypointLocation.idl:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_type_description/ranger_interfaces/msg/WaypointLocation.json",
     "msg/WaypointDistance.idl:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_type_description/ranger_interfaces/msg/WaypointDistance.json",
     "msg/ObstacleLocation.idl:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_type_description/ranger_interfaces/msg/ObstacleLocation.json",
-    "msg/MovementVector.idl:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_type_description/ranger_interfaces/msg/MovementVector.json"
+    "msg/MovementVector.idl:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_type_description/ranger_interfaces/msg/MovementVector.json",
+    "msg/String.idl:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_type_description/ranger_interfaces/msg/String.json"
   ]
 }

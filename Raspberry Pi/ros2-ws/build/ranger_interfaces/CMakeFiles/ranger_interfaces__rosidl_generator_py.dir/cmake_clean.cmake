@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c.o.d"
   "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_obstacle_location_s.c.o"
   "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_obstacle_location_s.c.o.d"
+  "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o"
+  "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o.d"
   "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_thruster_throttle_s.c.o"
   "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_thruster_throttle_s.c.o.d"
   "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_ultrasonic_distance_s.c.o"

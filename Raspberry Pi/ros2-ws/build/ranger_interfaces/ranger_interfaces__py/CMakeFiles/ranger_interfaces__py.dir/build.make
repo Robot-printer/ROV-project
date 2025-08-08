@@ -79,6 +79,7 @@ include /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_
 /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_waypoint_distance.py
 /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_obstacle_location.py
 /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_movement_vector.py
+/home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_string.py
 /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/__init__.py
 /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_thruster_throttle_s.c
 /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_imu_accel_s.c
@@ -90,6 +91,7 @@ include /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_
 /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_waypoint_distance_s.c
 /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_obstacle_location_s.c
 /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c
+/home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_string_s.c
 
 rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -114,6 +116,7 @@ rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ranger_interfaces/msg/WaypointDistance.idl
 rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ranger_interfaces/msg/ObstacleLocation.idl
 rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ranger_interfaces/msg/MovementVector.idl
+rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ranger_interfaces/msg/String.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py" && /usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py__arguments.json" --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -153,6 +156,9 @@ rosidl_generator_py/ranger_interfaces/msg/_obstacle_location.py: rosidl_generato
 rosidl_generator_py/ranger_interfaces/msg/_movement_vector.py: rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ranger_interfaces/msg/_movement_vector.py
 
+rosidl_generator_py/ranger_interfaces/msg/_string.py: rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ranger_interfaces/msg/_string.py
+
 rosidl_generator_py/ranger_interfaces/msg/__init__.py: rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ranger_interfaces/msg/__init__.py
 
@@ -186,6 +192,9 @@ rosidl_generator_py/ranger_interfaces/msg/_obstacle_location_s.c: rosidl_generat
 rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c: rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c
 
+rosidl_generator_py/ranger_interfaces/msg/_string_s.c: rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ranger_interfaces/msg/_string_s.c
+
 ranger_interfaces__py: /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py/CMakeFiles/ranger_interfaces__py
 ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_c.c
 ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -201,6 +210,8 @@ ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_movement_vecto
 ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c
 ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_obstacle_location.py
 ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_obstacle_location_s.c
+ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_string.py
+ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_string_s.c
 ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_thruster_throttle.py
 ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_thruster_throttle_s.c
 ranger_interfaces__py: rosidl_generator_py/ranger_interfaces/msg/_ultrasonic_distance.py

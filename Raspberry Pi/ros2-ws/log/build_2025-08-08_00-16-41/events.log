@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (-) JobUnselected: {'identifier': 'ranger_auto'}
+[0.000614] (-) JobUnselected: {'identifier': 'ranger_interfaces'}
+[0.000899] (-) EventReactorShutdown: {}

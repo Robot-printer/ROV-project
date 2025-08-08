@@ -9,6 +9,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/WaypointDistance.json
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ObstacleLocation.json
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/MovementVector.json
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/String.json
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/movement_vector.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/waypoint_distance.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/imu_gyro.h
@@ -24,6 +25,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__struct.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__description.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__struct.h
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__functions.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__functions.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__type_support.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__type_support.c
@@ -48,23 +50,28 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__functions.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__type_support.c
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__functions.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__description.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__functions.h
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__struct.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__type_support.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__description.c
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__description.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__type_support.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__type_support.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__functions.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__functions.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__functions.c
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__struct.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__functions.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__functions.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__struct.h
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__type_support.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__struct.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__functions.c
@@ -74,6 +81,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__struct.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__functions.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__functions.c
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/string.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/vehicle_transform.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/imu_accel.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/obstacle_location.h
@@ -85,6 +93,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_generator_c.so
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__rosidl_typesupport_fastrtps_c.h
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__rosidl_typesupport_fastrtps_c.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_fastrtps_c.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__rosidl_typesupport_fastrtps_c.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__rosidl_typesupport_fastrtps_c.h
@@ -102,6 +111,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_introspection_c.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__rosidl_typesupport_introspection_c.h
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__rosidl_typesupport_introspection_c.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__rosidl_typesupport_introspection_c.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__type_support.c
@@ -111,6 +121,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__rosidl_typesupport_introspection_c.h
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__rosidl_typesupport_introspection_c.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__type_support.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__rosidl_typesupport_introspection_c.h
@@ -134,9 +145,11 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__builder.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__builder.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__builder.hpp
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__traits.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__type_support.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/thruster_throttle__traits.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__traits.hpp
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__builder.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__traits.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__traits.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__type_support.hpp
@@ -152,6 +165,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__struct.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__struct.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__traits.hpp
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__type_support.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__traits.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__builder.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__builder.hpp
@@ -160,8 +174,10 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_location__type_support.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__type_support.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__struct.hpp
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__struct.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__builder.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__type_support.hpp
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/string.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/waypoint_distance.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/thruster_throttle.hpp
@@ -170,6 +186,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/movement_vector.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/vehicle_transform.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__rosidl_typesupport_fastrtps_cpp.hpp
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__rosidl_typesupport_fastrtps_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__rosidl_typesupport_fastrtps_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/waypoint_distance__rosidl_typesupport_fastrtps_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_fastrtps_cpp.hpp
@@ -181,6 +198,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__rosidl_typesupport_fastrtps_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/libranger_interfaces__rosidl_typesupport_fastrtps_cpp.so
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__type_support.cpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/obstacle_location__rosidl_typesupport_introspection_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__rosidl_typesupport_introspection_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_magnet__rosidl_typesupport_introspection_cpp.hpp
@@ -193,6 +211,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_accel__rosidl_typesupport_introspection_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.cpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/vehicle_transform__type_support.cpp
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/string__rosidl_typesupport_introspection_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_introspection_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/imu_gyro__rosidl_typesupport_introspection_cpp.hpp
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/include/ranger_interfaces/ranger_interfaces/msg/detail/movement_vector__type_support.cpp
@@ -220,7 +239,9 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_gyro_s.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_movement_vector.py
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_obstacle_location_s.c
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_string_s.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_accel_s.c
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_string.py
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_waypoint_distance.py
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_waypoint_distance_s.c
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages/ranger_interfaces/msg/_imu_accel.py
@@ -251,6 +272,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/WaypointDistance.idl
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ObstacleLocation.idl
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/MovementVector.idl
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/String.idl
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ThrusterThrottle.msg
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUAccel.msg
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/IMUGyro.msg
@@ -261,6 +283,7 @@
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/WaypointDistance.msg
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/ObstacleLocation.msg
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/MovementVector.msg
+/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/msg/String.msg
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ament_index/resource_index/package_run_dependencies/ranger_interfaces
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ament_index/resource_index/parent_prefix_path/ranger_interfaces
 /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/share/ranger_interfaces/environment/ament_prefix_path.sh

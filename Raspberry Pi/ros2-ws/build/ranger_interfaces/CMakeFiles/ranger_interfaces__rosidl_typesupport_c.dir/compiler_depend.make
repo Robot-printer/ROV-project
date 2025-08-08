@@ -446,6 +446,95 @@ CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rang
   /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
 
+CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/string__type_support.cpp.o: rosidl_typesupport_c/ranger_interfaces/msg/string__type_support.cpp \
+  rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.h \
+  rosidl_generator_c/ranger_interfaces/msg/detail/string__struct.h \
+  rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.h \
+  rosidl_generator_c/ranger_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/kilted/include/rcutils/rcutils/allocator.h \
+  /opt/ros/kilted/include/rcutils/rcutils/macros.h \
+  /opt/ros/kilted/include/rcutils/rcutils/sha256.h \
+  /opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/kilted/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/kilted/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h \
+  /opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/message_type_support_dispatch.h \
+  /opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h \
+  /opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h \
+  /opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdlib.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdlib.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdbool.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
+
 CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ranger_interfaces/msg/thruster_throttle__type_support.cpp.o: rosidl_typesupport_c/ranger_interfaces/msg/thruster_throttle__type_support.cpp \
   rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__functions.h \
   rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__struct.h \
@@ -894,248 +983,256 @@ CMakeFiles/ranger_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rang
 
 rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_location__type_support.h:
 
-rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__functions.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__struct.h:
-
-rosidl_typesupport_c/ranger_interfaces/msg/vehicle_transform__type_support.cpp:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__functions.h:
-
-rosidl_typesupport_c/ranger_interfaces/msg/ultrasonic_distance__type_support.cpp:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__struct.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__functions.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__type_support.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__struct.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__functions.h:
-
-rosidl_typesupport_c/ranger_interfaces/msg/waypoint_location__type_support.cpp:
-
-rosidl_typesupport_c/ranger_interfaces/msg/movement_vector__type_support.cpp:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__type_support.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__functions.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__type_support.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__struct.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__functions.h:
-
-rosidl_typesupport_c/ranger_interfaces/msg/imu_gyro__type_support.cpp:
-
-/usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h:
-
-/usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h:
-
-/usr/lib/gcc/aarch64-linux-gnu/13/include/stdbool.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/endian.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__struct.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.h:
-
-/usr/include/c++/13/pstl/pstl_config.h:
-
-/usr/include/alloca.h:
-
-/usr/include/aarch64-linux-gnu/sys/types.h:
-
-/usr/include/c++/13/cstddef:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs.h:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/cpu_defines.h:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h:
-
-/usr/include/aarch64-linux-gnu/bits/wordsize.h:
-
-rosidl_typesupport_c/ranger_interfaces/msg/imu_magnet__type_support.cpp:
-
-/usr/include/aarch64-linux-gnu/bits/wchar.h:
-
-/usr/include/aarch64-linux-gnu/bits/waitflags.h:
-
-/usr/include/aarch64-linux-gnu/sys/cdefs.h:
-
-/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__functions.h:
-
-/usr/include/aarch64-linux-gnu/bits/typesizes.h:
-
-/opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/macros.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
-
-rosidl_typesupport_c/ranger_interfaces/msg/obstacle_location__type_support.cpp:
-
-/usr/include/c++/13/cstdlib:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
-
-/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
-
-/usr/include/features.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_location__struct.h:
-
-rosidl_typesupport_c/ranger_interfaces/msg/imu_accel__type_support.cpp:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__struct.h:
-
-/usr/include/aarch64-linux-gnu/sys/select.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdint-least.h:
-
-/opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__struct.h:
-
-rosidl_generator_c/ranger_interfaces/msg/rosidl_generator_c__visibility_control.h:
-
-/usr/include/aarch64-linux-gnu/bits/byteswap.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__type_support.h:
-
-/opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/message_type_support_dispatch.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__type_support.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/sha256.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
-
-/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
-
-/opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
-
-rosidl_typesupport_c/ranger_interfaces/msg/waypoint_distance__type_support.cpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
-
-rosidl_typesupport_c/ranger_interfaces/msg/thruster_throttle__type_support.cpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/visibility_control_macros.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__struct.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h:
-
-/usr/include/aarch64-linux-gnu/bits/time64.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__type_support.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/visibility_control.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__struct.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
-
-/opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
-
-/usr/include/aarch64-linux-gnu/bits/endian.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__functions.h:
-
-/usr/include/aarch64-linux-gnu/bits/endianness.h:
-
-/usr/include/aarch64-linux-gnu/bits/floatn.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__functions.h:
-
-/usr/include/stdint.h:
-
-/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/aarch64-linux-gnu/bits/long-double.h:
-
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
-
-rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_location__functions.h:
-
-/usr/include/aarch64-linux-gnu/bits/select.h:
-
-/usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/13/stdlib.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/aarch64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/allocator.h:
-
-/usr/include/aarch64-linux-gnu/bits/types.h:
-
-/usr/include/aarch64-linux-gnu/bits/timesize.h:
-
-/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/aarch64-linux-gnu/bits/types/time_t.h:
 
 rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__type_support.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/time_t.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/aarch64-linux-gnu/bits/types.h:
+
+/usr/include/aarch64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/stdlib.h:
+
+/usr/include/aarch64-linux-gnu/bits/timesize.h:
+
+/usr/include/aarch64-linux-gnu/bits/select.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_location__functions.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/aarch64-linux-gnu/bits/long-double.h:
+
+/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__functions.h:
+
+/usr/include/aarch64-linux-gnu/bits/endianness.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__functions.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/allocator.h:
+
+/usr/include/aarch64-linux-gnu/bits/endian.h:
+
+/opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/visibility_control.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__type_support.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__struct.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/visibility_control_macros.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
+
+rosidl_typesupport_c/ranger_interfaces/msg/waypoint_distance__type_support.cpp:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+/opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h:
+
+/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/sha256.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__type_support.h:
+
+/usr/include/stdint.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__type_support.h:
+
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+
+rosidl_generator_c/ranger_interfaces/msg/rosidl_generator_c__visibility_control.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__struct.h:
+
+rosidl_typesupport_c/ranger_interfaces/msg/thruster_throttle__type_support.cpp:
+
+/opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-least.h:
+
+/usr/include/aarch64-linux-gnu/sys/select.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__struct.h:
+
+rosidl_typesupport_c/ranger_interfaces/msg/imu_accel__type_support.cpp:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_location__struct.h:
+
+/usr/include/features.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
+
+/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
+
+/usr/include/c++/13/cstdlib:
+
+/opt/ros/kilted/include/rcutils/rcutils/macros.h:
+
+/opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h:
+
+/usr/include/aarch64-linux-gnu/bits/typesizes.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__struct.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__functions.h:
+
+/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/aarch64-linux-gnu/sys/cdefs.h:
+
+/usr/include/aarch64-linux-gnu/bits/waitflags.h:
+
+/usr/include/aarch64-linux-gnu/bits/wchar.h:
+
+rosidl_typesupport_c/ranger_interfaces/msg/imu_magnet__type_support.cpp:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__struct.h:
+
+/opt/ros/kilted/include/rosidl_typesupport_c/rosidl_typesupport_c/message_type_support_dispatch.h:
+
+/usr/include/aarch64-linux-gnu/bits/wordsize.h:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/cpu_defines.h:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs.h:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
+
+/usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/13/cstddef:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+
+/usr/include/aarch64-linux-gnu/sys/types.h:
+
+/usr/include/aarch64-linux-gnu/bits/time64.h:
+
+/usr/include/alloca.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
+
+/usr/include/c++/13/pstl/pstl_config.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__struct.h:
+
+/usr/include/endian.h:
+
+/usr/include/features-time64.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
+
+/usr/include/stdc-predef.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
+
+/usr/include/stdlib.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/13/include/stdbool.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h:
+
+/usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h:
+
+rosidl_typesupport_c/ranger_interfaces/msg/imu_gyro__type_support.cpp:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__functions.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__struct.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__type_support.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__functions.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__type_support.h:
+
+rosidl_typesupport_c/ranger_interfaces/msg/movement_vector__type_support.cpp:
+
+rosidl_typesupport_c/ranger_interfaces/msg/waypoint_location__type_support.cpp:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__functions.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__struct.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__type_support.h:
+
+rosidl_typesupport_c/ranger_interfaces/msg/string__type_support.cpp:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__functions.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__struct.h:
+
+/usr/include/aarch64-linux-gnu/bits/floatn.h:
+
+rosidl_typesupport_c/ranger_interfaces/msg/ultrasonic_distance__type_support.cpp:
+
+rosidl_typesupport_c/ranger_interfaces/msg/obstacle_location__type_support.cpp:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__functions.h:
+
+rosidl_typesupport_c/ranger_interfaces/msg/vehicle_transform__type_support.cpp:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__struct.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__functions.h:

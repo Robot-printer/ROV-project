@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+    generate_type_hash(args.generator_arguments_file)
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 183, in generate_type_hash
+    hash_lookup[type_name] = calculate_type_hash(full_type_description)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 474, in calculate_type_hash
+    del field['default_value']
+        ~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'default_value'
+gmake[2]: *** [CMakeFiles/ranger_interfaces__rosidl_generator_type_description.dir/build.make:95: rosidl_generator_type_description/ranger_interfaces/msg/ThrusterThrottle.json] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/ranger_interfaces__rosidl_generator_type_description.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -17,6 +17,9 @@ CMakeFiles/ranger_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/ran
   rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__functions.h \
   rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__struct.h \
   rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__type_support.h \
+  rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.h \
+  rosidl_generator_c/ranger_interfaces/msg/detail/string__struct.h \
+  rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.h \
   rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__functions.h \
   rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__struct.h \
   rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__type_support.h \
@@ -356,13 +359,7 @@ CMakeFiles/ranger_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/ran
 
 /usr/include/python3.12/pymath.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h:
-
-/usr/include/python3.12/intrcheck.h:
+/usr/include/python3.12/pylifecycle.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -424,8 +421,6 @@ rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__struct.h:
 
 /usr/include/aarch64-linux-gnu/bits/posix_opt.h:
 
-/usr/include/aarch64-linux-gnu/bits/floatn.h:
-
 /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h:
@@ -458,7 +453,17 @@ rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__struct.h:
 
 /usr/include/aarch64-linux-gnu/bits/errno.h:
 
-rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.h:
+/usr/include/aarch64-linux-gnu/bits/floatn.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/aarch64-linux-gnu/bits/confname.h:
+
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+
+/usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
 
@@ -477,6 +482,14 @@ rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__struct.h:
 /usr/include/aarch64-linux-gnu/bits/math-vector.h:
 
 rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__functions.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.h:
+
+/usr/include/aarch64-linux-gnu/bits/endian.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/allocator.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/ultrasonic_distance__type_support.h:
 
 /usr/include/aarch64-linux-gnu/bits/posix1_lim.h:
 
@@ -501,10 +514,6 @@ rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__struct.h:
 /usr/include/aarch64-linux-gnu/bits/select.h:
 
 /usr/include/python3.12/ceval.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/allocator.h:
-
-/usr/include/aarch64-linux-gnu/bits/endian.h:
 
 rosidl_generator_c/ranger_interfaces/msg/detail/imu_accel__functions.h:
 
@@ -566,9 +575,21 @@ rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__functions.h:
 
 /usr/include/python3.12/bytearrayobject.h:
 
+/opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/python3.12/intrcheck.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__struct.h:
+
 /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
 
 rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__type_support.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.h:
 
 rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__struct.h:
 
@@ -576,9 +597,9 @@ rosidl_generator_c/ranger_interfaces/msg/detail/waypoint_distance__struct.h:
 
 /usr/include/python3.12/complexobject.h:
 
-rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.h:
+/usr/include/python3.12/cpython/setobject.h:
 
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+/usr/include/python3.12/cpython/pythread.h:
 
 /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
 
@@ -594,17 +615,9 @@ rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__struct.h:
 
 /usr/include/aarch64-linux-gnu/asm/types.h:
 
-/usr/include/aarch64-linux-gnu/bits/byteswap.h:
-
-/usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
-
 /opt/ros/kilted/include/rcutils/rcutils/macros.h:
 
 /usr/include/python3.12/pyerrors.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/aarch64-linux-gnu/bits/confname.h:
 
 /usr/include/python3.12/cpython/pyfpe.h:
 
@@ -650,13 +663,11 @@ rosidl_generator_py/ranger_interfaces/_ranger_interfaces_s.ep.rosidl_typesupport
 
 /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
 
-/usr/include/python3.12/cpython/setobject.h:
-
-/usr/include/python3.12/cpython/pythread.h:
-
 /usr/include/aarch64-linux-gnu/asm/errno.h:
 
 /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
 
 rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__struct.h:
 
@@ -728,13 +739,13 @@ rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__struct.h:
 
 /usr/include/linux/posix_types.h:
 
-/usr/include/linux/stddef.h:
-
-/usr/include/linux/types.h:
+/usr/include/python3.12/pyframe.h:
 
 /usr/include/linux/stat.h:
 
-/usr/include/python3.12/pyframe.h:
+/usr/include/linux/stddef.h:
+
+/usr/include/linux/types.h:
 
 /usr/include/math.h:
 
@@ -788,11 +799,11 @@ rosidl_generator_c/ranger_interfaces/msg/detail/vehicle_transform__type_support.
 
 /usr/include/python3.12/cpython/dictobject.h:
 
+/usr/include/aarch64-linux-gnu/bits/cpu-set.h:
+
 /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
 
 rosidl_generator_c/ranger_interfaces/msg/detail/imu_gyro__functions.h:
-
-/usr/include/aarch64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/python3.12/cpython/fileobject.h:
 
@@ -825,6 +836,12 @@ rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__type_support.h:
 /usr/include/python3.12/cpython/pyerrors.h:
 
 /usr/include/python3.12/cpython/memoryobject.h:
+
+/usr/include/python3.12/pyhash.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/python3.12/cpython/methodobject.h:
 
 /usr/include/python3.12/cpython/object.h:
 
@@ -885,11 +902,3 @@ rosidl_generator_c/ranger_interfaces/msg/detail/imu_magnet__type_support.h:
 /usr/include/python3.12/osmodule.h:
 
 /usr/include/python3.12/pyconfig.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/python3.12/cpython/methodobject.h:
-
-/usr/include/python3.12/pyhash.h:
-
-/usr/include/python3.12/pylifecycle.h:

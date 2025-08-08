@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WaypointDistance.msg"
   "msg/ObstacleLocation.msg"
   "msg/MovementVector.msg"
+  "msg/String.msg"
 )
 
 if(BUILD_TESTING)

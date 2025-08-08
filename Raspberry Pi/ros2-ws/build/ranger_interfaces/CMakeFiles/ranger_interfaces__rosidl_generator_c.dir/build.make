@@ -98,6 +98,7 @@ rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h: rosidl_adapter/ran
 rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h: rosidl_adapter/ranger_interfaces/msg/WaypointDistance.idl
 rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h: rosidl_adapter/ranger_interfaces/msg/ObstacleLocation.idl
 rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h: rosidl_adapter/ranger_interfaces/msg/MovementVector.idl
+rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h: rosidl_adapter/ranger_interfaces/msg/String.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c__arguments.json"
 
@@ -218,6 +219,18 @@ rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__struct.h: rosid
 rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.h: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.h
 
+rosidl_generator_c/ranger_interfaces/msg/string.h: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/string.h
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.h: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.h
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__struct.h: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/detail/string__struct.h
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.h: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.h
+
 rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__description.c: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__description.c
 
@@ -307,6 +320,15 @@ rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__functions.c: ro
 
 rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.c: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.c
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c
+
+rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c
 
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__description.c.o: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__description.c.o: rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__description.c
@@ -728,6 +750,48 @@ CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_i
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.c" -o CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.c.s
 
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.o: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.o: rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.o: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.o -MF CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.o.d -o CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.o -c "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c"
+
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c" > CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.i
+
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c" -o CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.s
+
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.o: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.o: rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.o: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.o -MF CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.o.d -o CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.o -c "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c"
+
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c" > CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.i
+
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c" -o CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.s
+
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.o: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.o: rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.o: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.o -MF CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.o.d -o CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.o -c "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c"
+
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c" > CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.i
+
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c" -o CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.s
+
 # Object files for target ranger_interfaces__rosidl_generator_c
 ranger_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__description.c.o" \
@@ -759,7 +823,10 @@ ranger_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__type_support.c.o" \
 "CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__description.c.o" \
 "CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__functions.c.o" \
-"CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.c.o"
+"CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.c.o" \
+"CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.o" \
+"CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.o" \
+"CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.o"
 
 # External object files for target ranger_interfaces__rosidl_generator_c
 ranger_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -794,11 +861,14 @@ libranger_interfaces__rosidl_generator_c.so: CMakeFiles/ranger_interfaces__rosid
 libranger_interfaces__rosidl_generator_c.so: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__description.c.o
 libranger_interfaces__rosidl_generator_c.so: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__functions.c.o
 libranger_interfaces__rosidl_generator_c.so: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.c.o
+libranger_interfaces__rosidl_generator_c.so: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c.o
+libranger_interfaces__rosidl_generator_c.so: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c.o
+libranger_interfaces__rosidl_generator_c.so: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c.o
 libranger_interfaces__rosidl_generator_c.so: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/build.make
 libranger_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/librosidl_runtime_c.so
 libranger_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/librcutils.so
 libranger_interfaces__rosidl_generator_c.so: CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Linking C shared library libranger_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Linking C shared library libranger_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -839,6 +909,12 @@ CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__struct.h
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__type_support.c
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__type_support.h
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/string__description.c
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.c
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.h
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/string__struct.h
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.c
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.h
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__description.c
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__functions.c
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/detail/thruster_throttle__functions.h
@@ -874,6 +950,7 @@ CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/imu_magnet.h
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/movement_vector.h
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/obstacle_location.h
+CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/string.h
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/thruster_throttle.h
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/ultrasonic_distance.h
 CMakeFiles/ranger_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/ranger_interfaces/msg/vehicle_transform.h

@@ -8,6 +8,8 @@ msg/MovementVector.idl
 msg/MovementVector.msg
 msg/ObstacleLocation.idl
 msg/ObstacleLocation.msg
+msg/String.idl
+msg/String.msg
 msg/ThrusterThrottle.idl
 msg/ThrusterThrottle.msg
 msg/UltrasonicDistance.idl
