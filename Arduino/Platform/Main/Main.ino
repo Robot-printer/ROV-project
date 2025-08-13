@@ -123,7 +123,7 @@ void setup()
   while (!Serial){;}
   Serial.flush();
 
-  /*
+  
   //Serial communication to first Ultrasonic Sensor
   //Pins: RX=19, TX=18
   Serial1.begin(115200);
@@ -148,12 +148,12 @@ void setup()
   Serial4.begin(115200);
   while (!Serial4){;}
   Serial4.flush();
-  */
-  /*
+  
+  
   sensorSerial[0].hardware = &Serial1;
   sensorSerial[1].hardware = &Serial2;
   sensorSerial[2].hardware = &Serial3;
-  sensorSerial[3].software = &Serial4;
+  sensorSerial[3].software = &Serial4;/*
 
   //Begin I2C communication with the IMU/Magnetometer chips
   chip_OX_1.begin_I2C(0x6A);
@@ -246,55 +246,63 @@ void loop()
     {
       case 1:
         throttle1 = throttle;
-        //Serial.print("Motor1 ");
-        //Serial.println(throttle);
+        Serial.print("DEBUG ");
+        Serial.print("Motor1 ");
+        Serial.println(throttle);
         thruster1.write(throttle1);
         break;
       case 2:
         throttle2 = throttle;
-        //Serial.print("Motor2 ");
-        //Serial.println(throttle);
+        Serial.print("DEBUG ");
+        Serial.print("Motor2 ");
+        Serial.println(throttle);
         thruster2.write(throttle2);
         break;
       case 3:
         throttle3 = throttle;
-        //Serial.print("Motor3 ");
-        //Serial.println(throttle);
+        Serial.print("DEBUG ");
+        Serial.print("Motor3 ");
+        Serial.println(throttle);
         thruster3.write(throttle3);
         break;
       case 4:
         throttle4 = throttle;
-        //Serial.print("Motor4 ");
-        //Serial.println(throttle);
+        Serial.print("DEBUG ");
+        Serial.print("Motor4 ");
+        Serial.println(throttle);
         thruster4.write(throttle4);
         break;
       case 5:
         throttle5 = throttle;
-        //Serial.print("Motor5 ");
-        //Serial.println(throttle);
+        Serial.print("DEBUG ");
+        Serial.print("Motor5 ");
+        Serial.println(throttle);
         thruster5.write(throttle5);
         break;
       case 6:
         throttle6 = throttle;
-        //Serial.print("Motor6 ");
-        //Serial.println(throttle);
+        Serial.print("DEBUG ");
+        Serial.print("Motor6 ");
+        Serial.println(throttle);
         thruster6.write(throttle6);
         break;
       case 7:
         throttle7 = throttle;
-        //Serial.print("Motor7 ");
-        //Serial.println(throttle);
+        Serial.print("Motor7 ");
+        Serial.println(throttle);
         thruster7.write(throttle7);
         break;
       case 8:
         throttle8 = throttle;
-        //Serial.print("Motor8 ");
-        //Serial.println(throttle);
+        Serial.print("DEBUG ");
+        Serial.print("Motor8 ");
+        Serial.println(throttle);
         thruster8.write(throttle8);
         break;
       case 0:
-        //Serial.print("All Motors ");
-        //Serial.println(throttle);
+        Serial.print("DEBUG ");
+        Serial.print("All Motors ");
+        Serial.println(throttle);
         throttle1 = throttle;
         throttle2 = throttle;
         throttle3 = throttle;
@@ -357,7 +365,7 @@ void loop()
     Serial.println();
   }
   */
-  /*
+  
   //Read current state of Ultrasonic Sensors
   if (active_ult_son_sensor < 3)
   {
@@ -496,7 +504,7 @@ void loop()
       old_distance[i] = distance[i];
     }
   }
-  */
+  
   //DISABLED IN FAVOR OF SIMPLER SYSTEM
   /*uint8_t message[8]; //Initialize variable to hold the 8-byte message
   size_t message_size = read_serial(message); //Read a message and return its size (8 if successful, or 0 if no message)
