@@ -123,7 +123,7 @@ void setup()
   while (!Serial){;}
   Serial.flush();
 
-  /*
+  
   //Serial communication to first Ultrasonic Sensor
   //Pins: RX=19, TX=18
   Serial1.begin(115200);
@@ -148,12 +148,12 @@ void setup()
   Serial4.begin(115200);
   while (!Serial4){;}
   Serial4.flush();
-  */
-  /*
+  
+  
   sensorSerial[0].hardware = &Serial1;
   sensorSerial[1].hardware = &Serial2;
   sensorSerial[2].hardware = &Serial3;
-  sensorSerial[3].software = &Serial4;
+  sensorSerial[3].software = &Serial4;/*
 
   //Begin I2C communication with the IMU/Magnetometer chips
   chip_OX_1.begin_I2C(0x6A);
@@ -288,8 +288,12 @@ void loop()
         break;
       case 7:
         throttle7 = throttle;
+<<<<<<< HEAD
         Serial.print("DEBUG ");
         /Serial.print("Motor7 ");
+=======
+        Serial.print("Motor7 ");
+>>>>>>> 0b9495754a5b7674e564632df97f341800c455ea
         Serial.println(throttle);
         thruster7.write(throttle7);
         break;
@@ -366,7 +370,7 @@ void loop()
     Serial.println();
   }
   */
-  /*
+  
   //Read current state of Ultrasonic Sensors
   if (active_ult_son_sensor < 3)
   {
@@ -505,7 +509,7 @@ void loop()
       old_distance[i] = distance[i];
     }
   }
-  */
+  
   //DISABLED IN FAVOR OF SIMPLER SYSTEM
   /*uint8_t message[8]; //Initialize variable to hold the 8-byte message
   size_t message_size = read_serial(message); //Read a message and return its size (8 if successful, or 0 if no message)
