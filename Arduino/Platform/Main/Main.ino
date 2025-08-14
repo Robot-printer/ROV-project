@@ -288,6 +288,7 @@ void loop()
         break;
       case 7:
         throttle7 = throttle;
+        Serial.print("DEBUG ");
         Serial.print("Motor7 ");
         Serial.println(throttle);
         thruster7.write(throttle7);
@@ -319,6 +320,50 @@ void loop()
         thruster6.write(throttle6);
         thruster7.write(throttle7);
         thruster8.write(throttle8);
+        break;
+      case 1234:
+        Serial.print("DEBUG ");
+        Serial.print("Motors 1,2,3,4 ");
+        Serial.println(throttle);
+        throttle1 = throttle;
+        throttle2 = throttle;
+        throttle3 = throttle;
+        throttle4 = throttle;
+        thruster1.write(throttle1);
+        thruster2.write(throttle2);
+        thruster3.write(throttle3);
+        thruster4.write(throttle4);
+        break;
+      case 5678:
+        Serial.print("DEBUG ");
+        Serial.print("Motors 5,6,7,8 ");
+        Serial.println(throttle);
+        throttle5 = throttle;
+        throttle6 = throttle;
+        throttle7 = throttle;
+        throttle8 = throttle;
+        thruster5.write(throttle5);
+        thruster6.write(throttle6);
+        thruster7.write(throttle7);
+        thruster8.write(throttle8);
+        break;
+      case 14:
+        Serial.print("DEBUG ");
+        Serial.print("Motors 1,4 ");
+        Serial.println(throttle);
+        throttle1 = throttle;
+        throttle4 = throttle;
+        thruster1.write(throttle1);
+        thruster4.write(throttle4);
+        break;
+      case 23:
+        Serial.print("DEBUG ");
+        Serial.print("Motors 2,3 ");
+        Serial.println(throttle);
+        throttle2 = throttle;
+        throttle3 = throttle;
+        thruster2.write(throttle2);
+        thruster3.write(throttle3);
         break;
     }
     command = "";
