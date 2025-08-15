@@ -455,6 +455,37 @@ void loop()
         thruster4.write(zero_throttle);
         Serial.println("DEBUG Routine done! :)");
         break;
+      case 3:
+        throttle1 = HtrimR;
+        throttle2 = HtrimL;
+        throttle3 = HtrimR;
+        throttle4 = HtrimL;
+        throttle5 = VtrimR;
+        throttle6 = VtrimL;
+        throttle7 = VtrimR;
+        throttle8 = VtrimL;
+        thruster5.write(zero_throttle);
+        thruster6.write(zero_throttle);
+        thruster7.write(zero_throttle);
+        thruster8.write(zero_throttle);
+        delay(1000*20);
+        thruster1.write(throttle1);
+        thruster2.write(throttle2);
+        thruster3.write(throttle3);
+        thruster4.write(throttle4);
+        delay(1000*15);
+        thruster5.write(ESC_MIN);
+        thruster8.write(ESC_MIN);
+        thruster6.write(ESC_MAX);
+        thruster7.write(ESC_MAX);
+        delay(1000*10);
+        thruster5.write(throttle5);
+        thruster6.write(throttle6);
+        thruster7.write(throttle7);
+        thruster8.write(throttle8);
+        break;
+
+
     }
     command = "";
   }
