@@ -76,6 +76,7 @@ CMakeFiles/ranger_interfaces: /home/ranger/ROV-project/ROV-project/Raspberry\ Pi
 CMakeFiles/ranger_interfaces: /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/src/ranger_interfaces/msg/WaypointDistance.msg
 CMakeFiles/ranger_interfaces: /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/src/ranger_interfaces/msg/ObstacleLocation.msg
 CMakeFiles/ranger_interfaces: /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/src/ranger_interfaces/msg/MovementVector.msg
+CMakeFiles/ranger_interfaces: /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/src/ranger_interfaces/msg/String.msg
 
 ranger_interfaces: CMakeFiles/ranger_interfaces
 ranger_interfaces: CMakeFiles/ranger_interfaces.dir/build.make

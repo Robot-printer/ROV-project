@@ -209,6 +209,20 @@ CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c" -o CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c.s
 
+CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o: CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/flags.make
+CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o: rosidl_generator_py/ranger_interfaces/msg/_string_s.c
+CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o: CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o -MF CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o.d -o CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o -c "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_string_s.c"
+
+CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_string_s.c" > CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.i
+
+CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_string_s.c" -o CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.s
+
 # Object files for target ranger_interfaces__rosidl_generator_py
 ranger_interfaces__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_thruster_throttle_s.c.o" \
@@ -220,7 +234,8 @@ ranger_interfaces__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_waypoint_location_s.c.o" \
 "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_waypoint_distance_s.c.o" \
 "CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_obstacle_location_s.c.o" \
-"CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c.o"
+"CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c.o" \
+"CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o"
 
 # External object files for target ranger_interfaces__rosidl_generator_py
 ranger_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
@@ -235,6 +250,7 @@ libranger_interfaces__rosidl_generator_py.so: CMakeFiles/ranger_interfaces__rosi
 libranger_interfaces__rosidl_generator_py.so: CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_waypoint_distance_s.c.o
 libranger_interfaces__rosidl_generator_py.so: CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_obstacle_location_s.c.o
 libranger_interfaces__rosidl_generator_py.so: CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c.o
+libranger_interfaces__rosidl_generator_py.so: CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ranger_interfaces/msg/_string_s.c.o
 libranger_interfaces__rosidl_generator_py.so: CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/build.make
 libranger_interfaces__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.12.so
 libranger_interfaces__rosidl_generator_py.so: libranger_interfaces__rosidl_typesupport_c.so
@@ -242,7 +258,7 @@ libranger_interfaces__rosidl_generator_py.so: libranger_interfaces__rosidl_gener
 libranger_interfaces__rosidl_generator_py.so: /opt/ros/kilted/lib/librosidl_runtime_c.so
 libranger_interfaces__rosidl_generator_py.so: /opt/ros/kilted/lib/librcutils.so
 libranger_interfaces__rosidl_generator_py.so: CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libranger_interfaces__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking C shared library libranger_interfaces__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ranger_interfaces__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

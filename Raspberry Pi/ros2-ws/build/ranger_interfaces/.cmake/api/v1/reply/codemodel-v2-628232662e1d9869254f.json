@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c06f88adbf8a12dc895c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "ranger_interfaces__py",
+					"jsonFile" : "directory-ranger_interfaces__py-794cbf8042e5526b2dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/ranger_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ranger_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ranger_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ranger_interfaces_egg-ba0591dceee7ae99bf37.json",
+					"name" : "ament_cmake_python_build_ranger_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ranger_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ranger_interfaces-43e4c14bc0bb74a66f86.json",
+					"name" : "ament_cmake_python_copy_ranger_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces-46cda108fb475e9f0aa6.json",
+					"name" : "ranger_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__cpp-fb631a69e5a6bfc29caf.json",
+					"name" : "ranger_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ranger_interfaces__py::@a9b6640aa9ef58d8b522",
+					"jsonFile" : "target-ranger_interfaces__py-d125a6905e87ba35919e.json",
+					"name" : "ranger_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__rosidl_generator_c-6bbfd8962dde5906ba0e.json",
+					"name" : "ranger_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__rosidl_generator_py-beef8293b6061f40c7fe.json",
+					"name" : "ranger_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__rosidl_generator_type_description-6c9457ed18b29d52e146.json",
+					"name" : "ranger_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__rosidl_typesupport_c-d9ce159f9b6d53be50c2.json",
+					"name" : "ranger_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__rosidl_typesupport_cpp-bcbde303b80758362e88.json",
+					"name" : "ranger_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__rosidl_typesupport_fastrtps_c-feb8233333a00cff349e.json",
+					"name" : "ranger_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__rosidl_typesupport_fastrtps_cpp-93750ad9eec307aa464e.json",
+					"name" : "ranger_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__rosidl_typesupport_introspection_c-a47f7e3480a7ae7d3b01.json",
+					"name" : "ranger_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces__rosidl_typesupport_introspection_cpp-25e564329bbeaba1fbd9.json",
+					"name" : "ranger_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces_s__rosidl_typesupport_c-acd79f3d1dd27b49a552.json",
+					"name" : "ranger_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces_s__rosidl_typesupport_fastrtps_c-03aaff4b818ac707403f.json",
+					"name" : "ranger_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces_s__rosidl_typesupport_introspection_c-b16465eb11ca33e9d5ec.json",
+					"name" : "ranger_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranger_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranger_interfaces_uninstall-276c8b612a02e260b6bb.json",
+					"name" : "ranger_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2346a28a6fe5e2f0e20d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces",
+		"source" : "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_movement_vector_s.c"
   "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_obstacle_location.py"
   "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_obstacle_location_s.c"
+  "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_string.py"
+  "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_string_s.c"
   "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_thruster_throttle.py"
   "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_thruster_throttle_s.c"
   "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_py/ranger_interfaces/msg/_ultrasonic_distance.py"

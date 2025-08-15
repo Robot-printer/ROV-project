@@ -116,6 +116,11 @@ CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/de
 CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/movement_vector__struct.hpp
 CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/movement_vector__traits.hpp
 CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.hpp
+CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/string.hpp
+CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/string__builder.hpp
+CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/string__struct.hpp
+CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/string__traits.hpp
+CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/string__type_support.hpp
 CMakeFiles/ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp: /opt/ros/kilted/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -147,6 +152,7 @@ rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp: rosidl_adapter
 rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp: rosidl_adapter/ranger_interfaces/msg/WaypointDistance.idl
 rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp: rosidl_adapter/ranger_interfaces/msg/ObstacleLocation.idl
 rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp: rosidl_adapter/ranger_interfaces/msg/MovementVector.idl
+rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp: rosidl_adapter/ranger_interfaces/msg/String.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_cpp__arguments.json"
 
@@ -297,6 +303,21 @@ rosidl_generator_cpp/ranger_interfaces/msg/detail/movement_vector__traits.hpp: r
 rosidl_generator_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.hpp: rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ranger_interfaces/msg/detail/movement_vector__type_support.hpp
 
+rosidl_generator_cpp/ranger_interfaces/msg/string.hpp: rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ranger_interfaces/msg/string.hpp
+
+rosidl_generator_cpp/ranger_interfaces/msg/detail/string__builder.hpp: rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ranger_interfaces/msg/detail/string__builder.hpp
+
+rosidl_generator_cpp/ranger_interfaces/msg/detail/string__struct.hpp: rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ranger_interfaces/msg/detail/string__struct.hpp
+
+rosidl_generator_cpp/ranger_interfaces/msg/detail/string__traits.hpp: rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ranger_interfaces/msg/detail/string__traits.hpp
+
+rosidl_generator_cpp/ranger_interfaces/msg/detail/string__type_support.hpp: rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ranger_interfaces/msg/detail/string__type_support.hpp
+
 rosidl_generator_cpp/ranger_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ranger_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -321,6 +342,10 @@ ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/obstac
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/obstacle_location__struct.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/obstacle_location__traits.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/obstacle_location__type_support.hpp
+ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/string__builder.hpp
+ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/string__struct.hpp
+ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/string__traits.hpp
+ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/string__type_support.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/thruster_throttle__builder.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/thruster_throttle__struct.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/detail/thruster_throttle__traits.hpp
@@ -347,6 +372,7 @@ ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/imu_magnet.hp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/movement_vector.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/obstacle_location.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/string.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/thruster_throttle.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/ultrasonic_distance.hpp
 ranger_interfaces__cpp: rosidl_generator_cpp/ranger_interfaces/msg/vehicle_transform.hpp

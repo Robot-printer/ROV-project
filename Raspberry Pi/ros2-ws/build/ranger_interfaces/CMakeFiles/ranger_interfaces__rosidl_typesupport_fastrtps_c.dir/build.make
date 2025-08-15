@@ -87,6 +87,7 @@ rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__ro
 rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/ranger_interfaces/msg/WaypointDistance.idl
 rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/ranger_interfaces/msg/ObstacleLocation.idl
 rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/ranger_interfaces/msg/MovementVector.idl
+rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/ranger_interfaces/msg/String.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/kilted/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_fastrtps_c__arguments.json"
 
@@ -146,6 +147,12 @@ rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__rosi
 
 rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp
 
 CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__type_support_c.cpp.o: CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__type_support_c.cpp
@@ -287,6 +294,20 @@ CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesuppo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp" -o CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp.s
 
+CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.o: CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp
+CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.o: CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.o -MF CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.o.d -o CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.o -c "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp"
+
+CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp" > CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.i
+
+CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp" -o CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.s
+
 # Object files for target ranger_interfaces__rosidl_typesupport_fastrtps_c
 ranger_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__type_support_c.cpp.o" \
@@ -298,7 +319,8 @@ ranger_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/waypoint_location__type_support_c.cpp.o" \
 "CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/waypoint_distance__type_support_c.cpp.o" \
 "CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/obstacle_location__type_support_c.cpp.o" \
-"CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp.o"
+"CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp.o" \
+"CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.o"
 
 # External object files for target ranger_interfaces__rosidl_typesupport_fastrtps_c
 ranger_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
@@ -313,6 +335,7 @@ libranger_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ranger_interf
 libranger_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/waypoint_distance__type_support_c.cpp.o
 libranger_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/obstacle_location__type_support_c.cpp.o
 libranger_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp.o
+libranger_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp.o
 libranger_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libranger_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librosidl_typesupport_fastrtps_cpp.so
 libranger_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librosidl_typesupport_fastrtps_c.so
@@ -323,7 +346,7 @@ libranger_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/libf
 libranger_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librosidl_runtime_c.so
 libranger_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librcutils.so
 libranger_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libranger_interfaces__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library libranger_interfaces__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -344,6 +367,8 @@ CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_t
 CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/movement_vector__type_support_c.cpp
 CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/obstacle_location__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/obstacle_location__type_support_c.cpp
+CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/string__type_support_c.cpp
 CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/thruster_throttle__type_support_c.cpp
 CMakeFiles/ranger_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ranger_interfaces/msg/detail/ultrasonic_distance__rosidl_typesupport_fastrtps_c.h

@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_type_description/ranger_interfaces/msg/IMUMagnet.json"
   "rosidl_generator_type_description/ranger_interfaces/msg/MovementVector.json"
   "rosidl_generator_type_description/ranger_interfaces/msg/ObstacleLocation.json"
+  "rosidl_generator_type_description/ranger_interfaces/msg/String.json"
   "rosidl_generator_type_description/ranger_interfaces/msg/ThrusterThrottle.json"
   "rosidl_generator_type_description/ranger_interfaces/msg/UltrasonicDistance.json"
   "rosidl_generator_type_description/ranger_interfaces/msg/VehicleTransform.json"

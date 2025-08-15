@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ranger_interfaces/msg/String",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ranger_interfaces/msg/String",
+      "hash_string": "RIHS01_d66c83ca471fc896775337fa2d64ca4f7827cff831d7be6210d4deb4b940c219"
+    }
+  ]
+}

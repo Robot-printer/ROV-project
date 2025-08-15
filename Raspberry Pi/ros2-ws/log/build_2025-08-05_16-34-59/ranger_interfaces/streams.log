@@ -1,0 +1,43 @@
+[0.344s] Invoking command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces -- -j4 -l4
+[0.412s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.464s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.898s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[0.908s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.051s] -- Found rosidl_adapter: 4.9.4 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[1.593s] -- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[1.743s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.714s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.732s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[2.776s] -- Added test 'lint_cmake' to check CMake code style
+[2.780s] -- Added test 'xmllint' to check XML markup files
+[2.788s] -- Configuring done (2.4s)
+[3.023s] -- Generating done (0.2s)
+[3.126s] -- Build files have been written to: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces
+[3.200s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.232s] [  1%] Built target ament_cmake_python_copy_ranger_interfaces
+[3.573s] running egg_info
+[3.600s] writing ranger_interfaces.egg-info/PKG-INFO
+[3.602s] writing dependency_links to ranger_interfaces.egg-info/dependency_links.txt
+[3.602s] writing top-level names to ranger_interfaces.egg-info/top_level.txt
+[3.683s] reading manifest file 'ranger_interfaces.egg-info/SOURCES.txt'
+[3.684s] writing manifest file 'ranger_interfaces.egg-info/SOURCES.txt'
+[3.763s] [  1%] Built target ament_cmake_python_build_ranger_interfaces_egg
+[14.285s] Traceback (most recent call last):
+[14.285s]   File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[14.285s]     sys.exit(main())
+[14.286s]              ^^^^^^
+[14.286s]   File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[14.286s]     generate_type_hash(args.generator_arguments_file)
+[14.286s]   File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 183, in generate_type_hash
+[14.288s]     hash_lookup[type_name] = calculate_type_hash(full_type_description)
+[14.288s]                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[14.289s]   File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 474, in calculate_type_hash
+[14.289s]     del field['default_value']
+[14.294s]         ~~~~~^^^^^^^^^^^^^^^^^
+[14.294s] KeyError: 'default_value'
+[14.398s] gmake[2]: *** [CMakeFiles/ranger_interfaces__rosidl_generator_type_description.dir/build.make:95: rosidl_generator_type_description/ranger_interfaces/msg/ThrusterThrottle.json] Error 1
+[14.399s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/ranger_interfaces__rosidl_generator_type_description.dir/all] Error 2
+[14.401s] gmake: *** [Makefile:146: all] Error 2
+[14.403s] Invoked command in '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces -- -j4 -l4

@@ -258,4 +258,7 @@ CMakeFiles/ranger_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_ge
  /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/obstacle_location__functions.h \
  /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__type_support.h \
  /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__struct.h \
- /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__functions.h
+ /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/movement_vector__functions.h \
+ /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__type_support.h \
+ /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__struct.h \
+ /home/ranger/ROV-project/ROV-project/Raspberry\ Pi/ros2-ws/build/ranger_interfaces/rosidl_generator_c/ranger_interfaces/msg/detail/string__functions.h

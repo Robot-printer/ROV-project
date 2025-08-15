@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000403] (ranger_auto) JobQueued: {'identifier': 'ranger_auto', 'dependencies': OrderedDict()}
+[0.000737] (ranger_interfaces) JobQueued: {'identifier': 'ranger_interfaces', 'dependencies': OrderedDict()}
+[0.000903] (ranger_auto) JobStarted: {'identifier': 'ranger_auto'}
+[0.011285] (ranger_interfaces) JobStarted: {'identifier': 'ranger_interfaces'}
+[0.099675] (-) TimerEvent: {}
+[0.200053] (-) TimerEvent: {}
+[0.300441] (-) TimerEvent: {}
+[0.350164] (ranger_interfaces) JobProgress: {'identifier': 'ranger_interfaces', 'progress': 'cmake'}
+[0.351718] (ranger_interfaces) JobProgress: {'identifier': 'ranger_interfaces', 'progress': 'build'}
+[0.352652] (ranger_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ranger', 'SSH_CLIENT': '192.168.2.3 42466 22', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'BROWSER': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/ranger', 'OLDPWD': '/home/ranger/.vscode-server', 'TERM_PROGRAM_VERSION': '1.102.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-27d183bc-bcee-4a4b-a216-f9092cf9a8d0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ranger/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/kilted/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'ranger', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '107', 'PATH': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/home/ranger/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/home/ranger/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ranger/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ranger/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b1131dfcb2f2936b.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-88c77d1523.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '55', 'AMENT_PREFIX_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces', 'SSH_CONNECTION': '192.168.2.3 42466 192.168.2.5 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto:/opt/ros/kilted'}), 'shell': False}
+[0.403176] (-) TimerEvent: {}
+[0.423258] (ranger_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.475034] (ranger_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.503291] (-) TimerEvent: {}
+[0.604284] (-) TimerEvent: {}
+[0.705286] (-) TimerEvent: {}
+[0.805644] (-) TimerEvent: {}
+[0.905973] (-) TimerEvent: {}
+[0.908986] (ranger_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)\n'}
+[0.918824] (ranger_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.996221] (ranger_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.006071] (-) TimerEvent: {}
+[1.062507] (ranger_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.4 (/opt/ros/kilted/share/rosidl_adapter/cmake)\n'}
+[1.106200] (-) TimerEvent: {}
+[1.206643] (-) TimerEvent: {}
+[1.273992] (ranger_auto) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ranger_auto', 'build', '--build-base', '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build', 'install', '--record', '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_auto', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ranger', 'SSH_CLIENT': '192.168.2.3 42466 22', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'BROWSER': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'HOME': '/home/ranger', 'OLDPWD': '/home/ranger/.vscode-server', 'TERM_PROGRAM_VERSION': '1.102.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-27d183bc-bcee-4a4b-a216-f9092cf9a8d0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ranger/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/kilted/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'ranger', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '107', 'PATH': '/home/ranger/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/home/ranger/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/home/ranger/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ranger/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ranger/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b1131dfcb2f2936b.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-88c77d1523.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '55', 'AMENT_PREFIX_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto', 'SSH_CONNECTION': '192.168.2.3 42466 192.168.2.5 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces/lib/python3.12/site-packages:/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[1.306918] (-) TimerEvent: {}
+[1.407768] (-) TimerEvent: {}
+[1.508144] (-) TimerEvent: {}
+[1.604166] (ranger_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)\n'}
+[1.608256] (-) TimerEvent: {}
+[1.699832] (ranger_auto) StdoutLine: {'line': b'running egg_info\n'}
+[1.708355] (-) TimerEvent: {}
+[1.728190] (ranger_auto) StdoutLine: {'line': b'writing ../../build/ranger_auto/ranger_auto.egg-info/PKG-INFO\n'}
+[1.728732] (ranger_auto) StdoutLine: {'line': b'writing dependency_links to ../../build/ranger_auto/ranger_auto.egg-info/dependency_links.txt\n'}
+[1.729910] (ranger_auto) StdoutLine: {'line': b'writing entry points to ../../build/ranger_auto/ranger_auto.egg-info/entry_points.txt\n'}
+[1.730670] (ranger_auto) StdoutLine: {'line': b'writing requirements to ../../build/ranger_auto/ranger_auto.egg-info/requires.txt\n'}
+[1.731607] (ranger_auto) StdoutLine: {'line': b'writing top-level names to ../../build/ranger_auto/ranger_auto.egg-info/top_level.txt\n'}
+[1.754300] (ranger_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.787851] (ranger_auto) StdoutLine: {'line': b"reading manifest file '../../build/ranger_auto/ranger_auto.egg-info/SOURCES.txt'\n"}
+[1.788281] (ranger_auto) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.789339] (ranger_auto) StdoutLine: {'line': b"writing manifest file '../../build/ranger_auto/ranger_auto.egg-info/SOURCES.txt'\n"}
+[1.789664] (ranger_auto) StdoutLine: {'line': b'running build\n'}
+[1.789865] (ranger_auto) StdoutLine: {'line': b'running build_py\n'}
+[1.790088] (ranger_auto) StdoutLine: {'line': b'copying ranger_auto/serial_comms.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto\n'}
+[1.790489] (ranger_auto) StdoutLine: {'line': b'copying ranger_auto/debug_listener.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto\n'}
+[1.791218] (ranger_auto) StdoutLine: {'line': b'running install\n'}
+[1.801440] (ranger_auto) StdoutLine: {'line': b'running install_lib\n'}
+[1.808473] (-) TimerEvent: {}
+[1.843276] (ranger_auto) StdoutLine: {'line': b'copying /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto/serial_comms.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto\n'}
+[1.853681] (ranger_auto) StdoutLine: {'line': b'copying /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/build/lib/ranger_auto/debug_listener.py -> /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto\n'}
+[1.854248] (ranger_auto) StdoutLine: {'line': b'byte-compiling /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto/serial_comms.py to serial_comms.cpython-312.pyc\n'}
+[1.865862] (ranger_auto) StdoutLine: {'line': b'byte-compiling /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto/debug_listener.py to debug_listener.cpython-312.pyc\n'}
+[1.881171] (ranger_auto) StdoutLine: {'line': b'running install_data\n'}
+[1.881503] (ranger_auto) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.913220] (-) TimerEvent: {}
+[1.961251] (ranger_auto) StdoutLine: {'line': b"removing '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.961653] (ranger_auto) StdoutLine: {'line': b'Copying ../../build/ranger_auto/ranger_auto.egg-info to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/python3.12/site-packages/ranger_auto-0.0.0-py3.12.egg-info\n'}
+[1.967241] (ranger_auto) StdoutLine: {'line': b'running install_scripts\n'}
+[2.017933] (-) TimerEvent: {}
+[2.118484] (-) TimerEvent: {}
+[2.222178] (-) TimerEvent: {}
+[2.226257] (ranger_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.304949] (ranger_auto) StdoutLine: {'line': b'Installing debuglisten script to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/ranger_auto\n'}
+[2.306462] (ranger_auto) StdoutLine: {'line': b'Installing pathfinder script to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/ranger_auto\n'}
+[2.307111] (ranger_auto) StdoutLine: {'line': b'Installing serialcom script to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/ranger_auto\n'}
+[2.307829] (ranger_auto) StdoutLine: {'line': b'Installing testdrive script to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/ranger_auto\n'}
+[2.309744] (ranger_auto) StdoutLine: {'line': b'Installing throttleresolve script to /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/install/ranger_auto/lib/ranger_auto\n'}
+[2.311509] (ranger_auto) StdoutLine: {'line': b"writing list of installed files to '/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_auto/install.log'\n"}
+[2.325192] (-) TimerEvent: {}
+[2.424085] (ranger_auto) CommandEnded: {'returncode': 0}
+[2.425664] (-) TimerEvent: {}
+[2.440246] (ranger_auto) JobEnded: {'identifier': 'ranger_auto', 'rc': 0}
+[2.525797] (-) TimerEvent: {}
+[2.626166] (-) TimerEvent: {}
+[2.725507] (ranger_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.726237] (-) TimerEvent: {}
+[2.742672] (ranger_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[2.787321] (ranger_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.791325] (ranger_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.799494] (ranger_interfaces) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.826355] (-) TimerEvent: {}
+[2.926668] (-) TimerEvent: {}
+[3.027198] (-) TimerEvent: {}
+[3.034485] (ranger_interfaces) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[3.128190] (-) TimerEvent: {}
+[3.137352] (ranger_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/build/ranger_interfaces\n'}
+[3.210855] (ranger_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.229162] (-) TimerEvent: {}
+[3.242739] (ranger_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_ranger_interfaces\n'}
+[3.329301] (-) TimerEvent: {}
+[3.429762] (-) TimerEvent: {}
+[3.530491] (-) TimerEvent: {}
+[3.584430] (ranger_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.611504] (ranger_interfaces) StdoutLine: {'line': b'writing ranger_interfaces.egg-info/PKG-INFO\n'}
+[3.612713] (ranger_interfaces) StdoutLine: {'line': b'writing dependency_links to ranger_interfaces.egg-info/dependency_links.txt\n'}
+[3.613515] (ranger_interfaces) StdoutLine: {'line': b'writing top-level names to ranger_interfaces.egg-info/top_level.txt\n'}
+[3.630583] (-) TimerEvent: {}
+[3.694361] (ranger_interfaces) StdoutLine: {'line': b"reading manifest file 'ranger_interfaces.egg-info/SOURCES.txt'\n"}
+[3.695390] (ranger_interfaces) StdoutLine: {'line': b"writing manifest file 'ranger_interfaces.egg-info/SOURCES.txt'\n"}
+[3.730759] (-) TimerEvent: {}
+[3.773860] (ranger_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_ranger_interfaces_egg\n'}
+[3.830870] (-) TimerEvent: {}
+[3.931284] (-) TimerEvent: {}
+[4.031687] (-) TimerEvent: {}
+[4.132091] (-) TimerEvent: {}
+[4.232519] (-) TimerEvent: {}
+[4.332907] (-) TimerEvent: {}
+[4.433323] (-) TimerEvent: {}
+[4.533676] (-) TimerEvent: {}
+[4.634046] (-) TimerEvent: {}
+[4.734433] (-) TimerEvent: {}
+[4.834798] (-) TimerEvent: {}
+[4.935171] (-) TimerEvent: {}
+[5.035706] (-) TimerEvent: {}
+[5.136859] (-) TimerEvent: {}
+[5.237266] (-) TimerEvent: {}
+[5.337644] (-) TimerEvent: {}
+[5.438028] (-) TimerEvent: {}
+[5.538428] (-) TimerEvent: {}
+[5.638778] (-) TimerEvent: {}
+[5.739329] (-) TimerEvent: {}
+[5.840321] (-) TimerEvent: {}
+[5.941422] (-) TimerEvent: {}
+[6.042612] (-) TimerEvent: {}
+[6.143868] (-) TimerEvent: {}
+[6.244654] (-) TimerEvent: {}
+[6.345611] (-) TimerEvent: {}
+[6.446576] (-) TimerEvent: {}
+[6.547547] (-) TimerEvent: {}
+[6.648355] (-) TimerEvent: {}
+[6.749378] (-) TimerEvent: {}
+[6.850359] (-) TimerEvent: {}
+[6.951295] (-) TimerEvent: {}
+[7.052250] (-) TimerEvent: {}
+[7.152950] (-) TimerEvent: {}
+[7.253782] (-) TimerEvent: {}
+[7.354837] (-) TimerEvent: {}
+[7.455935] (-) TimerEvent: {}
+[7.557047] (-) TimerEvent: {}
+[7.657920] (-) TimerEvent: {}
+[7.759194] (-) TimerEvent: {}
+[7.860264] (-) TimerEvent: {}
+[7.961430] (-) TimerEvent: {}
+[8.062414] (-) TimerEvent: {}
+[8.171346] (-) TimerEvent: {}
+[8.272199] (-) TimerEvent: {}
+[8.373328] (-) TimerEvent: {}
+[8.474270] (-) TimerEvent: {}
+[8.575475] (-) TimerEvent: {}
+[8.676747] (-) TimerEvent: {}
+[8.777714] (-) TimerEvent: {}
+[8.878139] (-) TimerEvent: {}
+[8.978554] (-) TimerEvent: {}
+[9.078960] (-) TimerEvent: {}
+[9.179369] (-) TimerEvent: {}
+[9.279797] (-) TimerEvent: {}
+[9.380213] (-) TimerEvent: {}
+[9.480641] (-) TimerEvent: {}
+[9.581069] (-) TimerEvent: {}
+[9.681573] (-) TimerEvent: {}
+[9.782004] (-) TimerEvent: {}
+[9.882423] (-) TimerEvent: {}
+[9.982829] (-) TimerEvent: {}
+[10.083249] (-) TimerEvent: {}
+[10.183676] (-) TimerEvent: {}
+[10.284080] (-) TimerEvent: {}
+[10.384492] (-) TimerEvent: {}
+[10.485232] (-) TimerEvent: {}
+[10.586092] (-) TimerEvent: {}
+[10.687003] (-) TimerEvent: {}
+[10.788309] (-) TimerEvent: {}
+[10.889529] (-) TimerEvent: {}
+[10.990074] (-) TimerEvent: {}
+[11.091212] (-) TimerEvent: {}
+[11.192274] (-) TimerEvent: {}
+[11.293353] (-) TimerEvent: {}
+[11.394404] (-) TimerEvent: {}
+[11.494922] (-) TimerEvent: {}
+[11.595913] (-) TimerEvent: {}
+[11.697010] (-) TimerEvent: {}
+[11.798018] (-) TimerEvent: {}
+[11.899041] (-) TimerEvent: {}
+[12.000555] (-) TimerEvent: {}
+[12.101693] (-) TimerEvent: {}
+[12.202638] (-) TimerEvent: {}
+[12.303702] (-) TimerEvent: {}
+[12.404778] (-) TimerEvent: {}
+[12.505419] (-) TimerEvent: {}
+[12.606302] (-) TimerEvent: {}
+[12.707354] (-) TimerEvent: {}
+[12.807900] (-) TimerEvent: {}
+[12.908813] (-) TimerEvent: {}
+[13.009756] (-) TimerEvent: {}
+[13.110602] (-) TimerEvent: {}
+[13.210971] (-) TimerEvent: {}
+[13.311525] (-) TimerEvent: {}
+[13.412681] (-) TimerEvent: {}
+[13.513571] (-) TimerEvent: {}
+[13.614085] (-) TimerEvent: {}
+[13.715250] (-) TimerEvent: {}
+[13.816294] (-) TimerEvent: {}
+[13.917280] (-) TimerEvent: {}
+[14.018037] (-) TimerEvent: {}
+[14.118896] (-) TimerEvent: {}
+[14.219629] (-) TimerEvent: {}
+[14.296136] (ranger_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[14.296470] (ranger_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>\n'}
+[14.296617] (ranger_interfaces) StderrLine: {'line': b'    sys.exit(main())\n'}
+[14.296747] (ranger_interfaces) StderrLine: {'line': b'             ^^^^^^\n'}
+[14.296867] (ranger_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main\n'}
+[14.296987] (ranger_interfaces) StderrLine: {'line': b'    generate_type_hash(args.generator_arguments_file)\n'}
+[14.297115] (ranger_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 183, in generate_type_hash\n'}
+[14.299295] (ranger_interfaces) StderrLine: {'line': b'    hash_lookup[type_name] = calculate_type_hash(full_type_description)\n'}
+[14.299636] (ranger_interfaces) StderrLine: {'line': b'                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[14.299804] (ranger_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 474, in calculate_type_hash\n'}
+[14.299957] (ranger_interfaces) StderrLine: {'line': b"    del field['default_value']\n"}
+[14.304655] (ranger_interfaces) StderrLine: {'line': b'        ~~~~~^^^^^^^^^^^^^^^^^\n'}
+[14.305303] (ranger_interfaces) StderrLine: {'line': b"KeyError: 'default_value'\n"}
+[14.321196] (-) TimerEvent: {}
+[14.408784] (ranger_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ranger_interfaces__rosidl_generator_type_description.dir/build.make:95: rosidl_generator_type_description/ranger_interfaces/msg/ThrusterThrottle.json] Error 1\n'}
+[14.409770] (ranger_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/ranger_interfaces__rosidl_generator_type_description.dir/all] Error 2\n'}
+[14.410058] (ranger_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.414021] (ranger_interfaces) CommandEnded: {'returncode': 2}
+[14.421280] (-) TimerEvent: {}
+[14.431998] (ranger_interfaces) JobEnded: {'identifier': 'ranger_interfaces', 'rc': 2}
+[14.443015] (-) EventReactorShutdown: {}

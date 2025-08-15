@@ -10,6 +10,7 @@
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/WaypointLocation.msg",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/WaypointDistance.msg",
     "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/ObstacleLocation.msg",
-    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/MovementVector.msg"
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/MovementVector.msg",
+    "/home/ranger/ROV-project/ROV-project/Raspberry Pi/ros2-ws/src/ranger_interfaces:msg/String.msg"
   ]
 }

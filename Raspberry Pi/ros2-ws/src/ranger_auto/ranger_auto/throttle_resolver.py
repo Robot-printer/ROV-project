@@ -13,14 +13,15 @@ class ThrottleResolver(Node):
         self.throttle_publisher = self.create_publisher(ThrusterThrottle, 'throttle_data', 10)
         self.input_subscriber = self.create_subscription(MovementVector, 'movement_vector_data', self.input_data_callback, 10)
 
-        self.thrusters.append(Thruster(1, [0,0,0], [0, -1, 0, 0.5,0, 0.5])) # Thruster 1
-        self.thrusters.append(Thruster(2, [0,0,0], [0,  1, 0, 0.5,0,-0.5])) # Thruster 2
-        self.thrusters.append(Thruster(3, [0,0,0], [0, -1, 0, 0.5,0, 0.5])) # Thruster 3
-        self.thrusters.append(Thruster(4, [0,0,0], [0,  1, 0, 0.5,0,-0.5])) # Thruster 4
-        self.thrusters.append(Thruster(5, [0,0,0], [1,  0, 1, 0,  1, 0])) # Thruster 5
-        self.thrusters.append(Thruster(6, [0,0,0], [1,  0,-1, 0,  1, 0])) # Thruster 6
-        self.thrusters.append(Thruster(7, [0,0,0], [-1, 0, 1, 0,  1, 0])) # Thruster 7
-        self.thrusters.append(Thruster(8, [0,0,0], [-1, 0,-1, 0,  1, 0])) # Thruster 8
+        #-------------------------------------------P  Y  R  Lo V  La----------------
+        self.thrusters.append(Thruster(1, [0,0,0], [0, 1, 0, 1, 0,-1])) # Thruster 1
+        self.thrusters.append(Thruster(2, [0,0,0], [0,-1, 0, 1, 0, 1])) # Thruster 2
+        self.thrusters.append(Thruster(3, [0,0,0], [0,-1, 0, 1, 0,-1])) # Thruster 3
+        self.thrusters.append(Thruster(4, [0,0,0], [0, 1, 0, 1, 0, 1])) # Thruster 4
+        self.thrusters.append(Thruster(5, [0,0,0], [1, 0, 1, 0, 1, 0])) # Thruster 5
+        self.thrusters.append(Thruster(6, [0,0,0], [1, 0,-1, 0, 1, 0])) # Thruster 6
+        self.thrusters.append(Thruster(7, [0,0,0], [-1,0,-1, 0, 1, 0])) # Thruster 7
+        self.thrusters.append(Thruster(8, [0,0,0], [-1,0, 1, 0, 1, 0])) # Thruster 8
     
     def input_data_callback(self, data:MovementVector):
         translation = [data.x, data.y, data.z]
@@ -34,11 +35,11 @@ class ThrottleResolver(Node):
             pitch_comp = thruster.actuation_components[0] * rotation_input[0]
             yaw_comp = thruster.actuation_components[1] * rotation_input[1]
             roll_comp = thruster.actuation_components[2] * rotation_input[2]
-            lateral_comp = thruster.actuation_components[3] * translation_input[0]
+            longitudinal_comp = thruster.actuation_components[3] * translation_input[0]
             vertical_comp = thruster.actuation_components[4] * translation_input[1]
-            longitudinal_comp = thruster.actuation_components[5] * translation_input[2]
+            lateral_comp = thruster.actuation_components[5] * translation_input[2]
 
-            throttle = pitch_comp + yaw_comp + roll_comp + lateral_comp + vertical_comp + longitudinal_comp
+            throttle = pitch_comp + yaw_comp + roll_comp + longitudinal_comp + vertical_comp + lateral_comp
             throttle = int(throttle * 100)
 
             pub = ThrusterThrottle()
@@ -52,7 +53,7 @@ class Thruster():
 
     id_num:int
     position = [0,0,0] # X, Y, Z
-    actuation_components = [0,0,0, 0,0,0] # Pitch, Yaw, Roll,  Lateral, Vertical, Horizontal
+    actuation_components = [0,0,0, 0,0,0] # Pitch, Yaw, Roll,  Longitudinal, Vertical, Lateral
 
     def __init__(self, id_num, pos, actuation_comps):
         self.id_num = id_num
