@@ -368,6 +368,90 @@ void loop()
     }
     command = "";
   }
+  else if (command == "ROUTINE")
+  {
+    //Map the value from scale of -100-100 to scale of ESC_MIN to ESC_MAX
+    int throttle = map(value, -100, 100, ESC_MIN, ESC_MAX);
+    int zero_throttle = (ESC_MIN + ESC_MAX) / 2;
+    //Run the specified routine
+    switch (identifier)
+    {
+      case 1:
+        Serial.print("DEBUG ");
+        Serial.print("Running routine 1 at ");
+        Serial.println(throttle);
+        thruster1.write(zero_throttle);
+        thruster2.write(zero_throttle);
+        thruster3.write(zero_throttle);
+        thruster4.write(zero_throttle);
+        //20 sec delay so vehicle can be put in water
+        Serial.println("Waiting 20 sec before starting motors");
+        delay(1000 * 20);
+        throttle1 = throttle;
+        throttle2 = throttle;
+        throttle3 = throttle;
+        throttle4 = throttle;
+        thruster1.write(throttle1);
+        thruster2.write(throttle2);
+        thruster3.write(throttle3);
+        thruster4.write(throttle4);
+        //run routine for 20 seconds
+        Serial.println("Running motors 1-4 for 20 sec");
+        delay(1000 * 20);
+        thruster1.write(zero_throttle);
+        thruster2.write(zero_throttle);
+        thruster3.write(zero_throttle);
+        thruster4.write(zero_throttle);
+        Serial.println("Routine done! :)");
+        break;
+      case 2:
+        Serial.print("DEBUG ");
+        Serial.print("Running routine 2 at ");
+        Serial.println(throttle);
+        thruster1.write(zero_throttle);
+        thruster2.write(zero_throttle);
+        thruster3.write(zero_throttle);
+        thruster4.write(zero_throttle);
+        //20 sec delay so vehicle can be put in water
+        Serial.println("DEBUG Waiting 20 sec before starting motors");
+        delay(1000 * 20);
+        throttle1 = throttle;
+        throttle2 = throttle;
+        throttle3 = throttle;
+        throttle4 = throttle;
+        thruster1.write(throttle1);
+        thruster2.write(throttle2);
+        thruster3.write(throttle3);
+        thruster4.write(throttle4);
+        //run routine for 5 seconds
+        Serial.println("DEBUG Running motors 1-4 for 5 sec");
+        delay(1000 * 5);
+        thruster1.write(zero_throttle);
+        thruster2.write(zero_throttle);
+        thruster3.write(zero_throttle);
+        thruster4.write(zero_throttle);
+        Serial.println("DEBUG Pause for 5 seconds");
+        delay(1000 * 5);
+        throttle1 = throttle;
+        throttle2 = throttle;
+        throttle3 = throttle;
+        throttle4 = throttle;
+        thruster1.write(throttle1);
+        thruster2.write(throttle2);
+        thruster3.write(throttle3);
+        thruster4.write(throttle4);
+        //run for 5 more seconds
+        Serial.println("DEBUG Running motors 1-4 for 5 sec");
+        delay(1000 * 5);
+        thruster1.write(zero_throttle);
+        thruster2.write(zero_throttle);
+        thruster3.write(zero_throttle);
+        thruster4.write(zero_throttle);
+        Serial.println("DEBUG Routine done! :)");
+        break;
+    }
+    command = "";
+  }
   /*
   //Read current state of IMUs
   chip_OX_1.getEvent(&accel[0], &gyro[0], &temp[0]);
