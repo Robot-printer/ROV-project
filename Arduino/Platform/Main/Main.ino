@@ -113,6 +113,12 @@ Servo thruster6;
 Servo thruster7;
 Servo thruster8;
 
+//Decaring trim ints
+int HtrimL = 0;
+int HtrimR = 0;
+int VtrimL = 0;
+int VtrimR = 0;
+
 //This function runs once, when the Arduino is first powered up.
 //This is where initialization, configuration, etc. should be added.
 void setup()
@@ -452,6 +458,62 @@ void loop()
     }
     command = "";
   }
+  else if (command == "STRIM")
+  {
+   //Map the value from scale of -100-100 to scale of ESC_MIN to ESC_MAX
+    int trim = map(value, -100, 100, ESC_MIN, ESC_MAX);
+    int zero_throttle = (ESC_MIN + ESC_MAX) / 2;
+    //Set the specified trim
+    switch (identifier)
+    {
+      case 23:
+        HtrimL = trim;
+        Serial.println("trim set");
+        break;
+      case 14:
+        HtrimR = trim;
+        Serial.println("trim set");
+        break;
+      case 67:
+        VtrimL = trim;
+        Serial.println("trim set");
+        break;
+      case 58:
+        VtrimR = trim;
+        Serial.println("trim set");
+        break;
+    }
+    command = "";
+  }
+  else if (command == "RTRIM")
+  {
+    //Map the value from scale of -100-100 to scale of ESC_MIN to ESC_MAX
+    int trim = map(value, -100, 100, ESC_MIN, ESC_MAX);
+    int zero_throttle = (ESC_MIN + ESC_MAX) / 2;
+    //Serial.print("DEBUG ");
+    Serial.println("trim Motors on");
+    //Serial.println(throttle);
+    throttle1 = HtrimR;
+    throttle2 = HtrimL;
+    throttle3 = HtrimR;
+    throttle4 = HtrimL;
+    throttle5 = VtrimR;
+    throttle6 = VtrimL;
+    throttle7 = VtrimR;
+    throttle8 = VtrimL;
+    thruster1.write(throttle1);
+    thruster2.write(throttle2);
+    thruster3.write(throttle3);
+    thruster4.write(throttle4);
+    thruster5.write(throttle5);
+    thruster6.write(throttle6);
+    thruster7.write(throttle7);
+    thruster8.write(throttle8);
+
+    command = "";
+  }
+
+
   /*
   //Read current state of IMUs
   chip_OX_1.getEvent(&accel[0], &gyro[0], &temp[0]);
