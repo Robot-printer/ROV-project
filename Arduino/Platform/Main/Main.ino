@@ -456,6 +456,10 @@ void loop()
         Serial.println("DEBUG Routine done! :)");
         break;
       case 3:
+      //This is the barrel roll code
+      //sets trim settings
+        Serial.print("DEBUG ");
+        Serial.print("dear god what have I made");
         throttle1 = HtrimR;
         throttle2 = HtrimL;
         throttle3 = HtrimR;
@@ -464,21 +468,25 @@ void loop()
         throttle6 = VtrimL;
         throttle7 = VtrimR;
         throttle8 = VtrimL;
+        // lets the sub sink
         thruster5.write(zero_throttle);
         thruster6.write(zero_throttle);
         thruster7.write(zero_throttle);
         thruster8.write(zero_throttle);
         delay(1000*20);
+        //FORWORD!
         thruster1.write(throttle1);
         thruster2.write(throttle2);
         thruster3.write(throttle3);
         thruster4.write(throttle4);
-        delay(1000*15);
+        delay(1000*30);
+        //I'll spin thats a good trick
         thruster5.write(ESC_MIN);
         thruster8.write(ESC_MIN);
         thruster6.write(ESC_MAX);
         thruster7.write(ESC_MAX);
         delay(1000*10);
+        //return to surface
         thruster5.write(throttle5);
         thruster6.write(throttle6);
         thruster7.write(throttle7);
@@ -543,7 +551,23 @@ void loop()
 
     command = "";
   }
-
+  /* else if (command == "TRIMLIST")
+  {
+    //Print the current trim settings to the serial monitor
+    Serial.println("Current trim settings:");
+    
+    Serial.println("Horizontal");
+    Serial.print("left = ");
+    Serial.println(HtrimL);
+    Serial.print("Right = ");
+    Serial.println(HtrimR);
+    Serial.println("Vertical");
+    Serial.print("left = ");
+    Serial.println(VtrimL);
+    Serial.print("Right = ");
+    Serial.println(VtrimR);
+    command = "";
+  } 
 
   /*
   //Read current state of IMUs
