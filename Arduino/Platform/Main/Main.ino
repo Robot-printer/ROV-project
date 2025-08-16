@@ -114,10 +114,10 @@ Servo thruster7;
 Servo thruster8;
 
 //Decaring trim ints
-int HtrimL = 0;
-int HtrimR = 0;
-int VtrimL = 0;
-int VtrimR = 0;
+int HtrimL = 97;
+int HtrimR = 89;
+int VtrimL = 72;
+int VtrimR = 70;
 
 //This function runs once, when the Arduino is first powered up.
 //This is where initialization, configuration, etc. should be added.
